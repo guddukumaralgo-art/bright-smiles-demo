@@ -6,6 +6,36 @@ import path from 'path';
 const sites = [];
 const outputDir = 'generated-sites';
 
+const getCityFromAddress = (addressText) => {
+  const parts = addressText.split(',').map((part) => part.trim());
+  return parts[1] || 'Your City';
+};
+
+const toBrandName = (siteName) => {
+  return siteName
+    .split('-')
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+};
+
+const toPhoneHref = (phoneNumber) => `tel:${phoneNumber.replace(/[^\d+]/g, '')}`;
+
+const toRelativePageHref = (href) => {
+  if (!href) {
+    return './contact.html';
+  }
+
+  if (href.startsWith('./')) {
+    return href;
+  }
+
+  if (href.startsWith('/')) {
+    return `.${href}`;
+  }
+
+  return `./${href.replace(/^\.?\//, '')}`;
+};
+
 if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir);
 }
@@ -18,6 +48,8 @@ fs.createReadStream('sites.csv')
       console.log(`Generating site ${index + 1}: ${site.siteName}`);
 
       // Update clinic.js
+      const city = getCityFromAddress(site.addressText);
+      const brandName = toBrandName(site.siteName);
       const clinicData = {
         doctorName: site.doctorName,
         specialty: site.specialty,
@@ -26,9 +58,13 @@ fs.createReadStream('sites.csv')
         phone: site.phone,
         email: site.email,
         addressText: site.addressText,
+        city,
+        name: `${brandName} Dental`,
+        shortName: brandName,
+        footerTagline: 'Helping patients smile with confidence.',
         ctaLabel: site.ctaLabel,
-        ctaLink: site.ctaLink,
-        phoneHref: `tel:${site.phone}`,
+        ctaLink: toRelativePageHref(site.ctaLink),
+        phoneHref: toPhoneHref(site.phone),
         emailHref: `mailto:${site.email}`,
         colors: {
           primary: '#2f89dd',
@@ -44,6 +80,18 @@ fs.createReadStream('sites.csv')
         ],
         hours: ['Mon-Fri: 9am-6pm', 'Sat: 10am-4pm', 'Sun: Closed'],
         doctorCredentials: ['DDS Degree', '10+ Years Experience', 'Certified Specialist'],
+        testimonials: [
+          { quote: 'A comfortable, thoughtful dental experience from start to finish.', author: 'Samantha R.' },
+          { quote: 'Professional care with a friendly team and clean environment.', author: 'James P.' },
+          { quote: 'My smile has never looked better thanks to their attention to detail.', author: 'Lena K.' }
+        ],
+        trustItems: ['Trusted care', 'Modern technology', 'Family-friendly', 'Convenient scheduling'],
+        reasons: [
+          { title: 'Gentle Treatment', copy: 'We prioritize your comfort in every appointment.' },
+          { title: 'Modern Techniques', copy: 'Updated technology for faster, more effective care.' },
+          { title: 'Personalized Plans', copy: 'Individualized recommendations that fit your goals.' },
+          { title: 'Calm Environment', copy: 'A relaxed space designed to reduce anxiety.' }
+        ],
         aboutText: 'Dedicated to providing exceptional dental care.',
         contactBlurb: 'Get in touch for appointments.',
         pages: {
@@ -56,9 +104,48 @@ fs.createReadStream('sites.csv')
             doctorSectionBody: 'Experienced and caring professional.',
             aboutPrimaryCtaLabel: 'Learn More',
             aboutSecondaryCtaLabel: 'Contact Us',
+            whyChooseUsTitle: 'Why Choose Us',
+            whyChooseUsCopy: 'A thoughtful, modern practice focused on your long-term dental health.',
+            testimonialsTitle: 'Patient Stories',
+            testimonialsCopy: 'Read what our patients say about their experience.',
             contactTitle: 'Contact Us',
             contactPrimaryCtaLabel: 'Book Now',
             contactSecondaryCtaLabel: 'Call Us'
+          },
+          about: {
+            heroTitle: 'About Our Practice',
+            heroCopy: 'We focus on calm, patient-centered care and treatment planning.',
+            philosophyTitle: 'Practice Philosophy',
+            philosophyCopy: 'Our approach is built around trust, comfort, and long-term results.',
+            values: [
+              { title: 'Patient Focus', copy: 'Your comfort and goals guide every decision.' },
+              { title: 'Clear Communication', copy: 'We explain treatment options in plain language.' },
+              { title: 'Lasting Results', copy: 'Care that supports your smile now and years ahead.' }
+            ],
+            expectTitle: 'What to Expect',
+            expectCopy: 'A clear, supportive experience designed to make dental care easy.',
+            expectSteps: [
+              'Initial consultation and exam',
+              'Personalized treatment recommendations',
+              'Comfortable care and follow-up support'
+            ]
+          },
+          services: {
+            heroTitle: 'Dental Services',
+            heroCopy: 'From preventive care to cosmetic procedures, we support your smile goals.',
+            processTitle: 'How Care Is Planned',
+            processCopy: 'Our process helps you feel confident and informed at every step.',
+            processSteps: [
+              'Detailed consultation and exam',
+              'Customized treatment planning',
+              'Comfort-focused care',
+              'Ongoing support and follow-up'
+            ]
+          },
+          contact: {
+            heroTitle: 'Contact Our Clinic',
+            heroCopy: 'Reach out to schedule your next appointment or learn more about services.',
+            reuseNote: 'We will help you find a convenient appointment time and answer any questions.'
           }
         }
       };
@@ -75,7 +162,7 @@ fs.createReadStream('sites.csv')
         fs.rmSync(siteDir, { recursive: true, force: true });
       }
       fs.mkdirSync(siteDir, { recursive: true });
-      execSync(`cp -r dist/* ${siteDir}/`, { stdio: 'inherit' });
+      fs.cpSync('dist', siteDir, { recursive: true });
 
       console.log(`Site ${site.siteName} generated in ${siteDir}`);
     });

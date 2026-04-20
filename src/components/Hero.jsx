@@ -1,13 +1,47 @@
+import { useEffect, useRef } from "react";
 import { clinic } from "../data/clinic";
 
 export function Hero() {
+  const heroRef = useRef(null);
+  const doctorInitials = clinic.doctorName
+    .replace(/^Dr\.\s*/i, "")
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((namePart) => namePart.charAt(0).toUpperCase())
+    .join("");
+
+  useEffect(() => {
+    const handleMouseMove = (e) => {
+      if (!heroRef.current) return;
+      const rect = heroRef.current.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+      const centerX = rect.width / 2;
+      const centerY = rect.height / 2;
+      const moveX = (x - centerX) / centerX;
+      const moveY = (y - centerY) / centerY;
+
+      const bg1 = heroRef.current.querySelector('.bg-blur-1');
+      const bg2 = heroRef.current.querySelector('.bg-blur-2');
+      if (bg1) bg1.style.transform = `translate(${moveX * 20}px, ${moveY * 20}px)`;
+      if (bg2) bg2.style.transform = `translate(${moveX * -15}px, ${moveY * -15}px)`;
+    };
+
+    const hero = heroRef.current;
+    if (hero) {
+      hero.addEventListener('mousemove', handleMouseMove);
+      return () => hero.removeEventListener('mousemove', handleMouseMove);
+    }
+  }, []);
+
   return (
-    <section className="shell pb-6 pt-6 sm:pb-12 sm:pt-12 lg:pb-16 lg:pt-16">
+    <section ref={heroRef} className="shell pb-6 pt-6 sm:pb-12 sm:pt-12 lg:pb-16 lg:pt-16">
       <div className="grid gap-6 lg:grid-cols-[1.12fr_0.88fr] lg:items-center lg:gap-8">
         <div className="section-card relative overflow-hidden p-6 sm:p-10 lg:p-14">
           <div className="absolute inset-0 bg-clinic-glow opacity-70" />
-          <div className="absolute -left-16 top-12 h-40 w-40 rounded-full bg-brand-100/50 blur-3xl" />
-          <div className="absolute bottom-0 right-0 h-48 w-48 rounded-full bg-accent-100/80 blur-3xl" />
+          <div className="bg-blur-1 absolute -left-16 top-12 h-40 w-40 rounded-full bg-brand-100/50 blur-3xl" />
+          <div className="bg-blur-2 absolute bottom-0 right-0 h-48 w-48 rounded-full bg-accent-100/80 blur-3xl" />
           <div className="absolute inset-x-0 top-0 h-px bg-[linear-gradient(90deg,transparent,rgba(47,137,221,0.35),transparent)]" />
 
           <div className="relative">
@@ -64,7 +98,7 @@ export function Hero() {
               <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
                 <div className="flex items-center gap-4">
                   <div className="flex h-16 w-16 items-center justify-center rounded-3xl bg-gradient-to-br from-brand-100 to-white font-display text-2xl text-brand-700 shadow-[0_18px_40px_rgba(31,111,194,0.16)]">
-                    EM
+                    {doctorInitials}
                   </div>
                   <div>
                     <p className="text-lg font-semibold text-ink-900">{clinic.doctorName}</p>

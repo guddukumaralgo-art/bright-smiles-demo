@@ -10,13 +10,14 @@ const navItems = [
 
 export function Header({ currentPage }) {
   const [menuOpen, setMenuOpen] = useState(false);
+  const brandInitial = clinic.shortName.charAt(0).toUpperCase();
 
   return (
     <header className="sticky top-0 z-30 border-b border-white/70 bg-white/80 backdrop-blur-2xl">
       <div className="shell flex min-h-[84px] items-center justify-between gap-6">
         <a href="./index.html" className="group flex items-center gap-3">
           <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-50 to-white text-lg font-bold text-brand-700 shadow-[0_14px_34px_rgba(31,111,194,0.12)] transition duration-300 group-hover:-translate-y-0.5">
-            A
+            {brandInitial}
           </div>
           <div>
             <div className="font-display text-[1.35rem] tracking-[-0.03em] text-ink-900">{clinic.shortName}</div>
