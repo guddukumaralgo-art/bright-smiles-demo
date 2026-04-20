@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bright Smiles Demo Sites</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #132238;
+        --muted: #5b6b82;
+        --line: #d9e5f2;
+        --surface: rgba(255, 255, 255, 0.92);
+        --brand: #0f6cbd;
+        --brand-dark: #0a4f8b;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-width: 320px;
+        font-family: "Avenir Next", "Segoe UI", Arial, sans-serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at top, rgba(15, 108, 189, 0.14), transparent 24%),
+          linear-gradient(180deg, #f6fbff 0%, #eef5fb 52%, #ffffff 100%);
+      }
+      .shell {
+        width: min(1120px, calc(100% - 40px));
+        margin: 0 auto;
+      }
+      header {
+        padding: 72px 0 32px;
+      }
+      .eyebrow {
+        margin: 0;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.32em;
+        text-transform: uppercase;
+        color: var(--brand);
+      }
+      h1 {
+        margin: 18px 0 16px;
+        font-size: clamp(2.5rem, 6vw, 4.8rem);
+        line-height: 0.96;
+        letter-spacing: -0.05em;
+      }
+      .intro {
+        max-width: 720px;
+        font-size: 1.08rem;
+        line-height: 1.8;
+        color: var(--muted);
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 22px;
+        padding: 22px 0 72px;
+      }
+      .card {
+        display: block;
+        padding: 24px;
+        border: 1px solid var(--line);
+        border-radius: 28px;
+        background: var(--surface);
+        box-shadow: 0 18px 40px rgba(19, 34, 56, 0.06);
+        text-decoration: none;
+        color: inherit;
+        transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+      }
+      .card:hover {
+        transform: translateY(-4px);
+        border-color: #bdd3ea;
+        box-shadow: 0 26px 52px rgba(19, 34, 56, 0.10);
+      }
+      .card h2 {
+        margin: 14px 0 12px;
+        font-size: 1.65rem;
+        line-height: 1.1;
+      }
+      .card p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.7;
+      }
+      .card span {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 18px;
+        padding: 12px 18px;
+        border-radius: 999px;
+        background: linear-gradient(180deg, var(--brand) 0%, var(--brand-dark) 100%);
+        color: #fff;
+        font-size: 0.9rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <header>
+        <p class="eyebrow">Generated Demos</p>
+        <h1>Bright Smiles Demo Sites</h1>
+        <p class="intro">Choose a clinic below to open its generated website. These demos were built from the current ready rows in <code>sites.csv</code>.</p>
+      </header>
+      <main class="grid">
+        
+        <a class="card" href="./bright-smiles-dental/">
+          <p class="eyebrow">Dentist</p>
+          <h2>Bright Smiles Dental</h2>
+          <p>Modern Dental Care in Dallas</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./eco-dental/">
+          <p class="eyebrow">Dentist</p>
+          <h2>Eco Dental</h2>
+          <p>Gentle Modern Dentistry in Austin</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./luxury-dental-care/">
+          <p class="eyebrow">Dentist</p>
+          <h2>Luxury Dental Care</h2>
+          <p>Premium Dental Care in Bangalore</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./smile-hub/">
+          <p class="eyebrow">Dentist</p>
+          <h2>Smile Hub Clinic</h2>
+          <p>Smile Confidently in Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./urban-dental/">
+          <p class="eyebrow">Dentist</p>
+          <h2>Urban Dental Studio</h2>
+          <p>Modern Dentistry in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./family-smiles/">
+          <p class="eyebrow">Dentist</p>
+          <h2>Family Smiles Clinic</h2>
+          <p>Trusted Family Dentistry in Pune</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./bright-care/">
+          <p class="eyebrow">Dentist</p>
+          <h2>Bright Care Dental</h2>
+          <p>Healthy Smiles in Hyderabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./perfect-smile/">
+          <p class="eyebrow">Dentist</p>
+          <h2>Perfect Smile Clinic</h2>
+          <p>Perfect Smile Starts Here</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./eco-smiles/">
+          <p class="eyebrow">Dentist</p>
+          <h2>Eco Smiles Dental</h2>
+          <p>Sustainable Dental Care in Jaipur</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dental-plus/">
+          <p class="eyebrow">Dentist</p>
+          <h2>Dental Plus Care</h2>
+          <p>Advanced Dental Solutions in Ahmedabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./gentle-dental/">
+          <p class="eyebrow">Dentist</p>
+          <h2>Gentle Dental Clinic</h2>
+          <p>Gentle Care for Every Patient</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./city-smiles/">
+          <p class="eyebrow">Dentist</p>
+          <h2>City Smiles Clinic</h2>
+          <p>City Dental Experts in Lucknow</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./happy-teeth/">
+          <p class="eyebrow">Dentist</p>
+          <h2>Happy Teeth Clinic</h2>
+          <p>Happy Teeth Happy Life</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./care-dental/">
+          <p class="eyebrow">Dentist</p>
+          <h2>Care Dental Studio</h2>
+          <p>Quality Dental Care in Patna</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./elite-smiles/">
+          <p class="eyebrow">Dentist</p>
+          <h2>Elite Smiles Clinic</h2>
+          <p>Elite Smile Experience</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dental-care-pro/">
+          <p class="eyebrow">Dentist</p>
+          <h2>Dental Care Pro</h2>
+          <p>Professional Dental Care in Bhopal</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./smile-experts/">
+          <p class="eyebrow">Dentist</p>
+          <h2>Smile Experts Clinic</h2>
+          <p>Experts in Smile Care</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dental-lounge/">
+          <p class="eyebrow">Dentist</p>
+          <h2>Dental Lounge</h2>
+          <p>Relaxed Dental Experience</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./smile-clinic-plus/">
+          <p class="eyebrow">Dentist</p>
+          <h2>Smile Clinic Plus</h2>
+          <p>Complete Smile Solutions</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./fresh-smiles/">
+          <p class="eyebrow">Dentist</p>
+          <h2>Fresh Smiles Dental</h2>
+          <p>Fresh Approach to Dentistry</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./prime-dental/">
+          <p class="eyebrow">Dentist</p>
+          <h2>Prime Dental Care</h2>
+          <p>Prime Dental Services</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./ultimate-smiles/">
+          <p class="eyebrow">Dentist</p>
+          <h2>Ultimate Smiles Clinic</h2>
+          <p>Ultimate Smile Solutions</p>
+          <span>Open demo</span>
+        </a>
+      </main>
+    </div>
+  </body>
+</html>
