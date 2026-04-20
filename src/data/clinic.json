@@ -1,0 +1,152 @@
+{
+  "name": "Aureline Dental Clinic",
+  "shortName": "Aureline",
+  "specialty": "Private Dentistry",
+  "city": "New York",
+  "phone": "+1 (212) 555-0148",
+  "email": "hello@aurelinedental.com",
+  "address": ["18 East 63rd Street", "New York, NY 10065"],
+  "doctorName": "Dr. Elena Maris",
+  "heroHeadline": "Private dental care designed to feel calm, refined, and meticulously personal.",
+  "subheadline": "From routine hygiene to advanced restorative planning, we create thoughtful treatment journeys for patients who value discretion, clarity, and modern clinical standards.",
+  "aboutText": "Dr. Maris leads Aureline with a patient-first approach grounded in prevention, precision, and clear communication. Every care plan is tailored to support long-term oral health while respecting comfort, schedule, and individual goals.",
+  "ctaLabel": "Book Appointment",
+  "ctaLink": "./contact.html",
+  "colors": {
+    "primary": "#1f6fc2",
+    "primaryDark": "#142b52",
+    "accent": "#eff7ff",
+    "surface": "#f8fbff"
+  },
+  "hours": [
+    "Monday to Friday: 8:00 AM - 6:00 PM",
+    "Saturday: 9:00 AM - 2:00 PM",
+    "Sunday: Closed"
+  ],
+  "trustItems": [
+    "Patient-Focused Care",
+    "Modern Clinic Experience",
+    "Convenient Scheduling",
+    "Personalized Treatment Plans"
+  ],
+  "doctorCredentials": [
+    "Comprehensive private dentistry",
+    "Restorative and cosmetic planning",
+    "Gentle, detail-oriented chairside care"
+  ],
+  "services": [
+    {
+      "title": "Preventive Dentistry",
+      "description": "Routine examinations, hygiene visits, diagnostics, and personalized prevention plans that support long-term oral health."
+    },
+    {
+      "title": "Restorative Care",
+      "description": "Thoughtful treatment for worn, damaged, or missing teeth with a focus on function, comfort, and natural-looking results."
+    },
+    {
+      "title": "Cosmetic Enhancements",
+      "description": "Subtle smile improvements including whitening, bonding, and aesthetic refinement planned around facial balance and confidence."
+    },
+    {
+      "title": "Urgent Appointments",
+      "description": "Prompt attention for dental discomfort, broken restorations, or sudden concerns when timely assessment matters."
+    }
+  ],
+  "reasons": [
+    {
+      "title": "Clear communication",
+      "copy": "Every consultation is designed to explain findings, options, and next steps in language that feels straightforward and reassuring."
+    },
+    {
+      "title": "Comfortable environment",
+      "copy": "Calm interiors, considerate scheduling, and a polished private setting help every visit feel more composed from arrival onward."
+    },
+    {
+      "title": "Tailored care",
+      "copy": "Treatment recommendations are shaped around individual needs, priorities, and long-term oral health rather than a one-size-fits-all plan."
+    },
+    {
+      "title": "Appointment convenience",
+      "copy": "Flexible scheduling and responsive communication make it easier to arrange care around busy professional and family routines."
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "A calm, beautifully run practice where every step felt explained and thoughtfully paced.",
+      "author": "Generic patient feedback"
+    },
+    {
+      "quote": "The clinic feels polished and discreet, and the team made a routine visit feel unusually comfortable.",
+      "author": "Generic patient feedback"
+    },
+    {
+      "quote": "I appreciated the clarity around options, pricing, and next steps. Everything felt professional and measured.",
+      "author": "Generic patient feedback"
+    }
+  ],
+  "contactBlurb": "We welcome private patients seeking a more personal dental experience. Contact the clinic to arrange a consultation or routine visit.",
+  "footerTagline": "Private, modern dentistry with a calm patient experience.",
+  "pages": {
+    "home": {
+      "doctorSectionTitle": "Private dentistry guided by a personal, attentive approach.",
+      "doctorSectionBody": "Our clinic combines calm surroundings with clear planning and thoughtful care, helping patients feel informed, comfortable, and genuinely looked after at every stage.",
+      "servicesTitle": "Comprehensive dentistry for preventive, restorative, and aesthetic needs.",
+      "servicesCopy": "Our service mix is intentionally focused: high-quality essentials, presented with clarity and delivered in a private practice setting.",
+      "whyChooseUsTitle": "Why patients choose a more personal private clinic experience.",
+      "whyChooseUsCopy": "The practice is designed to bring together modern dentistry, patient comfort, and clear communication in one refined setting.",
+      "testimonialsTitle": "Placeholder testimonials for future approved patient feedback.",
+      "testimonialsCopy": "These testimonials are intentionally generic placeholders, styled to show how the section can look on a premium private clinic homepage.",
+      "contactTitle": "Contact the clinic to arrange an appointment or ask a practical question.",
+      "heroPrimaryCtaLabel": "Book Appointment",
+      "heroSecondaryCtaLabel": "Call Now",
+      "aboutPrimaryCtaLabel": "Learn More About The Practice",
+      "aboutSecondaryCtaLabel": "Book Appointment",
+      "contactPrimaryCtaLabel": "Book Appointment",
+      "contactSecondaryCtaLabel": "Call Now"
+    },
+    "about": {
+      "heroTitle": "A private clinic shaped around calm communication and modern dental standards.",
+      "heroCopy": "Aureline was designed for patients who want thoughtful care in a setting that feels composed, polished, and deeply professional.",
+      "philosophyTitle": "Elegant surroundings matter, but trust is built through honesty, precision, and respect.",
+      "philosophyCopy": "The practice experience is intentionally quiet and reassuring, while our clinical approach stays grounded in evidence-based care and transparent recommendations.",
+      "values": [
+        {
+          "title": "Personal attention",
+          "copy": "Appointments are structured to allow careful discussion, clear explanations, and treatment planning that feels appropriately paced."
+        },
+        {
+          "title": "Clinical clarity",
+          "copy": "We believe patients make better decisions when findings and options are presented in plain, honest language."
+        },
+        {
+          "title": "Long-term thinking",
+          "copy": "Recommendations are guided by prevention, durability, and maintaining natural structure wherever possible."
+        }
+      ],
+      "expectTitle": "A measured process from first consultation to ongoing care.",
+      "expectCopy": "Whether a patient is visiting for a check-up or a larger treatment conversation, the goal is the same: clarity, comfort, and a plan that feels appropriate.",
+      "expectSteps": [
+        "A welcoming first conversation about concerns, goals, and timing.",
+        "Clear findings and treatment options explained without pressure.",
+        "A practical care plan tailored to oral health priorities and lifestyle."
+      ]
+    },
+    "services": {
+      "heroTitle": "Comprehensive private care across prevention, restoration, and smile refinement.",
+      "heroCopy": "Services are presented with clear reasoning and delivered with an emphasis on comfort, aesthetics, and long-term function.",
+      "processTitle": "Treatment recommendations are built around diagnosis, priorities, and patient confidence.",
+      "processCopy": "We aim to make care understandable. That means explaining what matters now, what can wait, and which options best fit the situation.",
+      "processSteps": [
+        "Assessment and diagnostics",
+        "Discussion of priorities and options",
+        "Phased treatment planning where needed",
+        "Maintenance and review"
+      ]
+    },
+    "contact": {
+      "heroTitle": "Speak with the clinic to arrange appointments, discuss timing, or ask practical questions.",
+      "heroCopy": "This site is intentionally static for speed and simplicity, so appointment requests are handled by phone or email.",
+      "reuseNote": "For a future clinic rollout, this page can easily be reused by swapping the practice data, service list, and brand colors."
+    }
+  }
+}
