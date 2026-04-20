@@ -2,8 +2,12 @@ import { PageHero } from "../components/PageHero";
 import { SectionHeading } from "../components/SectionHeading";
 import { clinic } from "../data/clinic";
 import { SiteShell } from "../layouts/SiteShell";
+import { resolveSharedAssetPath } from "../utils/sharedAssets";
 
 export function AboutPage() {
+  const doctorImageSrc = resolveSharedAssetPath(clinic.images.doctor);
+  const galleryImages = clinic.images.gallery.map((imagePath) => resolveSharedAssetPath(imagePath));
+
   return (
     <SiteShell currentPage="About">
       <PageHero
@@ -14,7 +18,12 @@ export function AboutPage() {
       <section className="shell pb-10">
         <div className="grid gap-6 lg:grid-cols-[0.85fr_1.15fr]">
           <div className="section-card p-8 sm:p-10">
-            <p className="text-xs font-semibold uppercase tracking-[0.35em] text-brand-700">Lead Dentist</p>
+            <img
+              src={doctorImageSrc}
+              alt={clinic.doctorName}
+              className="h-64 w-full rounded-[1.75rem] object-cover"
+            />
+            <p className="mt-6 text-xs font-semibold uppercase tracking-[0.35em] text-brand-700">Lead Dentist</p>
             <h2 className="mt-4 font-display text-3xl text-ink-900">{clinic.doctorName}</h2>
             <p className="mt-2 text-sm uppercase tracking-[0.25em] text-ink-500">{clinic.specialty}</p>
             <p className="mt-6 text-base leading-7 text-ink-700">{clinic.aboutText}</p>
@@ -49,6 +58,16 @@ export function AboutPage() {
                 <p className="text-sm font-semibold uppercase tracking-[0.28em] text-brand-700">Step {index + 1}</p>
                 <p className="mt-4 text-lg leading-8 text-ink-900">{step}</p>
               </div>
+            ))}
+          </div>
+          <div className="mt-10 grid gap-6 md:grid-cols-2">
+            {galleryImages.map((imageSrc, index) => (
+              <img
+                key={imageSrc}
+                src={imageSrc}
+                alt={`${clinic.shortName} gallery ${index + 1}`}
+                className="h-64 w-full rounded-[1.75rem] object-cover"
+              />
             ))}
           </div>
         </div>

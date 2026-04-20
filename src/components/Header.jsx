@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { clinic } from "../data/clinic";
+import { resolveSharedAssetPath } from "../utils/sharedAssets";
 
 const navItems = [
   { label: "Home", href: "./index.html" },
@@ -10,15 +11,17 @@ const navItems = [
 
 export function Header({ currentPage }) {
   const [menuOpen, setMenuOpen] = useState(false);
-  const brandInitial = clinic.shortName.charAt(0).toUpperCase();
+  const logoSrc = resolveSharedAssetPath(clinic.images.logo);
 
   return (
     <header className="sticky top-0 z-30 border-b border-white/70 bg-white/80 backdrop-blur-2xl">
       <div className="shell flex min-h-[84px] items-center justify-between gap-6">
         <a href="./index.html" className="group flex items-center gap-3">
-          <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-50 to-white text-lg font-bold text-brand-700 shadow-[0_14px_34px_rgba(31,111,194,0.12)] transition duration-300 group-hover:-translate-y-0.5">
-            {brandInitial}
-          </div>
+          <img
+            src={logoSrc}
+            alt={`${clinic.shortName} logo`}
+            className="h-11 w-11 rounded-2xl border border-brand-100 bg-white object-cover shadow-[0_14px_34px_rgba(31,111,194,0.12)] transition duration-300 group-hover:-translate-y-0.5"
+          />
           <div>
             <div className="font-display text-[1.35rem] tracking-[-0.03em] text-ink-900">{clinic.shortName}</div>
             <div className="text-[0.68rem] uppercase tracking-[0.34em] text-ink-500">{clinic.specialty}</div>

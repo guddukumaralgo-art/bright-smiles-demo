@@ -7,13 +7,16 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "generate:sites": "node generate-sites.js",
     "prepare:publish": "node scripts/prepare-publish.js",
     "deploy": "gh-pages -d dist",
     "deploy:generated": "gh-pages -d generated-sites",
-    "deploy:all": "gh-pages -d .publish"
+    "deploy:all": "gh-pages -d publish"
   },
   "dependencies": {
+    "csv-parse": "^6.2.1",
     "csv-parser": "^3.2.0",
+    "fs-extra": "^11.3.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

@@ -20,6 +20,15 @@
     "accent": "#dbeeff",
     "surface": "#ffffff"
   },
+  "images": {
+    "logo": "/assets/shared/logo.png",
+    "hero": "/assets/shared/hero.jpg",
+    "doctor": "/assets/shared/doctor.jpg",
+    "gallery": [
+      "/assets/shared/gallery-1.jpg",
+      "/assets/shared/gallery-2.jpg"
+    ]
+  },
   "services": [
     {
       "title": "General Dentistry",

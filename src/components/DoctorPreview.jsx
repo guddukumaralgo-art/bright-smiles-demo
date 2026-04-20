@@ -1,13 +1,21 @@
 import { clinic } from "../data/clinic";
 import { SectionHeading } from "./SectionHeading";
+import { resolveSharedAssetPath } from "../utils/sharedAssets";
 
 export function DoctorPreview() {
+  const doctorImageSrc = resolveSharedAssetPath(clinic.images.doctor);
+
   return (
     <section className="shell section-wrap section-divider">
       <div className="grid gap-8 lg:grid-cols-[0.88fr_1.12fr] lg:items-center lg:gap-10">
         <div className="section-card bg-clinic-glow p-6 sm:p-10 lg:p-12">
           <div className="surface-panel p-6 sm:p-8">
-            <p className="eyebrow">Lead Clinician</p>
+            <img
+              src={doctorImageSrc}
+              alt={clinic.doctorName}
+              className="h-56 w-full rounded-[1.75rem] object-cover"
+            />
+            <p className="eyebrow mt-6">Lead Clinician</p>
             <h3 className="mt-4 font-display text-3xl text-ink-900">{clinic.doctorName}</h3>
             <p className="mt-2 text-sm uppercase tracking-[0.25em] text-ink-500">{clinic.specialty}</p>
             <div className="mt-6 space-y-3 sm:mt-8 sm:space-y-4">

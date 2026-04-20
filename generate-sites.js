@@ -1,173 +1,323 @@
-import fs from 'fs';
-import csv from 'csv-parser';
-import { execSync } from 'child_process';
-import path from 'path';
+import fs from "node:fs";
+import path from "node:path";
+import csv from "csv-parser";
+import { execSync } from "node:child_process";
 
-const sites = [];
-const outputDir = 'generated-sites';
+const rootDir = process.cwd();
+const csvPath = path.join(rootDir, "sites.csv");
+const outputDir = path.join(rootDir, "generated-sites");
+const clinicJsonPath = path.join(rootDir, "src", "data", "clinic.json");
+const perSiteClinicJsonRelativePath = path.join("src", "data", "clinic.json");
 
-const getCityFromAddress = (addressText) => {
-  const parts = addressText.split(',').map((part) => part.trim());
-  return parts[1] || 'Your City';
+const SHARED_IMAGES = {
+  logo: "/assets/shared/logo.png",
+  hero: "/assets/shared/hero.jpg",
+  doctor: "/assets/shared/doctor.jpg",
+  gallery: ["/assets/shared/gallery-1.jpg", "/assets/shared/gallery-2.jpg"]
 };
 
-const toBrandName = (siteName) => {
-  return siteName
-    .split('-')
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(' ');
+const DEFAULT_COPY = {
+  footerTagline: "Helping patients smile with confidence.",
+  ctaLabel: "Book Now",
+  contactBlurb: "Get in touch to schedule an appointment or ask a question.",
+  doctorCredentials: ["DDS Degree", "10+ Years Experience", "Patient-Focused Care"],
+  testimonials: [
+    {
+      quote: "A comfortable, thoughtful dental experience from start to finish.",
+      author: "Samantha R."
+    },
+    {
+      quote: "Professional care with a friendly team and clear communication.",
+      author: "James P."
+    },
+    {
+      quote: "The team made every step easy and reassuring.",
+      author: "Lena K."
+    }
+  ],
+  trustItems: ["Trusted care", "Modern technology", "Family-friendly", "Convenient scheduling"],
+  reasons: [
+    { title: "Gentle Treatment", copy: "We prioritize your comfort in every appointment." },
+    { title: "Modern Techniques", copy: "Updated technology for faster, more effective care." },
+    { title: "Personalized Plans", copy: "Individualized recommendations that fit your goals." },
+    { title: "Calm Environment", copy: "A relaxed space designed to reduce anxiety." }
+  ],
+  pageCopy: {
+    home: {
+      heroPrimaryCtaLabel: "Book Appointment",
+      heroSecondaryCtaLabel: "Call Now",
+      servicesTitle: "Our Services",
+      servicesCopy: "We offer a thoughtful range of dental services tailored to your goals.",
+      doctorSectionTitle: "Meet Our Doctor",
+      doctorSectionBody: "Experienced, attentive care focused on comfort, clarity, and long-term oral health.",
+      aboutPrimaryCtaLabel: "Learn More",
+      aboutSecondaryCtaLabel: "Contact Us",
+      whyChooseUsTitle: "Why Choose Us",
+      whyChooseUsCopy: "A modern practice built around patient comfort, clear treatment planning, and dependable care.",
+      testimonialsTitle: "Patient Stories",
+      testimonialsCopy: "Read what our patients say about their experience.",
+      contactTitle: "Contact Us",
+      contactPrimaryCtaLabel: "Book Now",
+      contactSecondaryCtaLabel: "Call Us"
+    },
+    about: {
+      heroTitle: "About Our Practice",
+      heroCopy: "We focus on calm, patient-centered care and treatment planning.",
+      philosophyTitle: "Practice Philosophy",
+      philosophyCopy: "Our approach is built around trust, comfort, and long-term results.",
+      values: [
+        { title: "Patient Focus", copy: "Your comfort and goals guide every decision." },
+        { title: "Clear Communication", copy: "We explain treatment options in plain language." },
+        { title: "Lasting Results", copy: "Care that supports your smile now and years ahead." }
+      ],
+      expectTitle: "What to Expect",
+      expectCopy: "A clear, supportive experience designed to make dental care feel easy.",
+      expectSteps: [
+        "Initial consultation and exam",
+        "Personalized treatment recommendations",
+        "Comfortable care and follow-up support"
+      ]
+    },
+    services: {
+      heroTitle: "Dental Services",
+      heroCopy: "From preventive care to restorative and cosmetic procedures, we support your smile goals.",
+      processTitle: "How Care Is Planned",
+      processCopy: "Our process helps you feel informed and confident at every step.",
+      processSteps: [
+        "Detailed consultation and exam",
+        "Customized treatment planning",
+        "Comfort-focused care",
+        "Ongoing support and follow-up"
+      ]
+    },
+    contact: {
+      heroTitle: "Contact Our Clinic",
+      heroCopy: "Reach out to schedule your next appointment or learn more about services.",
+      reuseNote: "We will help you find a convenient appointment time and answer any questions."
+    }
+  }
 };
 
-const toPhoneHref = (phoneNumber) => `tel:${phoneNumber.replace(/[^\d+]/g, '')}`;
+const REQUIRED_FIELDS = [
+  "slug",
+  "clinic_name",
+  "doctor_name",
+  "specialty",
+  "city",
+  "phone",
+  "email",
+  "address",
+  "cta_link",
+  "primary_color",
+  "secondary_color",
+  "headline",
+  "subheadline",
+  "services",
+  "about",
+  "hours",
+  "status"
+];
 
-const toRelativePageHref = (href) => {
-  if (!href) {
-    return './contact.html';
-  }
-
-  if (href.startsWith('./')) {
-    return href;
-  }
-
-  if (href.startsWith('/')) {
-    return `.${href}`;
-  }
-
-  return `./${href.replace(/^\.?\//, '')}`;
+const warn = (message) => {
+  console.warn(`Warning: ${message}`);
 };
 
-if (!fs.existsSync(outputDir)) {
-  fs.mkdirSync(outputDir);
+const ensureDir = (dirPath) => {
+  fs.mkdirSync(dirPath, { recursive: true });
+};
+
+const removeGitDir = (dirPath) => {
+  fs.rmSync(path.join(dirPath, ".git"), { recursive: true, force: true });
+};
+
+const toPhoneHref = (phoneNumber) => `tel:${String(phoneNumber).replace(/[^\d+]/g, "")}`;
+
+const toEmailHref = (email) => `mailto:${email}`;
+
+const slugToName = (slug) =>
+  slug
+    .split("-")
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
+
+const splitServices = (value) =>
+  String(value)
+    .split("|")
+    .map((entry) => entry.trim())
+    .filter(Boolean)
+    .map((title) => ({
+      title,
+      description: `${title} delivered with clear guidance and patient-first care.`
+    }));
+
+const splitHours = (value) =>
+  String(value)
+    .split("|")
+    .map((entry) => entry.trim())
+    .filter(Boolean);
+
+const normalizeRow = (row) => {
+  const normalized = {};
+
+  for (const [key, value] of Object.entries(row)) {
+    normalized[key.trim()] = typeof value === "string" ? value.trim() : value;
+  }
+
+  return normalized;
+};
+
+const rowLabel = (row, index) => row.slug || row.clinic_name || `row ${index + 2}`;
+
+const validateRow = (row, index) => {
+  const missingFields = REQUIRED_FIELDS.filter((field) => !row[field]);
+
+  if (missingFields.length > 0) {
+    warn(`Skipping ${rowLabel(row, index)} because it is missing: ${missingFields.join(", ")}`);
+    return false;
+  }
+
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(row.slug)) {
+    warn(`Skipping ${rowLabel(row, index)} because slug "${row.slug}" is invalid`);
+    return false;
+  }
+
+  const services = splitServices(row.services);
+  if (services.length === 0) {
+    warn(`Skipping ${rowLabel(row, index)} because services is empty after parsing "|" separators`);
+    return false;
+  }
+
+  return true;
+};
+
+const buildClinicData = (row) => {
+  const shortName = row.clinic_name || `${slugToName(row.slug)} Dental`;
+  const services = splitServices(row.services);
+  const hours = splitHours(row.hours);
+
+  return {
+    doctorName: row.doctor_name,
+    specialty: row.specialty,
+    heroHeadline: row.headline,
+    subheadline: row.subheadline,
+    phone: row.phone,
+    email: row.email,
+    addressText: row.address,
+    city: row.city,
+    name: row.clinic_name,
+    shortName,
+    footerTagline: DEFAULT_COPY.footerTagline,
+    ctaLabel: DEFAULT_COPY.ctaLabel,
+    ctaLink: row.cta_link,
+    phoneHref: toPhoneHref(row.phone),
+    emailHref: toEmailHref(row.email),
+    colors: {
+      primary: row.primary_color,
+      primaryDark: row.primary_color,
+      accent: row.secondary_color,
+      surface: "#ffffff"
+    },
+    images: SHARED_IMAGES,
+    services,
+    hours: hours.length > 0 ? hours : [row.hours],
+    doctorCredentials: DEFAULT_COPY.doctorCredentials,
+    testimonials: DEFAULT_COPY.testimonials,
+    trustItems: DEFAULT_COPY.trustItems,
+    reasons: DEFAULT_COPY.reasons,
+    aboutText: row.about,
+    contactBlurb: DEFAULT_COPY.contactBlurb,
+    pages: DEFAULT_COPY.pageCopy
+  };
+};
+
+const writeJson = (filePath, data) => {
+  ensureDir(path.dirname(filePath));
+  fs.writeFileSync(filePath, `${JSON.stringify(data, null, 2)}\n`);
+};
+
+const buildSite = (slug) => {
+  execSync("npm run build", {
+    cwd: rootDir,
+    stdio: "inherit",
+    env: {
+      ...process.env,
+      SITE_SLUG: slug
+    }
+  });
+  removeGitDir(path.join(rootDir, "dist"));
+};
+
+const copyBuildOutput = (slug, clinicData) => {
+  const siteDir = path.join(outputDir, slug);
+
+  fs.rmSync(siteDir, { recursive: true, force: true });
+  ensureDir(siteDir);
+  fs.cpSync(path.join(rootDir, "dist"), siteDir, { recursive: true });
+  removeGitDir(siteDir);
+  fs.rmSync(path.join(siteDir, "assets", "shared"), { recursive: true, force: true });
+  writeJson(path.join(siteDir, perSiteClinicJsonRelativePath), clinicData);
+};
+
+const rows = [];
+const originalClinicJson = fs.readFileSync(clinicJsonPath, "utf8");
+
+if (!fs.existsSync(csvPath)) {
+  console.error(`Missing ${path.relative(rootDir, csvPath)}`);
+  process.exit(1);
 }
 
-fs.createReadStream('sites.csv')
+fs.rmSync(outputDir, { recursive: true, force: true });
+ensureDir(outputDir);
+
+fs.createReadStream(csvPath)
   .pipe(csv())
-  .on('data', (data) => sites.push(data))
-  .on('end', () => {
-    sites.forEach((site, index) => {
-      console.log(`Generating site ${index + 1}: ${site.siteName}`);
+  .on("data", (row) => rows.push(normalizeRow(row)))
+  .on("end", () => {
+    let readyCount = 0;
+    let generatedCount = 0;
+    let mainSiteRestored = false;
 
-      // Update clinic.js
-      const city = getCityFromAddress(site.addressText);
-      const brandName = toBrandName(site.siteName);
-      const clinicData = {
-        doctorName: site.doctorName,
-        specialty: site.specialty,
-        heroHeadline: site.heroHeadline,
-        subheadline: site.subheadline,
-        phone: site.phone,
-        email: site.email,
-        addressText: site.addressText,
-        city,
-        name: `${brandName} Dental`,
-        shortName: brandName,
-        footerTagline: 'Helping patients smile with confidence.',
-        ctaLabel: site.ctaLabel,
-        ctaLink: toRelativePageHref(site.ctaLink),
-        phoneHref: toPhoneHref(site.phone),
-        emailHref: `mailto:${site.email}`,
-        colors: {
-          primary: '#2f89dd',
-          primaryDark: '#1f6fc2',
-          accent: '#dbeeff',
-          surface: '#ffffff'
-        },
-        services: [
-          { title: 'General Dentistry', description: 'Comprehensive check-ups and cleanings.' },
-          { title: 'Cosmetic Dentistry', description: 'Teeth whitening and veneers.' },
-          { title: 'Orthodontics', description: 'Braces and aligners for straight teeth.' },
-          { title: 'Oral Surgery', description: 'Extractions and implants.' }
-        ],
-        hours: ['Mon-Fri: 9am-6pm', 'Sat: 10am-4pm', 'Sun: Closed'],
-        doctorCredentials: ['DDS Degree', '10+ Years Experience', 'Certified Specialist'],
-        testimonials: [
-          { quote: 'A comfortable, thoughtful dental experience from start to finish.', author: 'Samantha R.' },
-          { quote: 'Professional care with a friendly team and clean environment.', author: 'James P.' },
-          { quote: 'My smile has never looked better thanks to their attention to detail.', author: 'Lena K.' }
-        ],
-        trustItems: ['Trusted care', 'Modern technology', 'Family-friendly', 'Convenient scheduling'],
-        reasons: [
-          { title: 'Gentle Treatment', copy: 'We prioritize your comfort in every appointment.' },
-          { title: 'Modern Techniques', copy: 'Updated technology for faster, more effective care.' },
-          { title: 'Personalized Plans', copy: 'Individualized recommendations that fit your goals.' },
-          { title: 'Calm Environment', copy: 'A relaxed space designed to reduce anxiety.' }
-        ],
-        aboutText: 'Dedicated to providing exceptional dental care.',
-        contactBlurb: 'Get in touch for appointments.',
-        pages: {
-          home: {
-            heroPrimaryCtaLabel: 'Book Appointment',
-            heroSecondaryCtaLabel: 'Call Now',
-            servicesTitle: 'Our Services',
-            servicesCopy: 'We offer a range of dental services.',
-            doctorSectionTitle: 'Meet Our Doctor',
-            doctorSectionBody: 'Experienced and caring professional.',
-            aboutPrimaryCtaLabel: 'Learn More',
-            aboutSecondaryCtaLabel: 'Contact Us',
-            whyChooseUsTitle: 'Why Choose Us',
-            whyChooseUsCopy: 'A thoughtful, modern practice focused on your long-term dental health.',
-            testimonialsTitle: 'Patient Stories',
-            testimonialsCopy: 'Read what our patients say about their experience.',
-            contactTitle: 'Contact Us',
-            contactPrimaryCtaLabel: 'Book Now',
-            contactSecondaryCtaLabel: 'Call Us'
-          },
-          about: {
-            heroTitle: 'About Our Practice',
-            heroCopy: 'We focus on calm, patient-centered care and treatment planning.',
-            philosophyTitle: 'Practice Philosophy',
-            philosophyCopy: 'Our approach is built around trust, comfort, and long-term results.',
-            values: [
-              { title: 'Patient Focus', copy: 'Your comfort and goals guide every decision.' },
-              { title: 'Clear Communication', copy: 'We explain treatment options in plain language.' },
-              { title: 'Lasting Results', copy: 'Care that supports your smile now and years ahead.' }
-            ],
-            expectTitle: 'What to Expect',
-            expectCopy: 'A clear, supportive experience designed to make dental care easy.',
-            expectSteps: [
-              'Initial consultation and exam',
-              'Personalized treatment recommendations',
-              'Comfortable care and follow-up support'
-            ]
-          },
-          services: {
-            heroTitle: 'Dental Services',
-            heroCopy: 'From preventive care to cosmetic procedures, we support your smile goals.',
-            processTitle: 'How Care Is Planned',
-            processCopy: 'Our process helps you feel confident and informed at every step.',
-            processSteps: [
-              'Detailed consultation and exam',
-              'Customized treatment planning',
-              'Comfort-focused care',
-              'Ongoing support and follow-up'
-            ]
-          },
-          contact: {
-            heroTitle: 'Contact Our Clinic',
-            heroCopy: 'Reach out to schedule your next appointment or learn more about services.',
-            reuseNote: 'We will help you find a convenient appointment time and answer any questions.'
-          }
+    try {
+      rows.forEach((row, index) => {
+        if (String(row.status).toLowerCase() !== "ready") {
+          return;
         }
-      };
 
-      fs.writeFileSync('src/data/clinic.js', `export const clinic = ${JSON.stringify(clinicData, null, 2)};`);
-      fs.writeFileSync('src/data/clinic.json', JSON.stringify(clinicData, null, 2));
+        readyCount += 1;
 
-      // Build
-      execSync('npm run build', { stdio: 'inherit' });
+        if (!validateRow(row, index)) {
+          return;
+        }
 
-      // Copy dist to generated-sites/siteName
-      const siteDir = path.join(outputDir, site.siteName);
-      if (fs.existsSync(siteDir)) {
-        fs.rmSync(siteDir, { recursive: true, force: true });
-      }
-      fs.mkdirSync(siteDir, { recursive: true });
-      fs.cpSync('dist', siteDir, { recursive: true });
+        const clinicData = buildClinicData(row);
 
-      console.log(`Site ${site.siteName} generated in ${siteDir}`);
-    });
+        console.log(`Generating ${row.slug}...`);
+        writeJson(clinicJsonPath, clinicData);
+        buildSite(row.slug);
+        copyBuildOutput(row.slug, clinicData);
+        generatedCount += 1;
+      });
+    } finally {
+      fs.writeFileSync(clinicJsonPath, originalClinicJson);
+      execSync("npm run build", {
+        cwd: rootDir,
+        stdio: "inherit",
+        env: process.env
+      });
+      removeGitDir(path.join(rootDir, "dist"));
+      mainSiteRestored = true;
+    }
 
-    console.log('All sites generated.');
-    console.log('To deploy: Install GitHub CLI (gh) from https://cli.github.com/, run gh auth login, then run the script again with repo creation enabled.');
-    console.log('Or manually create repos and push each subfolder.');
+    console.log(`Finished generating ${generatedCount} site(s) from ${readyCount} ready row(s).`);
+    if (generatedCount === 0) {
+      warn("No sites were generated.");
+    }
+    if (!mainSiteRestored) {
+      warn("The main site build was not restored.");
+    }
+  })
+  .on("error", (error) => {
+    console.error(error);
+    process.exit(1);
   });

@@ -4,7 +4,7 @@ import path from "node:path";
 const rootDir = process.cwd();
 const distDir = path.join(rootDir, "dist");
 const generatedSitesDir = path.join(rootDir, "generated-sites");
-const publishDir = path.join(rootDir, ".publish");
+const publishDir = path.join(rootDir, "publish");
 
 const removeNestedGitDirs = (dirPath) => {
   for (const entry of fs.readdirSync(dirPath, { withFileTypes: true })) {
@@ -19,6 +19,10 @@ const removeNestedGitDirs = (dirPath) => {
       removeNestedGitDirs(entryPath);
     }
   }
+};
+
+const removeGitDir = (dirPath) => {
+  fs.rmSync(path.join(dirPath, ".git"), { recursive: true, force: true });
 };
 
 const requiredDirs = [distDir, generatedSitesDir];
@@ -36,6 +40,7 @@ fs.rmSync(publishDir, { recursive: true, force: true });
 fs.mkdirSync(publishDir, { recursive: true });
 
 fs.cpSync(distDir, publishDir, { recursive: true });
+removeGitDir(publishDir);
 
 for (const entry of fs.readdirSync(generatedSitesDir, { withFileTypes: true })) {
   if (!entry.isDirectory()) {
@@ -47,10 +52,11 @@ for (const entry of fs.readdirSync(generatedSitesDir, { withFileTypes: true })) 
     path.join(publishDir, entry.name),
     { recursive: true }
   );
+  removeGitDir(path.join(publishDir, entry.name));
 }
 
 removeNestedGitDirs(publishDir);
 
-console.log("Prepared .publish with:");
+console.log("Prepared publish with:");
 console.log("- main site at /");
 console.log("- generated clinic sites in subfolders");

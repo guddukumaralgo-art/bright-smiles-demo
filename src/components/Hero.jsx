@@ -1,15 +1,11 @@
 import { useEffect, useRef } from "react";
 import { clinic } from "../data/clinic";
+import { resolveSharedAssetPath } from "../utils/sharedAssets";
 
 export function Hero() {
   const heroRef = useRef(null);
-  const doctorInitials = clinic.doctorName
-    .replace(/^Dr\.\s*/i, "")
-    .split(/\s+/)
-    .filter(Boolean)
-    .slice(0, 2)
-    .map((namePart) => namePart.charAt(0).toUpperCase())
-    .join("");
+  const heroImageSrc = resolveSharedAssetPath(clinic.images.hero);
+  const doctorImageSrc = resolveSharedAssetPath(clinic.images.doctor);
 
   useEffect(() => {
     const handleMouseMove = (e) => {
@@ -97,9 +93,11 @@ export function Hero() {
             <div className="relative rounded-[2rem] border border-white/80 bg-white/75 p-5 shadow-soft sm:p-8">
               <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
                 <div className="flex items-center gap-4">
-                  <div className="flex h-16 w-16 items-center justify-center rounded-3xl bg-gradient-to-br from-brand-100 to-white font-display text-2xl text-brand-700 shadow-[0_18px_40px_rgba(31,111,194,0.16)]">
-                    {doctorInitials}
-                  </div>
+                  <img
+                    src={doctorImageSrc}
+                    alt={clinic.doctorName}
+                    className="h-16 w-16 rounded-3xl border border-brand-100 object-cover shadow-[0_18px_40px_rgba(31,111,194,0.16)]"
+                  />
                   <div>
                     <p className="text-lg font-semibold text-ink-900">{clinic.doctorName}</p>
                     <p className="text-sm uppercase tracking-[0.22em] text-ink-500">{clinic.specialty}</p>
@@ -122,8 +120,13 @@ export function Hero() {
               </div>
 
               <div className="mt-5 rounded-[1.75rem] bg-[linear-gradient(180deg,#1f406b_0%,#142b52_100%)] p-5 text-white shadow-float sm:mt-6 sm:p-6">
-                <p className="text-sm uppercase tracking-[0.28em] text-brand-200">Patient Promise</p>
-                <p className="mt-3 text-lg leading-8 text-white/90">
+                <img
+                  src={heroImageSrc}
+                  alt={`${clinic.shortName} clinic`}
+                  className="h-44 w-full rounded-[1.35rem] object-cover"
+                />
+                <p className="mt-5 text-sm uppercase tracking-[0.28em] text-brand-200">Patient Promise</p>
+                <p className="mt-4 text-lg leading-8 text-white/90">
                   Clear guidance, respectful treatment planning, and a calmer standard of care from first visit onward.
                 </p>
                 <a

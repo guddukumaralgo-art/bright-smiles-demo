@@ -1,6 +1,9 @@
 import { clinic } from "../data/clinic";
+import { resolveSharedAssetPath } from "../utils/sharedAssets";
 
 export function Footer() {
+  const logoSrc = resolveSharedAssetPath(clinic.images.logo);
+
   return (
     <footer className="mt-10 border-t border-brand-100/70 bg-[linear-gradient(180deg,#f6fbff_0%,#ffffff_100%)]">
       <div className="shell py-12 sm:py-16">
@@ -9,9 +12,11 @@ export function Footer() {
           <div className="grid gap-8 md:grid-cols-[1.25fr_0.8fr_0.85fr] md:gap-10">
             <div>
               <div className="inline-flex items-center gap-3 rounded-full border border-brand-100 bg-white/85 px-4 py-2">
-                <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-50 to-white text-lg font-bold text-brand-700 shadow-[0_14px_30px_rgba(31,111,194,0.10)]">
-                  {clinic.shortName.charAt(0)}
-                </span>
+                <img
+                  src={logoSrc}
+                  alt={`${clinic.shortName} logo`}
+                  className="h-10 w-10 rounded-2xl border border-brand-100 bg-white object-cover shadow-[0_14px_30px_rgba(31,111,194,0.10)]"
+                />
                 <span className="font-display text-2xl tracking-[-0.03em] text-ink-900">{clinic.shortName}</span>
               </div>
               <p className="mt-5 max-w-md text-base leading-7 text-ink-700">
