@@ -1,0 +1,201 @@
+{
+  "doctorName": "Dr. Vihar Bidwai",
+  "specialty": "Dean/Principal and Professor",
+  "businessType": "ayurveda",
+  "linkedInProfileUrl": "https://www.linkedin.com/in/guddu-kumar-indianiit/",
+  "heroHeadline": "Ayurveda Wellness in Pusad",
+  "subheadline": "Natural healing and personalized wellness care rooted in Ayurveda.",
+  "phone": "9508655628",
+  "email": "hello@drrnlahotiayurvedmedicalcollegea.demo",
+  "addressText": "Pusad, Maharashtra, India",
+  "city": "Pusad, Maharashtra, India",
+  "name": "Dr. R N Lahoti Ayurved Medical College and Research Center Sultanpur dist Buldhana",
+  "shortName": "Dr. R N Lahoti Ayurved Medical College and Research Center Sultanpur dist Buldhana",
+  "footerTagline": "Helping patients smile with confidence.",
+  "ctaLabel": "Book Now",
+  "ctaLink": "https://wa.me/9508655628",
+  "whatsappHref": "https://wa.me/9508655628",
+  "phoneHref": "tel:9508655628",
+  "emailHref": "mailto:hello@drrnlahotiayurvedmedicalcollegea.demo",
+  "colors": {
+    "primary": "#15803D",
+    "primaryDark": "#15803D",
+    "secondary": "#DCFCE7",
+    "accent": "#D97706",
+    "surface": "#ffffff"
+  },
+  "images": {
+    "logo": "/assets/shared/logo.png",
+    "banner": "https://media.licdn.com/dms/image/v2/D4D16AQFqqxk1Ui_hrA/profile-displaybackgroundimage-shrink_350_1400/B4DZtzUkgRH8AY-/0/1767166334351?e=1778716800&v=beta&t=osPtS9MH9mF5ywGxA-vmuvoJ5NnRmj2hZs7NAU3d3bA",
+    "hero": "/assets/shared/logo.png",
+    "doctor": "https://media.licdn.com/dms/image/v2/C5103AQH76t2xrc0BmQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1570073870508?e=1778716800&v=beta&t=XoaT3LJzk3gio54ltq1YkF7zbmeDVmVaf2_Gfj7iQT4",
+    "gallery": [
+      "/assets/shared/hero.jpg",
+      "/assets/shared/gallery-1.jpg"
+    ],
+    "fallbacks": {
+      "banner": "/assets/shared/hero.jpg",
+      "hero": "/assets/shared/hero.jpg",
+      "doctor": "/assets/shared/doctor.jpg",
+      "gallery1": "/assets/shared/gallery-1.jpg",
+      "gallery2": "/assets/shared/gallery-2.jpg",
+      "logo": "/assets/shared/logo.png"
+    }
+  },
+  "favicon": {
+    "href": "/assets/shared/gallery-2.jpg",
+    "isExternal": false,
+    "generated": false
+  },
+  "services": [
+    {
+      "title": "Ayurvedic Consultation",
+      "description": "Ayurvedic Consultation delivered with clear guidance and patient-first care."
+    },
+    {
+      "title": "Panchakarma",
+      "description": "Panchakarma delivered with clear guidance and patient-first care."
+    },
+    {
+      "title": "Wellness Therapy",
+      "description": "Wellness Therapy delivered with clear guidance and patient-first care."
+    },
+    {
+      "title": "Stress Management",
+      "description": "Stress Management delivered with clear guidance and patient-first care."
+    }
+  ],
+  "hours": [
+    "Mon-Sat 10AM-7PM"
+  ],
+  "doctorCredentials": [
+    "DDS Degree",
+    "10+ Years Experience",
+    "Patient-Focused Care"
+  ],
+  "testimonials": [
+    {
+      "quote": "A comfortable, thoughtful dental experience from start to finish.",
+      "author": "Samantha R."
+    },
+    {
+      "quote": "Professional care with a friendly team and clear communication.",
+      "author": "James P."
+    },
+    {
+      "quote": "The team made every step easy and reassuring.",
+      "author": "Lena K."
+    }
+  ],
+  "trustItems": [
+    "Trusted care",
+    "Modern technology",
+    "Family-friendly",
+    "Convenient scheduling"
+  ],
+  "reasons": [
+    {
+      "title": "Gentle Treatment",
+      "copy": "We prioritize your comfort in every appointment."
+    },
+    {
+      "title": "Modern Techniques",
+      "copy": "Updated technology for faster, more effective care."
+    },
+    {
+      "title": "Personalized Plans",
+      "copy": "Individualized recommendations that fit your goals."
+    },
+    {
+      "title": "Calm Environment",
+      "copy": "A relaxed space designed to reduce anxiety."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I book an appointment at Dr. R N Lahoti Ayurved Medical College and Research Center Sultanpur dist Buldhana?",
+      "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
+    },
+    {
+      "question": "What services does Dr. R N Lahoti Ayurved Medical College and Research Center Sultanpur dist Buldhana offer?",
+      "answer": "Dr. R N Lahoti Ayurved Medical College and Research Center Sultanpur dist Buldhana supports patients with Ayurvedic Consultation, Panchakarma, Wellness Therapy, Stress Management."
+    },
+    {
+      "question": "Can I ask questions before visiting?",
+      "answer": "Yes. You can call, email, or use WhatsApp to ask about availability, services, and the best next step for your needs."
+    },
+    {
+      "question": "Where is the clinic located?",
+      "answer": "Dr. R N Lahoti Ayurved Medical College and Research Center Sultanpur dist Buldhana is located at Pusad, Maharashtra, India."
+    }
+  ],
+  "aboutText": "Dr. R N Lahoti Ayurved Medical College and Research Center Sultanpur dist Buldhana combines traditional wellness principles with a calm and modern healing experience.",
+  "contactBlurb": "Get in touch to schedule an appointment or ask a question.",
+  "pages": {
+    "home": {
+      "heroPrimaryCtaLabel": "Book Appointment",
+      "heroSecondaryCtaLabel": "Call Now",
+      "servicesTitle": "Our Services",
+      "servicesCopy": "We offer a thoughtful range of dental services tailored to your goals.",
+      "doctorSectionTitle": "Meet Our Doctor",
+      "doctorSectionBody": "Experienced, attentive care focused on comfort, clarity, and long-term oral health.",
+      "aboutPrimaryCtaLabel": "Learn More",
+      "aboutSecondaryCtaLabel": "Contact Us",
+      "galleryTitle": "Inside The Clinic",
+      "galleryCopy": "A look at the care environment patients experience from consultation through follow-up.",
+      "faqTitle": "Questions Patients Ask",
+      "faqCopy": "Quick answers to help patients feel clear before they book.",
+      "whyChooseUsTitle": "Why Choose Us",
+      "whyChooseUsCopy": "A modern practice built around patient comfort, clear treatment planning, and dependable care.",
+      "testimonialsTitle": "Patient Stories",
+      "testimonialsCopy": "Read what our patients say about their experience.",
+      "contactTitle": "Contact Us",
+      "contactPrimaryCtaLabel": "Book Now",
+      "contactSecondaryCtaLabel": "Call Us"
+    },
+    "about": {
+      "heroTitle": "About Our Practice",
+      "heroCopy": "We focus on calm, patient-centered care and treatment planning.",
+      "philosophyTitle": "Practice Philosophy",
+      "philosophyCopy": "Our approach is built around trust, comfort, and long-term results.",
+      "values": [
+        {
+          "title": "Patient Focus",
+          "copy": "Your comfort and goals guide every decision."
+        },
+        {
+          "title": "Clear Communication",
+          "copy": "We explain treatment options in plain language."
+        },
+        {
+          "title": "Lasting Results",
+          "copy": "Care that supports your smile now and years ahead."
+        }
+      ],
+      "expectTitle": "What to Expect",
+      "expectCopy": "A clear, supportive experience designed to make dental care feel easy.",
+      "expectSteps": [
+        "Initial consultation and exam",
+        "Personalized treatment recommendations",
+        "Comfortable care and follow-up support"
+      ]
+    },
+    "services": {
+      "heroTitle": "Dental Services",
+      "heroCopy": "From preventive care to restorative and cosmetic procedures, we support your smile goals.",
+      "processTitle": "How Care Is Planned",
+      "processCopy": "Our process helps you feel informed and confident at every step.",
+      "processSteps": [
+        "Detailed consultation and exam",
+        "Customized treatment planning",
+        "Comfort-focused care",
+        "Ongoing support and follow-up"
+      ]
+    },
+    "contact": {
+      "heroTitle": "Contact Our Clinic",
+      "heroCopy": "Reach out to schedule your next appointment or learn more about services.",
+      "reuseNote": "We will help you find a convenient appointment time and answer any questions."
+    }
+  }
+}

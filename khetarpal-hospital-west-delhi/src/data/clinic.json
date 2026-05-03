@@ -1,0 +1,201 @@
+{
+  "doctorName": "Dr Anil Khetarpal",
+  "specialty": "Director & Chief Laparoscopic, Endoscopic and Bariatric Surgeon",
+  "businessType": "hospital",
+  "linkedInProfileUrl": "Dr Anil Khetarpal",
+  "heroHeadline": "Advanced Healthcare in West Delhi",
+  "subheadline": "Comprehensive healthcare with trusted specialists and patient-first care.",
+  "phone": "9508655628",
+  "email": "hello@khetarpalhospitalwestdelhi.demo",
+  "addressText": "West Delhi, Delhi, India",
+  "city": "West Delhi, Delhi, India",
+  "name": "Khetarpal Hospital",
+  "shortName": "Khetarpal Hospital",
+  "footerTagline": "Helping patients smile with confidence.",
+  "ctaLabel": "Book Now",
+  "ctaLink": "https://wa.me/9508655628",
+  "whatsappHref": "https://wa.me/9508655628",
+  "phoneHref": "tel:9508655628",
+  "emailHref": "mailto:hello@khetarpalhospitalwestdelhi.demo",
+  "colors": {
+    "primary": "#1D4ED8",
+    "primaryDark": "#1D4ED8",
+    "secondary": "#DBEAFE",
+    "accent": "#06B6D4",
+    "surface": "#ffffff"
+  },
+  "images": {
+    "logo": "/assets/shared/logo.png",
+    "banner": "/assets/shared/hero.jpg",
+    "hero": "/assets/shared/hero.jpg",
+    "doctor": "https://media.licdn.com/dms/image/v2/C5103AQHK1YBJS8kWIA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1560861645435?e=1779321600&v=beta&t=-35BJ99LcxRjB3pP4jQA3SzP6aywTpKDv5UXaP-6M-s",
+    "gallery": [
+      "/assets/shared/gallery-1.jpg",
+      "/assets/shared/gallery-2.jpg"
+    ],
+    "fallbacks": {
+      "banner": "/assets/shared/hero.jpg",
+      "hero": "/assets/shared/hero.jpg",
+      "doctor": "/assets/shared/doctor.jpg",
+      "gallery1": "/assets/shared/gallery-1.jpg",
+      "gallery2": "/assets/shared/gallery-2.jpg",
+      "logo": "/assets/shared/logo.png"
+    }
+  },
+  "favicon": {
+    "href": "https://media.licdn.com/dms/image/v2/C5103AQHK1YBJS8kWIA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1560861645435?e=1779321600&v=beta&t=-35BJ99LcxRjB3pP4jQA3SzP6aywTpKDv5UXaP-6M-s",
+    "isExternal": true,
+    "generated": false
+  },
+  "services": [
+    {
+      "title": "Emergency Care",
+      "description": "Emergency Care delivered with clear guidance and patient-first care."
+    },
+    {
+      "title": "General Medicine",
+      "description": "General Medicine delivered with clear guidance and patient-first care."
+    },
+    {
+      "title": "Specialist Consultation",
+      "description": "Specialist Consultation delivered with clear guidance and patient-first care."
+    },
+    {
+      "title": "Health Checkups",
+      "description": "Health Checkups delivered with clear guidance and patient-first care."
+    }
+  ],
+  "hours": [
+    "Mon-Sat 10AM-7PM"
+  ],
+  "doctorCredentials": [
+    "DDS Degree",
+    "10+ Years Experience",
+    "Patient-Focused Care"
+  ],
+  "testimonials": [
+    {
+      "quote": "A comfortable, thoughtful dental experience from start to finish.",
+      "author": "Samantha R."
+    },
+    {
+      "quote": "Professional care with a friendly team and clear communication.",
+      "author": "James P."
+    },
+    {
+      "quote": "The team made every step easy and reassuring.",
+      "author": "Lena K."
+    }
+  ],
+  "trustItems": [
+    "Trusted care",
+    "Modern technology",
+    "Family-friendly",
+    "Convenient scheduling"
+  ],
+  "reasons": [
+    {
+      "title": "Gentle Treatment",
+      "copy": "We prioritize your comfort in every appointment."
+    },
+    {
+      "title": "Modern Techniques",
+      "copy": "Updated technology for faster, more effective care."
+    },
+    {
+      "title": "Personalized Plans",
+      "copy": "Individualized recommendations that fit your goals."
+    },
+    {
+      "title": "Calm Environment",
+      "copy": "A relaxed space designed to reduce anxiety."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I book an appointment at Khetarpal Hospital?",
+      "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
+    },
+    {
+      "question": "What services does Khetarpal Hospital offer?",
+      "answer": "Khetarpal Hospital supports patients with Emergency Care, General Medicine, Specialist Consultation, Health Checkups."
+    },
+    {
+      "question": "Can I ask questions before visiting?",
+      "answer": "Yes. You can call, email, or use WhatsApp to ask about availability, services, and the best next step for your needs."
+    },
+    {
+      "question": "Where is the clinic located?",
+      "answer": "Khetarpal Hospital is located at West Delhi, Delhi, India."
+    }
+  ],
+  "aboutText": "Khetarpal Hospital brings together experienced healthcare professionals, modern facilities, and patient-first care.",
+  "contactBlurb": "Get in touch to schedule an appointment or ask a question.",
+  "pages": {
+    "home": {
+      "heroPrimaryCtaLabel": "Book Appointment",
+      "heroSecondaryCtaLabel": "Call Now",
+      "servicesTitle": "Our Services",
+      "servicesCopy": "We offer a thoughtful range of dental services tailored to your goals.",
+      "doctorSectionTitle": "Meet Our Doctor",
+      "doctorSectionBody": "Experienced, attentive care focused on comfort, clarity, and long-term oral health.",
+      "aboutPrimaryCtaLabel": "Learn More",
+      "aboutSecondaryCtaLabel": "Contact Us",
+      "galleryTitle": "Inside The Clinic",
+      "galleryCopy": "A look at the care environment patients experience from consultation through follow-up.",
+      "faqTitle": "Questions Patients Ask",
+      "faqCopy": "Quick answers to help patients feel clear before they book.",
+      "whyChooseUsTitle": "Why Choose Us",
+      "whyChooseUsCopy": "A modern practice built around patient comfort, clear treatment planning, and dependable care.",
+      "testimonialsTitle": "Patient Stories",
+      "testimonialsCopy": "Read what our patients say about their experience.",
+      "contactTitle": "Contact Us",
+      "contactPrimaryCtaLabel": "Book Now",
+      "contactSecondaryCtaLabel": "Call Us"
+    },
+    "about": {
+      "heroTitle": "About Our Practice",
+      "heroCopy": "We focus on calm, patient-centered care and treatment planning.",
+      "philosophyTitle": "Practice Philosophy",
+      "philosophyCopy": "Our approach is built around trust, comfort, and long-term results.",
+      "values": [
+        {
+          "title": "Patient Focus",
+          "copy": "Your comfort and goals guide every decision."
+        },
+        {
+          "title": "Clear Communication",
+          "copy": "We explain treatment options in plain language."
+        },
+        {
+          "title": "Lasting Results",
+          "copy": "Care that supports your smile now and years ahead."
+        }
+      ],
+      "expectTitle": "What to Expect",
+      "expectCopy": "A clear, supportive experience designed to make dental care feel easy.",
+      "expectSteps": [
+        "Initial consultation and exam",
+        "Personalized treatment recommendations",
+        "Comfortable care and follow-up support"
+      ]
+    },
+    "services": {
+      "heroTitle": "Dental Services",
+      "heroCopy": "From preventive care to restorative and cosmetic procedures, we support your smile goals.",
+      "processTitle": "How Care Is Planned",
+      "processCopy": "Our process helps you feel informed and confident at every step.",
+      "processSteps": [
+        "Detailed consultation and exam",
+        "Customized treatment planning",
+        "Comfort-focused care",
+        "Ongoing support and follow-up"
+      ]
+    },
+    "contact": {
+      "heroTitle": "Contact Our Clinic",
+      "heroCopy": "Reach out to schedule your next appointment or learn more about services.",
+      "reuseNote": "We will help you find a convenient appointment time and answer any questions."
+    }
+  }
+}

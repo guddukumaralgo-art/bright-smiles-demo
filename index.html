@@ -1,0 +1,2183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healthcare Demo Sites</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #132238;
+        --muted: #5b6b82;
+        --line: #d9e5f2;
+        --surface: rgba(255, 255, 255, 0.92);
+        --brand: #0f6cbd;
+        --brand-dark: #0a4f8b;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-width: 320px;
+        font-family: "Avenir Next", "Segoe UI", Arial, sans-serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at top, rgba(15, 108, 189, 0.14), transparent 24%),
+          linear-gradient(180deg, #f6fbff 0%, #eef5fb 52%, #ffffff 100%);
+      }
+      .shell {
+        width: min(1120px, calc(100% - 40px));
+        margin: 0 auto;
+      }
+      header {
+        padding: 72px 0 32px;
+      }
+      .eyebrow {
+        margin: 0;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.32em;
+        text-transform: uppercase;
+        color: var(--brand);
+      }
+      h1 {
+        margin: 18px 0 16px;
+        font-size: clamp(2.5rem, 6vw, 4.8rem);
+        line-height: 0.96;
+        letter-spacing: -0.05em;
+      }
+      .intro {
+        max-width: 720px;
+        font-size: 1.08rem;
+        line-height: 1.8;
+        color: var(--muted);
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 22px;
+        padding: 22px 0 72px;
+      }
+      .card {
+        display: block;
+        padding: 24px;
+        border: 1px solid var(--line);
+        border-radius: 28px;
+        background: var(--surface);
+        box-shadow: 0 18px 40px rgba(19, 34, 56, 0.06);
+        text-decoration: none;
+        color: inherit;
+        transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+      }
+      .card:hover {
+        transform: translateY(-4px);
+        border-color: #bdd3ea;
+        box-shadow: 0 26px 52px rgba(19, 34, 56, 0.10);
+      }
+      .card h2 {
+        margin: 14px 0 12px;
+        font-size: 1.65rem;
+        line-height: 1.1;
+      }
+      .card p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.7;
+      }
+      .card span {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 18px;
+        padding: 12px 18px;
+        border-radius: 999px;
+        background: linear-gradient(180deg, var(--brand) 0%, var(--brand-dark) 100%);
+        color: #fff;
+        font-size: 0.9rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <header>
+        <p class="eyebrow">Generated Demos</p>
+        <h1>Healthcare Demo Sites</h1>
+        <p class="intro">Choose a clinic below to open its generated website. These demos were built from the current ready rows in <code>sites.csv</code>.</p>
+      </header>
+      <main class="grid">
+        
+        <a class="card" href="./tactus-lifesciences-llc-ahmedabad/">
+          <p class="eyebrow">Director</p>
+          <h2>Tactus Lifesciences LLC</h2>
+          <p>Trusted Healthcare Clinic in Ahmedabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./zaytoun-clinics-srinagar/">
+          <p class="eyebrow">Chief Implantologist</p>
+          <h2>Zaytoun Clinics</h2>
+          <p>Premium Dental Care in Srinagar</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./reborn-skin-international-clinics-pvt-ltd-pune-district/">
+          <p class="eyebrow">Medical Director</p>
+          <h2>REBORN SKIN INTERNATIONAL CLINICS PVT LTD</h2>
+          <p>Advanced Skin Care in Pune District</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./define-aesthetics-pune/">
+          <p class="eyebrow">Medical Director</p>
+          <h2>Define Aesthetics</h2>
+          <p>Advanced Skin Care in Pune</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./medagg-ventures-llp-chennai/">
+          <p class="eyebrow">Co-Founder &amp; Partner</p>
+          <h2>MEDAGG VENTURES LLP</h2>
+          <p>Trusted Healthcare Clinic in Chennai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./kims-hospital-kompally-hyderabad-hyderabad/">
+          <p class="eyebrow">Head of Cardiology | Senior Interventional Cardiologist</p>
+          <h2>KIMS Hospital, Kompally, Hyderabad</h2>
+          <p>Advanced Healthcare in Hyderabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./swamy-vivekanandha-physiotherapy-colege-tiruchengodu/">
+          <p class="eyebrow">Associate Professor</p>
+          <h2>Swamy Vivekanandha Physiotherapy Colege</h2>
+          <p>Physiotherapy Care in Tiruchengodu</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./easa-college-of-engineering-and-technology-india/">
+          <p class="eyebrow">Placement Director</p>
+          <h2>EASA College of Engineering and Technology</h2>
+          <p>Trusted Healthcare Clinic in India</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./nuts-for-us-south-delhi/">
+          <p class="eyebrow">Director</p>
+          <h2>Nuts For Us</h2>
+          <p>Trusted Healthcare Clinic in South Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dr-ujjwala-s-skin-clinic-raipur/">
+          <p class="eyebrow">Director</p>
+          <h2>Dr. Ujjwala&#39;s Skin Clinic</h2>
+          <p>Advanced Skin Care in Raipur</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./fiona-aesthetics-india-maharashtra/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>Fiona Aesthetics India</h2>
+          <p>Advanced Skin Care in Maharashtra</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./touchlyfe-new-delhi/">
+          <p class="eyebrow">Medical Director</p>
+          <h2>Touchlyfe</h2>
+          <p>Trusted Healthcare Clinic in New Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dr-b-p-mishra-s-homeoheal-greater-indore-area/">
+          <p class="eyebrow">Chief Marketing Officer</p>
+          <h2>Dr B P Mishra&#39;s Homeoheal</h2>
+          <p>Trusted Healthcare Clinic in Greater Indore Area</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./biovate-consultancy-india/">
+          <p class="eyebrow">Founder &amp; Director</p>
+          <h2>Biovate Consultancy</h2>
+          <p>Trusted Healthcare Clinic in India</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./akore-formulations-private-limited-kochi/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>Akore Formulations Private Limited</h2>
+          <p>Trusted Healthcare Clinic in Kochi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./vibcare-healthcare-chandigarh/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>Vibcare Healthcare</h2>
+          <p>Trusted Healthcare Clinic in Chandigarh</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./amrita-homeopathy-bengaluru/">
+          <p class="eyebrow">Founder &amp; Managing. Director</p>
+          <h2>AMRITA HOMEOPATHY</h2>
+          <p>Trusted Healthcare Clinic in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./linktech-consultancy-services-pvt-ltd-ernakulam/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>Linktech Consultancy Services Pvt Ltd</h2>
+          <p>Trusted Healthcare Clinic in Ernakulam</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./physiostep-delhi/">
+          <p class="eyebrow">Managing Director &amp; CEO</p>
+          <h2>Physiostep</h2>
+          <p>Physiotherapy Care in Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./tata-institute-of-social-sciences-mumbai/">
+          <p class="eyebrow">Visiting Faculty &amp; Mentor</p>
+          <h2>Tata Institute of Social Sciences</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./care-by-cadabams-bengaluru/">
+          <p class="eyebrow">Co-Founder</p>
+          <h2>Care By Cadabams</h2>
+          <p>Trusted Healthcare Clinic in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./asia-pacific-arthroplasty-society-delhi/">
+          <p class="eyebrow">Executive Committee Member</p>
+          <h2>Asia Pacific Arthroplasty Society</h2>
+          <p>Trusted Healthcare Clinic in Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./richsmile-design-mumbai/">
+          <p class="eyebrow">Founder</p>
+          <h2>Richsmile Design</h2>
+          <p>Premium Dental Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./startoon-labs-hyderabad/">
+          <p class="eyebrow">Clinical Mentor &amp; Partner</p>
+          <h2>Startoon Labs</h2>
+          <p>Trusted Diagnostic Center in Hyderabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./avatarluxe-aestheticians-bengaluru/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>AvatarLuxe Aestheticians</h2>
+          <p>Advanced Skin Care in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./my-sensory-park-pune-division/">
+          <p class="eyebrow">Founder</p>
+          <h2>My Sensory Park</h2>
+          <p>Trusted Healthcare Clinic in Pune Division</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./stalwarts-of-dermatology-congress-mandi/">
+          <p class="eyebrow">Co-Founder</p>
+          <h2>Stalwarts of Dermatology Congress</h2>
+          <p>Advanced Skin Care in Mandi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./analytix-bengaluru/">
+          <p class="eyebrow">Head Of Strategy &amp; Planning | Founding Member</p>
+          <h2>Analytix</h2>
+          <p>Trusted Diagnostic Center in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./research-articulators-chennai/">
+          <p class="eyebrow">Proprietor</p>
+          <h2>Research Articulators</h2>
+          <p>Advanced Healthcare in Chennai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./rainbow-child-development-center-surat/">
+          <p class="eyebrow">Owner</p>
+          <h2>Rainbow child development center</h2>
+          <p>Trusted Healthcare Clinic in Surat</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./giosun-healthcare-private-limited-hyderabad/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>GIOSUN HEALTHCARE PRIVATE LIMITED</h2>
+          <p>Trusted Healthcare Clinic in Hyderabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./avya-skin-clinic-gurugram/">
+          <p class="eyebrow">Managing Director &amp; Sr. Consultant-Dermatologist, Dermatosurgeon &amp; Aesthetics</p>
+          <h2>AVYA SKIN CLINIC</h2>
+          <p>Advanced Skin Care in Gurugram</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./ivy-skin-clinic-india-pune-pimpri-chinchwad-area/">
+          <p class="eyebrow">Owner</p>
+          <h2>IVY Skin Clinic - India</h2>
+          <p>Advanced Skin Care in Pune/Pimpri-Chinchwad Area</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./geethanjanaa-ayurveda-thiruvananthapuram/">
+          <p class="eyebrow">Managing Partner &amp; Ayurvedic Physician (Cosmetology &amp; Wellness Specialist)</p>
+          <h2>GEETHANJANAA AYURVEDA</h2>
+          <p>Advanced Skin Care in Thiruvananthapuram</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./zennara-clinics-hyderabad/">
+          <p class="eyebrow">Director of Operations</p>
+          <h2>Zennara Clinics</h2>
+          <p>Trusted Healthcare Clinic in Hyderabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./pinks-n-bloos-greater-hyderabad-area/">
+          <p class="eyebrow">Chief Operating Officer</p>
+          <h2>Pinks N Bloos</h2>
+          <p>Trusted Healthcare Clinic in Greater Hyderabad Area</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./arya-pharma-south-africa-mumbai/">
+          <p class="eyebrow">Director</p>
+          <h2>Arya Pharma South Africa</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./solvemyhealth-ernakulam/">
+          <p class="eyebrow">Founder &amp; CEO</p>
+          <h2>SOLVEMyHealth</h2>
+          <p>Trusted Healthcare Clinic in Ernakulam</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dermaglo-laser-skin-clinic-india-bengaluru/">
+          <p class="eyebrow">Director/Founder</p>
+          <h2>DermaGlo Laser Skin Clinic - India</h2>
+          <p>Advanced Skin Care in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./ayurveda-health-and-wellness-bangalore-urban/">
+          <p class="eyebrow">Founder and Chief Ayurveda Physician</p>
+          <h2>Ayurveda health and wellness</h2>
+          <p>Ayurveda Wellness in Bangalore Urban</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./atkos-enterprise-shimla/">
+          <p class="eyebrow">Co-Founder &amp; CEO</p>
+          <h2>Atkos Enterprise</h2>
+          <p>Trusted Healthcare Clinic in Shimla</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dr-r-n-lahoti-ayurved-medical-college-and-research-center-sultanpur-dist-bu/">
+          <p class="eyebrow">Dean/Principal and Professor</p>
+          <h2>Dr. R N Lahoti Ayurved Medical College and Research Center Sultanpur dist Buldhana</h2>
+          <p>Ayurveda Wellness in Pusad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./metamorphyst-kochi/">
+          <p class="eyebrow">CXO</p>
+          <h2>Metamorphyst</h2>
+          <p>Trusted Healthcare Clinic in Kochi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./superhealth-bengaluru/">
+          <p class="eyebrow">Founder &amp; CEO</p>
+          <h2>Superhealth</h2>
+          <p>Trusted Healthcare Clinic in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./yuomo-men-s-aesthetic-and-wellness-centre-delhi/">
+          <p class="eyebrow">Senior Consultant</p>
+          <h2>Yuomo - Men&#39;s Aesthetic and Wellness Centre</h2>
+          <p>Advanced Skin and Aesthetic Care in Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./nuri-medi-clinic-chennai/">
+          <p class="eyebrow">Medical Director</p>
+          <h2>Nuri Medi Clinic</h2>
+          <p>Trusted Healthcare Clinic in Chennai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./all-india-dental-students-association-panchkula/">
+          <p class="eyebrow">President</p>
+          <h2>All india dental students association</h2>
+          <p>Premium Dental Care in Panchkula</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./fusionex-labs-mumbai-metropolitan-region/">
+          <p class="eyebrow">Creative Head</p>
+          <h2>fusionex.labs</h2>
+          <p>Trusted Diagnostic Center in Mumbai Metropolitan Region</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./adhana-home-care-services-pvt-ltd-bengaluru/">
+          <p class="eyebrow">Business Owner</p>
+          <h2>Adhana home care services pvt Ltd</h2>
+          <p>Trusted Healthcare Clinic in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dr-lh-hiranandani-hospital-powai-mumbai-mumbai/">
+          <p class="eyebrow">Consultant Orthodontist</p>
+          <h2>Dr LH Hiranandani Hospital, Powai, Mumbai</h2>
+          <p>Premium Dental Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./association-of-hair-restoration-surgeons-south-delhi/">
+          <p class="eyebrow">President</p>
+          <h2>Association of Hair Restoration Surgeons</h2>
+          <p>Advanced Skin and Aesthetic Care in South Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./neuromend-physiotherapy-rehabilitation-lucknow/">
+          <p class="eyebrow">Director</p>
+          <h2>NeuroMend Physiotherapy Rehabilitation</h2>
+          <p>Physiotherapy and Recovery Care in Lucknow</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./youv-ai-mumbai/">
+          <p class="eyebrow">Co-Founder &amp; CEO</p>
+          <h2>YOUV.AI</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dr-gr-dental-and-aesthetics-coimbatore/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>Dr GR Dental &amp; Aesthetics</h2>
+          <p>Premium Dental Care in Coimbatore</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./pratap-hospital-vijayawada/">
+          <p class="eyebrow">Founder - Director &amp; Chief Plastic and Cosmetic Surgeon .</p>
+          <h2>Pratap Hospital</h2>
+          <p>Advanced Healthcare in Vijayawada</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./rupani-dental-hospital-nanded/">
+          <p class="eyebrow">General Dental Surgeon</p>
+          <h2>Rupani Dental Hospital</h2>
+          <p>Premium Dental Care in Nanded</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./skin-renew-skin-clinic-mumbai/">
+          <p class="eyebrow">Director</p>
+          <h2>SKIN RENEW SKIN CLINIC</h2>
+          <p>Advanced Skin and Aesthetic Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./qtanea-solutions-pvt-ltd-pune/">
+          <p class="eyebrow">Founder and CEO</p>
+          <h2>Qtanea Solutions Pvt Ltd</h2>
+          <p>Trusted Healthcare Clinic in Pune</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./pakt-for-you-foundation-chennai/">
+          <p class="eyebrow">Founding Director and General Secretary</p>
+          <h2>PAKT For You Foundation</h2>
+          <p>Trusted Healthcare Clinic in Chennai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./cynara-wellness-chandigarh/">
+          <p class="eyebrow">Director of Operations</p>
+          <h2>Cynara Wellness</h2>
+          <p>Trusted Healthcare Clinic in Chandigarh</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./choksey-s-precidental-studio-mumbai/">
+          <p class="eyebrow">Founder &amp; Clinical Director</p>
+          <h2>Choksey&#39;s PreciDental Studio</h2>
+          <p>Premium Dental Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./healthwelldiagnostics-delhi/">
+          <p class="eyebrow">Director</p>
+          <h2>HealthWellDiagnostics</h2>
+          <p>Trusted Diagnostic Center in Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./opal-tech-solutions-mumbai/">
+          <p class="eyebrow">Director</p>
+          <h2>Opal tech solutions</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./central-dental-south-delhi/">
+          <p class="eyebrow">Director</p>
+          <h2>CENTRAL DENTAL</h2>
+          <p>Premium Dental Care in South Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./neptune-dental-and-maxillofacial-care-vadodara/">
+          <p class="eyebrow">Director</p>
+          <h2>Neptune Dental And Maxillofacial Care</h2>
+          <p>Premium Dental Care in Vadodara</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./avana-care-pune/">
+          <p class="eyebrow">Founder and CEO</p>
+          <h2>Avana Care</h2>
+          <p>Trusted Healthcare Clinic in Pune</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./suthra-innovations-bengaluru/">
+          <p class="eyebrow">Managing Partner</p>
+          <h2>Suthra Innovations</h2>
+          <p>Trusted Healthcare Clinic in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./c2-pharma-mumbai/">
+          <p class="eyebrow">Director &amp; Head Operations</p>
+          <h2>C2 PHARMA</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./chandak-dental-clinic-india-nagpur/">
+          <p class="eyebrow">owner of dental clinic</p>
+          <h2>Chandak Dental Clinic - India</h2>
+          <p>Premium Dental Care in Nagpur</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./parakh-hospital-mumbai/">
+          <p class="eyebrow">Director</p>
+          <h2>Parakh Hospital</h2>
+          <p>Advanced Healthcare in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./body-revival-health-reactive-mumbai/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>Body Revival - Health Reactive</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./mo-med-supplies-mumbai/">
+          <p class="eyebrow">Director Supply Chain Operations</p>
+          <h2>MO Med Supplies</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./the-dental-bureau-varthur-bengaluru-bengaluru/">
+          <p class="eyebrow">Owner</p>
+          <h2>The Dental Bureau, Varthur , Bengaluru</h2>
+          <p>Premium Dental Care in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./yukti-ayurveda-rns-yukti-hyderabad/">
+          <p class="eyebrow">Director &amp; Consultant Ayurveda Physician</p>
+          <h2>Yukti Ayurveda (RNS Yukti)</h2>
+          <p>Ayurveda Wellness in Hyderabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./mahendra-dental-hospitals-hyderabad/">
+          <p class="eyebrow">Director &amp; Chief consultant</p>
+          <h2>mahendra dental hospitals</h2>
+          <p>Premium Dental Care in Hyderabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./taevas-life-sciences-hyderabad/">
+          <p class="eyebrow">Sales Director - Taevas Leadership Team</p>
+          <h2>Taevas Life Sciences</h2>
+          <p>Trusted Healthcare Clinic in Hyderabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./smile-arogya-foundation-kota/">
+          <p class="eyebrow">Group CEO</p>
+          <h2>SMILE AROGYA FOUNDATION</h2>
+          <p>Premium Dental Care in Kota</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./plenum-impex-pvt-ltd-ahmedabad/">
+          <p class="eyebrow">Director</p>
+          <h2>Plenum Impex Pvt Ltd</h2>
+          <p>Trusted Healthcare Clinic in Ahmedabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./the-ncd-company-mumbai/">
+          <p class="eyebrow">Commercial Director</p>
+          <h2>The NCD Company</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./care-n-cure-multispecialty-dental-clinic-mumbai/">
+          <p class="eyebrow">Owner of Care N Cure Multispecialty Dental Clinic</p>
+          <h2>Care N Cure Multispecialty Dental Clinic</h2>
+          <p>Premium Dental Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./urban-dental-clinic-bengaluru/">
+          <p class="eyebrow">Consultant Orthodontist</p>
+          <h2>Urban dental clinic</h2>
+          <p>Premium Dental Care in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./the-dentist-bengaluru/">
+          <p class="eyebrow">Owner</p>
+          <h2>The Dentist</h2>
+          <p>Premium Dental Care in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./sheth-dental-clinic-and-implant-centre-ahmedabad/">
+          <p class="eyebrow">Clinic Director</p>
+          <h2>sheth dental clinic &amp; implant centre</h2>
+          <p>Premium Dental Care in Ahmedabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./inan-holistic-clinic-india/">
+          <p class="eyebrow">Founder and Managing Director</p>
+          <h2>INAN Holistic Clinic</h2>
+          <p>Trusted Healthcare Clinic in India</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./stockflow-chennai/">
+          <p class="eyebrow">Head of Business Development</p>
+          <h2>Stockflow</h2>
+          <p>Trusted Healthcare Clinic in Chennai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./navriseup-india-care-foundation-mumbai/">
+          <p class="eyebrow">Director</p>
+          <h2>NavRiseup India Care Foundation</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./joyful-smiles-dental-studio-gautam-buddha-nagar/">
+          <p class="eyebrow">Director</p>
+          <h2>Joyful Smiles Dental Studio</h2>
+          <p>Premium Dental Care in Gautam Buddha Nagar</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./sonoscan-healthcare-pvt-ltd-kolkata/">
+          <p class="eyebrow">Chief Operating Officer</p>
+          <h2>SONOSCAN HEALTHCARE PVT LTD</h2>
+          <p>Trusted Diagnostic Center in Kolkata</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./shree-dental-care-jabalpur/">
+          <p class="eyebrow">Owner</p>
+          <h2>Shree Dental Care</h2>
+          <p>Premium Dental Care in Jabalpur</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./tracky-by-drstore-mumbai/">
+          <p class="eyebrow">Associate Director of Strategy &amp; Marketing</p>
+          <h2>Tracky by Drstore</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./smile-n-beauty-new-delhi/">
+          <p class="eyebrow">Co-Founder</p>
+          <h2>Smile N Beauty</h2>
+          <p>Premium Dental Care in New Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./rose-dental-care-ropar-mohali-district/">
+          <p class="eyebrow">Owner</p>
+          <h2>Rose Dental Care Ropar</h2>
+          <p>Premium Dental Care in Mohali district</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./shantamani-dental-hospital-rajkot/">
+          <p class="eyebrow">General Dentist</p>
+          <h2>Shantamani dental hospital</h2>
+          <p>Premium Dental Care in Rajkot</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./orthosports-physiotherapy-mumbai/">
+          <p class="eyebrow">Founder/Director</p>
+          <h2>Orthosports Physiotherapy</h2>
+          <p>Physiotherapy and Recovery Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./international-institute-of-dental-research-chennai/">
+          <p class="eyebrow">Program Director</p>
+          <h2>International Institute of Dental Research</h2>
+          <p>Premium Dental Care in Chennai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./aga-naga-mind-care-chennai/">
+          <p class="eyebrow">Co-Founder of Aga Naga Mind Care</p>
+          <h2>Aga Naga Mind Care</h2>
+          <p>Trusted Healthcare Clinic in Chennai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./northstar-longevity-and-recovery-ahmedabad/">
+          <p class="eyebrow">Founder &amp; Director</p>
+          <h2>Northstar Longevity &amp; Recovery</h2>
+          <p>Trusted Healthcare Clinic in Ahmedabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./kmmc-medical-college-and-hospital-tamil-nadu/">
+          <p class="eyebrow">Professor and Head</p>
+          <h2>KMMC Medical College and Hospital</h2>
+          <p>Advanced Healthcare in Tamil Nadu</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./altrakem-hyderabad/">
+          <p class="eyebrow">Managing Director CEO</p>
+          <h2>Altrakem</h2>
+          <p>Trusted Healthcare Clinic in Hyderabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./medical-sutras-new-delhi/">
+          <p class="eyebrow">Project Owner</p>
+          <h2>Medical Sutras</h2>
+          <p>Trusted Healthcare Clinic in New Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./fusion-aesthetic-clinic-mumbai/">
+          <p class="eyebrow">Director</p>
+          <h2>Fusion Aesthetic Clinic</h2>
+          <p>Advanced Skin and Aesthetic Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./white-dental-healthcare-india/">
+          <p class="eyebrow">Director</p>
+          <h2>White Dental Healthcare</h2>
+          <p>Premium Dental Care in India</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./remedies-physiotherapy-clinic-gujarat/">
+          <p class="eyebrow">Founder Remedies Health Care</p>
+          <h2>REMEDIES PHYSIOTHERAPY CLINIC</h2>
+          <p>Physiotherapy and Recovery Care in Gujarat</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./evis-healthcare-limited-ahmedabad/">
+          <p class="eyebrow">Founder and Chairman</p>
+          <h2>Evis Healthcare Limited</h2>
+          <p>Advanced Skin and Aesthetic Care in Ahmedabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./care-dental-hospital-kavali-kavali/">
+          <p class="eyebrow">Pediatric Dentist</p>
+          <h2>Care Dental Hospital - Kavali</h2>
+          <p>Premium Dental Care in Kavali</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./the-international-training-center-for-dental-implantology-pune-pimpri-chinc/">
+          <p class="eyebrow">Program Director</p>
+          <h2>The International Training Center for Dental Implantology</h2>
+          <p>Premium Dental Care in Pune/Pimpri-Chinchwad Area</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./the-southern-india-chamber-of-commerce-and-industry-kochi/">
+          <p class="eyebrow">Chairman</p>
+          <h2>The Southern India Chamber of Commerce and Industry</h2>
+          <p>Advanced Skin and Aesthetic Care in Kochi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./edges-medicare-pvt-ltd-surat/">
+          <p class="eyebrow">Director</p>
+          <h2>EDGES MEDICARE PVT. LTD.</h2>
+          <p>Trusted Healthcare Clinic in Surat</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./healthiq-plus-inc-mumbai/">
+          <p class="eyebrow">Head of Medical Affairs</p>
+          <h2>HealthIQ Plus Inc.</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./redefine-dental-clinic-mumbai/">
+          <p class="eyebrow">Company Owner</p>
+          <h2>Redefine dental clinic</h2>
+          <p>Premium Dental Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./scholarsight-new-delhi/">
+          <p class="eyebrow">Instructor</p>
+          <h2>Scholarsight</h2>
+          <p>Trusted Healthcare Clinic in New Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./the-tooth-fairy-ahmedabad/">
+          <p class="eyebrow">Clinical Director</p>
+          <h2>The Tooth Fairy</h2>
+          <p>Trusted Healthcare Clinic in Ahmedabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./metropolis-healthcare-madurai/">
+          <p class="eyebrow">Franchise co owner</p>
+          <h2>Metropolis Healthcare</h2>
+          <p>Trusted Healthcare Clinic in Madurai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dochome-pvt-ltd-kolkata/">
+          <p class="eyebrow">Head of Operations</p>
+          <h2>DocHome Pvt Ltd</h2>
+          <p>Trusted Healthcare Clinic in Kolkata</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./root-care-dental-clinic-and-implant-centre-jammu/">
+          <p class="eyebrow">Director</p>
+          <h2>Root Care Dental Clinic and Implant Centre</h2>
+          <p>Premium Dental Care in Jammu</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dr-rao-s-dental-centre-bengaluru/">
+          <p class="eyebrow">Head of Dental Resources</p>
+          <h2>Dr.Rao&#39;s Dental Centre</h2>
+          <p>Premium Dental Care in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./sure-align-orthodontix-n-dentistry-ahmedabad/">
+          <p class="eyebrow">Proprietor</p>
+          <h2>Sure Align Orthodontix n Dentistry</h2>
+          <p>Premium Dental Care in Ahmedabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./medisus-pharma-mumbai/">
+          <p class="eyebrow">Director</p>
+          <h2>Medisus Pharma</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./navibyte-innovations-pvt-ltd-pune/">
+          <p class="eyebrow">Co-Founder at NaviByte Innovations</p>
+          <h2>Navibyte Innovations Pvt Ltd</h2>
+          <p>Trusted Healthcare Clinic in Pune</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./vibra-clinics-trusted-dermatology-clinic-in-udaipur-udaipur/">
+          <p class="eyebrow">Founder | Cosmetic Skin &amp; Hair Expert</p>
+          <h2>Vibra Clinics - Trusted Dermatology Clinic in Udaipur</h2>
+          <p>Advanced Skin and Aesthetic Care in Udaipur</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./sravathi-ai-technology-pvt-ltd-bengaluru/">
+          <p class="eyebrow">Founder &amp; MD</p>
+          <h2>Sravathi AI Technology Pvt Ltd</h2>
+          <p>Trusted Healthcare Clinic in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./radiant-industries-ahmedabad/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>RADIANT INDUSTRIES</h2>
+          <p>Trusted Healthcare Clinic in Ahmedabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./emcue-pharmaceuticals-limited-pune-mumbai/">
+          <p class="eyebrow">Director - Sales &amp; Marketing</p>
+          <h2>Emcue Pharmaceuticals Limited, Pune</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./gennext-infratech-private-limited-delhi/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>GENNEXT INFRATECH PRIVATE LIMITED</h2>
+          <p>Trusted Healthcare Clinic in Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./cureallianz-international-pvt-ltd-new-delhi/">
+          <p class="eyebrow">Chief Growth and Operations Officer</p>
+          <h2>CureAllianz International Pvt Ltd</h2>
+          <p>Trusted Healthcare Clinic in New Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./anyo-app-chennai/">
+          <p class="eyebrow">Founder and CEO</p>
+          <h2>Anyo App</h2>
+          <p>Trusted Healthcare Clinic in Chennai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./khetarpal-hospital-west-delhi/">
+          <p class="eyebrow">Director &amp; Chief Laparoscopic, Endoscopic and Bariatric Surgeon</p>
+          <h2>Khetarpal Hospital</h2>
+          <p>Advanced Healthcare in West Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./meditex-health-care-mumbai/">
+          <p class="eyebrow">Owner</p>
+          <h2>Meditex Health Care</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./taj-infotech-inc-mumbai/">
+          <p class="eyebrow">Founder &amp; CEO</p>
+          <h2>TAJ INFOTECH INC.</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./v-v-caring-centre-diksha-foundation-mumbai/">
+          <p class="eyebrow">Owner</p>
+          <h2>V.V.Caring Centre (Diksha Foundation)</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./brinavv-technologies-private-limited-hyderabad/">
+          <p class="eyebrow">Chief Operating Officer</p>
+          <h2>Brinavv Technologies Private Limited</h2>
+          <p>Trusted Healthcare Clinic in Hyderabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./skinaid-clinic-gurgaon/">
+          <p class="eyebrow">Medical Director and Chief Dermatologist</p>
+          <h2>Skinaid Clinic</h2>
+          <p>Advanced Skin and Aesthetic Care in Gurgaon</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./anand-chemiceutics-pune/">
+          <p class="eyebrow">Owner</p>
+          <h2>ANAND CHEMICEUTICS</h2>
+          <p>Trusted Healthcare Clinic in Pune</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./quali5care-and-consulting-private-limited-mumbai/">
+          <p class="eyebrow">Founder and CEO</p>
+          <h2>Quali5Care And Consulting Private Limited</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./ma-foundation-mumbai/">
+          <p class="eyebrow">Chief Operating Officer</p>
+          <h2>Ma Foundation</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./valueweaver-mumbai/">
+          <p class="eyebrow">Chief Executive Officer APAC</p>
+          <h2>ValueWeaver</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./vasudha-life-science-pvt-ltd-udupi/">
+          <p class="eyebrow">Director</p>
+          <h2>Vasudha life science pvt ltd</h2>
+          <p>Trusted Healthcare Clinic in Udupi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./smile-n-shine-dental-clinic-and-implant-center-mumbai/">
+          <p class="eyebrow">Owner</p>
+          <h2>Smile &#39;N&#39; Shine Dental Clinic &amp; Implant Center</h2>
+          <p>Premium Dental Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./soulyatri-mumbai/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>SoulYatri</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./zoi-fertility-mumbai/">
+          <p class="eyebrow">Co-founder, CEO</p>
+          <h2>Zoi Fertility</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./palai-rcm-solutions-pvt-ltd-mumbai/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>Palai RCM SOLUTIONS PVT LTD</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./jadhav-hospital-georai-mumbai/">
+          <p class="eyebrow">Founder &amp; CEO</p>
+          <h2>Jadhav Hospital Georai</h2>
+          <p>Advanced Healthcare in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./gurome-health-mumbai/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>Gurome Health</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dr-tvacha-mumbai/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>Dr Tvacha</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./sushiksha-intervention-centre-mumbai/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>Sushiksha Intervention Centre</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./kpi-ninja-by-health-catalyst-mumbai/">
+          <p class="eyebrow">Director of Product Management</p>
+          <h2>KPI Ninja by Health Catalyst</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./synergy-india-mumbai/">
+          <p class="eyebrow">Co-Founder</p>
+          <h2>Synergy, India</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dr-mistry-dental-centre-private-limited-mumbai-metropolitan-region/">
+          <p class="eyebrow">Owner</p>
+          <h2>DR. MISTRY DENTAL CENTRE PRIVATE LIMITED</h2>
+          <p>Premium Dental Care in Mumbai Metropolitan Region</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./technomedix-mumbai-metropolitan-region/">
+          <p class="eyebrow">Co-Founder &amp; Chief Strategy &amp; Vision Officer (CSVO)</p>
+          <h2>TechnoMedix</h2>
+          <p>Trusted Healthcare Clinic in Mumbai Metropolitan Region</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./jce-associates-mumbai/">
+          <p class="eyebrow">Director</p>
+          <h2>JCE ASSOCIATES</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./medicovalley-enterprises-llp-mumbai/">
+          <p class="eyebrow">Founder &amp; Managing Partner</p>
+          <h2>MedicoValley Enterprises LLP</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./i9-innovations-and-educations-pvt-ltd-mumbai-metropolitan-region/">
+          <p class="eyebrow">Director</p>
+          <h2>i9 Innovations &amp; Educations Pvt Ltd</h2>
+          <p>Trusted Healthcare Clinic in Mumbai Metropolitan Region</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./anhvita-biopharma-consulting-bengaluru/">
+          <p class="eyebrow">Partner</p>
+          <h2>Anhvita BioPharma Consulting</h2>
+          <p>Trusted Healthcare Clinic in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./varnm-global-mumbai/">
+          <p class="eyebrow">Co-Founder and Partner</p>
+          <h2>Varnm Global</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./heart-and-vascular-superspeciality-hospitals-mumbai/">
+          <p class="eyebrow">Head - Human Resources (Group)</p>
+          <h2>Heart and Vascular SuperSpeciality Hospitals</h2>
+          <p>Advanced Healthcare in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./lifenity-international-healthcare-services-uk-mumbai/">
+          <p class="eyebrow">Director</p>
+          <h2>Lifenity International Healthcare Services, UK</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./kefitup-mumbai-metropolitan-region/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>Kefitup</h2>
+          <p>Trusted Healthcare Clinic in Mumbai Metropolitan Region</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./roerich-healthcare-bengaluru/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>Roerich Healthcare</h2>
+          <p>Trusted Healthcare Clinic in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./sunridge-multispeciality-hospitals-hyderabad/">
+          <p class="eyebrow">Founder and Managing Director</p>
+          <h2>Sunridge Multispeciality Hospitals</h2>
+          <p>Advanced Healthcare in Hyderabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./pharmacrony-consulting-llp-valsad/">
+          <p class="eyebrow">CEO and President operations</p>
+          <h2>Pharmacrony consulting LLP</h2>
+          <p>Trusted Healthcare Clinic in Valsad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./digidxdoc-bengaluru/">
+          <p class="eyebrow">Co-Founder | Chief Operating Officer (COO)</p>
+          <h2>DigiDxDoc</h2>
+          <p>Trusted Healthcare Clinic in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./m-s-plastic-products-company-new-delhi/">
+          <p class="eyebrow">Partner</p>
+          <h2>M/s Plastic Products Company</h2>
+          <p>Advanced Skin and Aesthetic Care in New Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./mediclinic-guwahati-guwahati/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>MediClinic Guwahati</h2>
+          <p>Trusted Healthcare Clinic in Guwahati</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./bcp-aaps-student-chapter-mumbai/">
+          <p class="eyebrow">Chairperson</p>
+          <h2>BCP AAPS Student Chapter</h2>
+          <p>Advanced Skin and Aesthetic Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./msm-process-solutions-private-limited-pune/">
+          <p class="eyebrow">Director</p>
+          <h2>MSM Process Solutions Private Limited</h2>
+          <p>Trusted Healthcare Clinic in Pune</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./divine-medical-centre-ghaziabad/">
+          <p class="eyebrow">Director</p>
+          <h2>Divine Medical Centre</h2>
+          <p>Trusted Healthcare Clinic in Ghaziabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./hempcann-solutions-bhubaneswar/">
+          <p class="eyebrow">Founder &amp; Managing Director</p>
+          <h2>HempCann Solutions</h2>
+          <p>Trusted Healthcare Clinic in Bhubaneswar</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./nirdwando-healthcare-solutions-bengaluru/">
+          <p class="eyebrow">Head of Operations</p>
+          <h2>Nirdwando Healthcare Solutions</h2>
+          <p>Trusted Healthcare Clinic in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dev-international-ahmedabad/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>Dev International</h2>
+          <p>Trusted Healthcare Clinic in Ahmedabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./terravision-bengaluru/">
+          <p class="eyebrow">Business Owner</p>
+          <h2>Terravision</h2>
+          <p>Trusted Healthcare Clinic in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./healzen-group-mumbai/">
+          <p class="eyebrow">Chief Marketing Officer</p>
+          <h2>HealZen Group</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./advanced-superspeciality-hospitals-gandhinagar/">
+          <p class="eyebrow">Founder &amp; Chairman</p>
+          <h2>Advanced Superspeciality Hospitals</h2>
+          <p>Advanced Healthcare in Gandhinagar</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./stratist-bengaluru/">
+          <p class="eyebrow">Director</p>
+          <h2>STRATIST</h2>
+          <p>Trusted Healthcare Clinic in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./in-lucem-india/">
+          <p class="eyebrow">Director</p>
+          <h2>In Lucem</h2>
+          <p>Trusted Healthcare Clinic in India</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./kelvinix-bengaluru/">
+          <p class="eyebrow">Co-Founder and CEO</p>
+          <h2>KELVINIX</h2>
+          <p>Trusted Healthcare Clinic in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./greentech-water-system-ahmedabad/">
+          <p class="eyebrow">Operation Head (Technical Director)</p>
+          <h2>Greentech Water System</h2>
+          <p>Trusted Healthcare Clinic in Ahmedabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./xalco-ltd-mumbai/">
+          <p class="eyebrow">Chief Operating Officer</p>
+          <h2>XALCO LTD</h2>
+          <p>Trusted Healthcare Clinic in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./clinics-on-cloud-pune/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>Clinics On Cloud</h2>
+          <p>Trusted Healthcare Clinic in Pune</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./color-cloud-healthcare-india-pvt-ltd-pune/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>Color Cloud Healthcare India PVT LTD</h2>
+          <p>Trusted Healthcare Clinic in Pune</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./hetero-analytical-solution-ahmedabad/">
+          <p class="eyebrow">Founder and CEO</p>
+          <h2>Hetero Analytical Solution</h2>
+          <p>Trusted Healthcare Clinic in Ahmedabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dental-floss-south-delhi/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>Dental Floss</h2>
+          <p>Premium Dental Care in South Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./ujala-cygnus-hospital-new-delhi/">
+          <p class="eyebrow">Regional Chief Operating Officer</p>
+          <h2>Ujala Cygnus Hospital</h2>
+          <p>Advanced Healthcare in New Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./bhoomi-hospitals-hyderabad/">
+          <p class="eyebrow">Co-Founder and Medical Director</p>
+          <h2>Bhoomi Hospitals</h2>
+          <p>Advanced Healthcare in Hyderabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./inflame-medical-magazine-amreli/">
+          <p class="eyebrow">CEO</p>
+          <h2>Inflame Medical Magazine</h2>
+          <p>Trusted Healthcare Clinic in Amreli</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./daffodil-group-ahmedabad/">
+          <p class="eyebrow">Director</p>
+          <h2>Daffodil Group</h2>
+          <p>Trusted Healthcare Clinic in Ahmedabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./gprs-healthtech-pune/">
+          <p class="eyebrow">Managing Owner</p>
+          <h2>GPRS HEALTHTECH</h2>
+          <p>Trusted Healthcare Clinic in Pune</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./the-good-weight-chennai/">
+          <p class="eyebrow">Co-Founder &amp; CEO</p>
+          <h2>The Good Weight</h2>
+          <p>Trusted Healthcare Clinic in Chennai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./navhim-group-of-hospitals-bathinda/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>Navhim Group of Hospitals</h2>
+          <p>Advanced Healthcare in Bathinda</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dr-sathish-anand-clinic-chennai/">
+          <p class="eyebrow">General Healthcare</p>
+          <h2>Dr.Sathish Anand Clinic</h2>
+          <p>Modern Medical Care in Chennai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./shubham-pandey-clinic-mumbai/">
+          <p class="eyebrow">General Healthcare</p>
+          <h2>Shubham Pandey Clinic</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./physioentrust-gurgaon/">
+          <p class="eyebrow">Founder &amp; Director of PhysioEntrust</p>
+          <h2>PhysioEntrust</h2>
+          <p>Expert Physiotherapy &amp; Rehab in Gurgaon</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dental-greens-india/">
+          <p class="eyebrow">Founder &amp; CEO</p>
+          <h2>Dental Greens</h2>
+          <p>Advanced Dental Care</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./aeena-youth-clinic-ghaziabad/">
+          <p class="eyebrow">Founder &amp; Medical Director | Skin, Hair &amp; Aesthetic Specialist | PRP, GFC &amp; Advanced Dermatology |</p>
+          <h2>Aeena Youth Clinic</h2>
+          <p>Advanced Skin &amp; Hair Care in Ghaziabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./kims-hospitals-hyderabad/">
+          <p class="eyebrow">Chief Consultant Dermatologist,&amp; Hair Transplant Surgeon</p>
+          <h2>KIMS Hospitals</h2>
+          <p>Advanced Skin &amp; Hair Care in Hyderabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./meesha-healthcare-and-research-private-limited-mumbai/">
+          <p class="eyebrow">Head of Operations</p>
+          <h2>MEESHA HEALTHCARE &amp; RESEARCH PRIVATE LIMITED</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./sb-aesthetics-gurugram/">
+          <p class="eyebrow">Founder-Director &amp; Chief Plastic Surgeon.</p>
+          <h2>SB Aesthetics</h2>
+          <p>Advanced Skin &amp; Hair Care in Gurugram</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./alg-biotech-mumbai/">
+          <p class="eyebrow">Partner</p>
+          <h2>ALG BioTech</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./shadaab-khan-productions-mumbai/">
+          <p class="eyebrow">Director</p>
+          <h2>Shadaab Khan Productions</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./tajthameez-meditravel-and-tourism-kochi/">
+          <p class="eyebrow">Founder and Managing Director</p>
+          <h2>TAJTHAMEEZ MEDITRAVEL AND TOURISM - ÿ™ÿßÿ¨ ÿßŸÑÿ™ŸÖŸäÿ≤ ÿßŸÑÿ≥ŸÅÿ± ŸàÿßŸÑÿ≥Ÿäÿßÿ≠ÿ©</h2>
+          <p>Modern Medical Care in Kochi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./misom-labs-ltd-mumbai/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>Misom Labs Ltd</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./docbot-pune/">
+          <p class="eyebrow">Founder &amp; CEO</p>
+          <h2>DocBot</h2>
+          <p>Modern Medical Care in Pune</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./corporeal-health-solutions-chennai/">
+          <p class="eyebrow">Founder / CEO</p>
+          <h2>Corporeal Health Solutions</h2>
+          <p>Modern Medical Care in Chennai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./hexomax-healthcare-private-limited-greater-chennai-area/">
+          <p class="eyebrow">Director</p>
+          <h2>Hexomax Healthcare Private Limited</h2>
+          <p>Modern Medical Care in Greater Chennai Area</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./proadwise-communications-mumbai/">
+          <p class="eyebrow">Director</p>
+          <h2>ProAdWise Communications</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./solumed-india-delhi/">
+          <p class="eyebrow">Partner</p>
+          <h2>Solumed India</h2>
+          <p>Modern Medical Care in Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./mobasshir-s-leaders-lounge-mumbai/">
+          <p class="eyebrow">Grow Your Business - Business Mastery</p>
+          <h2>Mobasshir&#39;s Leaders Lounge¬Æ</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./innovative-cancer-care-and-rehabilitation-hyderabad/">
+          <p class="eyebrow">Chief Strategy Officer (CSO)</p>
+          <h2>Innovative Cancer Care and Rehabilitation</h2>
+          <p>Expert Physiotherapy &amp; Rehab in Hyderabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./upspike-healthcare-gurugram/">
+          <p class="eyebrow">Director</p>
+          <h2>UpSpike Healthcare</h2>
+          <p>Modern Medical Care in Gurugram</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./kaushal-gynae-medical-centre-panchkula/">
+          <p class="eyebrow">Director</p>
+          <h2>Kaushal gynae medical centre</h2>
+          <p>Modern Medical Care in Panchkula</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./health-1-bengaluru/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>Health 1</h2>
+          <p>Modern Medical Care in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./gestalt-technologies-pvt-ltd-bengaluru/">
+          <p class="eyebrow">Director and Chief Operating Officer</p>
+          <h2>Gestalt Technologies Pvt. Ltd.</h2>
+          <p>Modern Medical Care in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./rxpress-bengaluru/">
+          <p class="eyebrow">Founder &amp; CEO</p>
+          <h2>RXpress</h2>
+          <p>Modern Medical Care in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./grow-my-rx-ai-mumbai/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>Grow My Rx. AI</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./mylyfcare-noida/">
+          <p class="eyebrow">Head of Department</p>
+          <h2>MYLYFCARE</h2>
+          <p>Modern Medical Care in Noida</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./shree-hari-parenteral-secunderabad/">
+          <p class="eyebrow">Director</p>
+          <h2>SHREE HARI PARENTERAL</h2>
+          <p>Modern Medical Care in SecunderƒÅbƒÅd</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./xcaliber-health-bengaluru/">
+          <p class="eyebrow">Director of Product Management</p>
+          <h2>XCaliber Health</h2>
+          <p>Modern Medical Care in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./oncobridge-bengaluru/">
+          <p class="eyebrow">Co-Founder &amp; Director</p>
+          <h2>OncoBridge</h2>
+          <p>Modern Medical Care in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./striderdct-bengaluru/">
+          <p class="eyebrow">Co-founder &amp; CEO</p>
+          <h2>StriderDCT</h2>
+          <p>Modern Medical Care in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./the-smile-savers-and-veda-dental-mumbai/">
+          <p class="eyebrow">Propreitor and Director Respectively</p>
+          <h2>The Smile Savers and Veda Dental</h2>
+          <p>Advanced Dental Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./p-and-v-healing-pathways-delhi/">
+          <p class="eyebrow">Founder &amp; CEO</p>
+          <h2>P&amp;V HEALING PATHWAYS</h2>
+          <p>Modern Medical Care in Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./clinixpert-gurugram/">
+          <p class="eyebrow">Founder &amp; CEO</p>
+          <h2>CliniXpert</h2>
+          <p>Modern Medical Care in Gurugram</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./compass-cancer-hospital-ahmedabad/">
+          <p class="eyebrow">Founding Director</p>
+          <h2>Compass Cancer Hospital</h2>
+          <p>Trusted Healthcare in Ahmedabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./asr-global-media-pvt-ltd-mumbai/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>ASR Global Media Pvt. Ltd.</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./smiles-4-u-dental-smile-makeover-and-implants-mumbai/">
+          <p class="eyebrow">Proprietor</p>
+          <h2>Smiles 4 U Dental- Smile Makeover &amp; Implants</h2>
+          <p>Advanced Dental Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./medevo-healthcare-solutions-kozhikode/">
+          <p class="eyebrow">Managing Partner</p>
+          <h2>MEDEVO Healthcare Solutions</h2>
+          <p>Modern Medical Care in Kozhikode</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./intrix-solutions-mumbai/">
+          <p class="eyebrow">Founder, CEO</p>
+          <h2>Intrix Solutions</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./trupeak-health-mumbai/">
+          <p class="eyebrow">Co-Founder and director</p>
+          <h2>Trupeak Health</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./camo-mumbai/">
+          <p class="eyebrow">Building CAMO</p>
+          <h2>CAMO</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./a4conserv-mumbai/">
+          <p class="eyebrow">Chief Operating Officer</p>
+          <h2>A4ConServ</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./startup-news-mumbai/">
+          <p class="eyebrow">City Head</p>
+          <h2>Startup News</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./clubbers-bengaluru/">
+          <p class="eyebrow">Young entrepreneur</p>
+          <h2>Clubbers</h2>
+          <p>Modern Medical Care in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./shraddha-eye-care-trust-bengaluru/">
+          <p class="eyebrow">Chief Fund Raiser</p>
+          <h2>Shraddha Eye Care Trust</h2>
+          <p>Modern Medical Care in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./ikonik-healthcare-pune/">
+          <p class="eyebrow">Managing Partner</p>
+          <h2>Ikonik Healthcare</h2>
+          <p>Modern Medical Care in Pune</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./purpleribbon-mumbai/">
+          <p class="eyebrow">CEO &amp; Founder</p>
+          <h2>PurpleRibbon</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./hospitals-and-healthcare-bengaluru/">
+          <p class="eyebrow">Group Head Operations</p>
+          <h2>Hospitals and Healthcare</h2>
+          <p>Trusted Healthcare in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./resplice-autism-research-institute-greater-hyderabad-area/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>Resplice Autism Research Institute</h2>
+          <p>Modern Medical Care in Greater Hyderabad Area</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./alshifa-mumbai/">
+          <p class="eyebrow">Co-Founder</p>
+          <h2>AlShifa</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./medivision-group-of-diagnostic-centres-ernakulam/">
+          <p class="eyebrow">Director</p>
+          <h2>Medivision Group of Diagnostic Centres</h2>
+          <p>Reliable Diagnostic Services in Ernakulam</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./shankara-cancer-and-research-institute-andhra-pradesh/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>Shankara Cancer and Research Institute</h2>
+          <p>Modern Medical Care in Andhra Pradesh</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./sentier-wellness-mumbai/">
+          <p class="eyebrow">Founder &amp; Director</p>
+          <h2>Sentier Wellness</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./rexa-labs-mumbai/">
+          <p class="eyebrow">Founder and Director</p>
+          <h2>Rexa Labs</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./athaayu-urocare-pvt-ltd-mumbai/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>Athaayu Urocare Pvt Ltd</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./salary-dost-mumbai/">
+          <p class="eyebrow">Founder &amp; CEO</p>
+          <h2>Salary Dost</h2>
+          <p>Reliable Diagnostic Services in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./nohha-life-mumbai/">
+          <p class="eyebrow">Founder</p>
+          <h2>Nohha Life</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./s-s-engineering-mumbai/">
+          <p class="eyebrow">Director</p>
+          <h2>S S ENGINEERING</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./tribes-coffee-chikkamagaluru/">
+          <p class="eyebrow">Founder</p>
+          <h2>TRIBES COFFEE</h2>
+          <p>Modern Medical Care in Chikkamagaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./moneyiq-pioneers-mumbai/">
+          <p class="eyebrow">Co-Founder &amp; CEO</p>
+          <h2>MoneyIQ Pioneers</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./insurge-healthcare-india-pvt-ltd-mumbai/">
+          <p class="eyebrow">Director</p>
+          <h2>Insurge Healthcare India Pvt Ltd</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./spectrum-healthcare-mumbai/">
+          <p class="eyebrow">Head - Administration &amp; Strategic Relations</p>
+          <h2>Spectrum Healthcare</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./ayushya-healthcare-services-pvt-limited-mumbai/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>Ayushya Healthcare Services Pvt Limited</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./cosmofix-technovation-mumbai/">
+          <p class="eyebrow">Director</p>
+          <h2>Cosmofix Technovation</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./qc-healthcare-gurugram/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>QC Healthcare</h2>
+          <p>Modern Medical Care in Gurugram</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./abhinav-bindra-foundation-solan/">
+          <p class="eyebrow">Head of Human Resources</p>
+          <h2>Abhinav Bindra Foundation</h2>
+          <p>Modern Medical Care in Solan</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./mdercm-solutions-llc-mumbai/">
+          <p class="eyebrow">Chief Operations Officer</p>
+          <h2>MDeRCM Solutions LLC</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./atul-distributors-mumbai/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>Atul Distributors</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./mentlance-jalandhar/">
+          <p class="eyebrow">Director of People and Culture</p>
+          <h2>Mentlance</h2>
+          <p>Modern Medical Care in Jalandhar</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./jatayu-healthcare-technologies-mumbai/">
+          <p class="eyebrow">Co-Founder and CEO</p>
+          <h2>Jatayu Healthcare Technologies</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./vedic-exports-mumbai/">
+          <p class="eyebrow">Founder &amp; CEO | Vedic Exports</p>
+          <h2>Vedic exports</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./i3-digital-health-private-limited-mumbai/">
+          <p class="eyebrow">Chief Growth Officer</p>
+          <h2>i3 Digital Health Private Limited</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./fittfocus-care-diagnostix-private-limited-mumbai/">
+          <p class="eyebrow">Business Owner</p>
+          <h2>Fittfocus Care Diagnostix Private Limited</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./disnil-biotech-mumbai/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>Disnil Biotech</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./shree-eye-care-mumbai/">
+          <p class="eyebrow">Medical Director</p>
+          <h2>SHREE EYE CARE</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./h2-rcm-healthcare-solutions-pvt-ltd-mumbai/">
+          <p class="eyebrow">Chief Executive Officer, Founder, Director</p>
+          <h2>H2 RCM HEALTHCARE SOLUTIONS PVT. LTD.</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./sun-electro-medisystems-pvt-ltd-mumbai/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>SUN ELECTRO Medisystems Pvt Ltd</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./reliance-foundation-hospitals-mumbai/">
+          <p class="eyebrow">Chief Growth Officer</p>
+          <h2>Reliance Foundation Hospitals</h2>
+          <p>Trusted Healthcare in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./transilienz-mumbai-metropolitan-region/">
+          <p class="eyebrow">Founder &amp; CEO</p>
+          <h2>TransilienZ</h2>
+          <p>Modern Medical Care in Mumbai Metropolitan Region</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./medtriplanner-by-lifewave-healthcare-mumbai/">
+          <p class="eyebrow">Director &amp; CEO</p>
+          <h2>MedTriPlanner by Lifewave Healthcare</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dream-for-solutions-mumbai/">
+          <p class="eyebrow">Founder</p>
+          <h2>Dream for solutions</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./teachspoon-edtech-private-limited-india/">
+          <p class="eyebrow">Founder and CEO</p>
+          <h2>Teachspoon Edtech Private Limited</h2>
+          <p>Modern Medical Care</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./trupeak-health-mumbai-2/">
+          <p class="eyebrow">Center Head</p>
+          <h2>TruPeak Health</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./mind-zillion-pvt-ltd-mumbai/">
+          <p class="eyebrow">Founder and CEO</p>
+          <h2>Mind Zillion Pvt. Ltd</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./nuvana-wellness-mumbai/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>Nuvana Wellness</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./sai-lee-hospital-and-diagnostic-centre-india-mumbai/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>Sai Lee Hospital and Diagnostic Centre - India</h2>
+          <p>Reliable Diagnostic Services in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./mumbai-heart-clinic-mumbai/">
+          <p class="eyebrow">Executive Managing Director</p>
+          <h2>Mumbai Heart Clinic</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./suvihaan-bionobel-solutions-private-limited-mumbai/">
+          <p class="eyebrow">Founder CEO / Director / Senior Scientist</p>
+          <h2>Suvihaan BioNobel Solutions Private Limited</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./highness-microelectronics-ltd-mumbai/">
+          <p class="eyebrow">Independent Director</p>
+          <h2>Highness Microelectronics Ltd.</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./your-neighbourhood-therapist-mumbai/">
+          <p class="eyebrow">Founder &amp; CEO</p>
+          <h2>Your Neighbourhood Therapist</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./caring-conversations-mumbai/">
+          <p class="eyebrow">CEO &amp; Founder</p>
+          <h2>Caring Conversations</h2>
+          <p>Reliable Diagnostic Services in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./shulkon-healthcare-mumbai/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>Shulkon Healthcare</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./slim-nutrifit-wellness-pvt-ltd-mumbai/">
+          <p class="eyebrow">Director</p>
+          <h2>Slim-nutrifit wellness pvt ltd</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./iacuity-fintech-mumbai/">
+          <p class="eyebrow">Head of HR</p>
+          <h2>iAcuity Fintech</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./skyljo-mumbai/">
+          <p class="eyebrow">Founder- Skyljo | Director- Curebridge</p>
+          <h2>Skyljo</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./aurae-health-mumbai/">
+          <p class="eyebrow">Chief Operating Officer</p>
+          <h2>Aurae Health</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./medi-check-health-services-private-limited-mumbai/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>Medi-check Health Services Private Limited</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./vesit-alumni-association-mumbai/">
+          <p class="eyebrow">President</p>
+          <h2>VESIT Alumni Association</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./bwell-healthtech-greater-delhi-area/">
+          <p class="eyebrow">Head of Partnerships and Clinical Research</p>
+          <h2>BWell HealthTech</h2>
+          <p>Modern Medical Care in Greater Delhi Area</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dorsan-filtration-india-pvt-ltd-ahmedabad/">
+          <p class="eyebrow">Director</p>
+          <h2>Dorsan Filtration India Pvt. Ltd.</h2>
+          <p>Modern Medical Care in Ahmedabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./mechlab-innovations-pvt-ltd-mumbai/">
+          <p class="eyebrow">Founder &amp; CEO</p>
+          <h2>Mechlab Innovations Pvt Ltd</h2>
+          <p>Reliable Diagnostic Services in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./iddassurance-mumbai/">
+          <p class="eyebrow">Chief Executive Director</p>
+          <h2>IDDAssurance</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./pm-consultant-thane/">
+          <p class="eyebrow">Owner</p>
+          <h2>PM Consultant</h2>
+          <p>Modern Medical Care in Thane</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./medaesx-healthcare-new-delhi/">
+          <p class="eyebrow">Director</p>
+          <h2>Medaesx Healthcare</h2>
+          <p>Modern Medical Care in New Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dr-nishita-s-clinic-for-skin-hair-and-aesthetics-hyderabad/">
+          <p class="eyebrow">Entrepreneur</p>
+          <h2>Dr. Nishita&#39;s Clinic For Skin, Hair &amp; Aesthetics</h2>
+          <p>Advanced Skin &amp; Hair Care in Hyderabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./velzen-pharma-private-limited-andhra-pradesh/">
+          <p class="eyebrow">MD &amp; CEO</p>
+          <h2>VELZEN PHARMA PRIVATE LIMITED</h2>
+          <p>Modern Medical Care in Andhra Pradesh</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./crisprbits-private-limited-bengaluru/">
+          <p class="eyebrow">Chief Operating Officer</p>
+          <h2>CrisprBits Private Limited</h2>
+          <p>Modern Medical Care in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./valaji-pharma-chem-padra/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>Valaji Pharma Chem</h2>
+          <p>Modern Medical Care in Padra</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./medkonect-services-opc-pvt-ltd-gurgaon/">
+          <p class="eyebrow">Director</p>
+          <h2>Medkonect Services (OPC) Pvt Ltd</h2>
+          <p>Modern Medical Care in Gurgaon</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./white-swan-foundation-bengaluru/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>White Swan Foundation</h2>
+          <p>Modern Medical Care in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./chempharm-industries-noida/">
+          <p class="eyebrow">Director</p>
+          <h2>Chempharm Industries</h2>
+          <p>Modern Medical Care in Noida</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./sinterx-pharma-pvt-ltd-hyderabad/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>Sinterx Pharma Pvt Ltd.</h2>
+          <p>Modern Medical Care in Hyderabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./sathvaid-ayurveda-chennai/">
+          <p class="eyebrow">Founder and Medical Director</p>
+          <h2>Sathvaid Ayurveda</h2>
+          <p>Holistic Ayurveda &amp; Wellness in Chennai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./chromolution-research-laboratories-pvt-ltd-ahmedabad/">
+          <p class="eyebrow">Director</p>
+          <h2>Chromolution Research Laboratories pvt ltd</h2>
+          <p>Modern Medical Care in Ahmedabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./sexuality-and-gender-awareness-club-saga-visakhapatnam/">
+          <p class="eyebrow">President</p>
+          <h2>Sexuality And Gender Awareness Club (SAGA)</h2>
+          <p>Modern Medical Care in Visakhapatnam</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./mediledge-dehradun/">
+          <p class="eyebrow">CEO/Co-Founder</p>
+          <h2>Mediledge</h2>
+          <p>Modern Medical Care in Dehradun</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./medclinica-cro-hyderabad/">
+          <p class="eyebrow">Director</p>
+          <h2>MedClinica CRO</h2>
+          <p>Modern Medical Care in Hyderabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./wicci-karnataka-psychological-wellbeing-council-bengaluru/">
+          <p class="eyebrow">President</p>
+          <h2>WICCI Karnataka Psychological Wellbeing Council</h2>
+          <p>Modern Medical Care in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./modelable-ai-bengaluru/">
+          <p class="eyebrow">Co-Founder/CEO</p>
+          <h2>Modelable AI</h2>
+          <p>Modern Medical Care in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./tamilnadu-test-house-pvt-ltd-greater-chennai-area/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>Tamilnadu Test House Pvt Ltd</h2>
+          <p>Modern Medical Care in Greater Chennai Area</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./adventus-laboratories-india-private-limited-group-company-of-nv-vadodara/">
+          <p class="eyebrow">Managing Director (Owner)</p>
+          <h2>ADVENTUS LABORATORIES (INDIA) PRIVATE LIMITED (Group company of NV)</h2>
+          <p>Modern Medical Care in Vadodara</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./csr-eye-hospital-hyderabad/">
+          <p class="eyebrow">Medical Director</p>
+          <h2>CSR Eye Hospital</h2>
+          <p>Trusted Healthcare in Hyderabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./aveya-natural-ivf-new-delhi/">
+          <p class="eyebrow">Chief Operating Officer</p>
+          <h2>Aveya Natural Ivf</h2>
+          <p>Modern Medical Care in New Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./121-mapping-business-solutions-pvt-ltd-mumbai/">
+          <p class="eyebrow">Co-Founder and CEO</p>
+          <h2>121 Mapping Business Solutions Pvt. Ltd.</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./sustaintech-experts-p-ltd-krishna/">
+          <p class="eyebrow">Founder Director</p>
+          <h2>SUSTAINTECH EXPERTS P LTD.</h2>
+          <p>Modern Medical Care in Krishna</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./hope-doctors-pune/">
+          <p class="eyebrow">Director - Marketing</p>
+          <h2>Hope Doctors</h2>
+          <p>Modern Medical Care in Pune</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dentifrice-private-limited-ghaziabad/">
+          <p class="eyebrow">Founder and CEO</p>
+          <h2>Dentifrice Private Limited</h2>
+          <p>Modern Medical Care in Ghaziabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./neerozhukkil-vaidyasala-ernakulam/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>Neerozhukkil Vaidyasala</h2>
+          <p>Modern Medical Care in Ernakulam</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./nexgenrx-pharmaceuticals-pvt-ltd-new-delhi/">
+          <p class="eyebrow">Director</p>
+          <h2>NexgenRx Pharmaceuticals Pvt Ltd</h2>
+          <p>Modern Medical Care in New Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./supatra-daan-foundation-ahmedabad/">
+          <p class="eyebrow">President</p>
+          <h2>Supatra Daan Foundation</h2>
+          <p>Modern Medical Care in Ahmedabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./indian-institute-of-hospital-and-healthcare-mumbai/">
+          <p class="eyebrow">Founder Director</p>
+          <h2>INDIAN INSTITUTE OF HOSPITAL AND HEALTHCARE</h2>
+          <p>Trusted Healthcare in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./jarma-wellness-llp-mumbai/">
+          <p class="eyebrow">Head of Operations</p>
+          <h2>Jarma Wellness LLP</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./hbg-medical-assistance-gurgaon/">
+          <p class="eyebrow">President and Managing Director</p>
+          <h2>HBG Medical Assistance</h2>
+          <p>Modern Medical Care in Gurgaon</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./clinovapack-research-pune/">
+          <p class="eyebrow">Founder &amp; Director Project Management &amp; Business Development</p>
+          <h2>Clinovapack Research</h2>
+          <p>Modern Medical Care in Pune</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./indian-research-journal-of-pharmacy-and-science-kishanganj/">
+          <p class="eyebrow">Executive Chief Editor</p>
+          <h2>Indian Research Journal of Pharmacy and Science</h2>
+          <p>Modern Medical Care in Kishanganj</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./global-regulatory-and-consumer-insights-greater-delhi-area/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>Global Regulatory &amp; Consumer Insights</h2>
+          <p>Modern Medical Care in Greater Delhi Area</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./5ml-private-limited-ahmedabad/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>5ml Private Limited</h2>
+          <p>Modern Medical Care in Ahmedabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./vistarad-radiology-india/">
+          <p class="eyebrow">Director and Chief Radiologist</p>
+          <h2>Vistarad Radiology</h2>
+          <p>Reliable Diagnostic Services</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./enhance-physiotherapy-and-wellness-bengaluru/">
+          <p class="eyebrow">Business Owner</p>
+          <h2>Enhance Physiotherapy and wellness</h2>
+          <p>Expert Physiotherapy &amp; Rehab in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./maven-medical-center-hyderabad/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>Maven Medical Center</h2>
+          <p>Modern Medical Care in Hyderabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./vetina-healthcare-llp-pune/">
+          <p class="eyebrow">Designated Partner</p>
+          <h2>Vetina Healthcare LLP</h2>
+          <p>Advanced Skin &amp; Hair Care in Pune</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./kph-cosmos-private-limited-gurgaon/">
+          <p class="eyebrow">Group CEO Cum Director</p>
+          <h2>KPH COSMOS PRIVATE LIMITED</h2>
+          <p>Modern Medical Care in Gurgaon</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./shree-krishna-cylinders-chandigarh/">
+          <p class="eyebrow">Director</p>
+          <h2>Shree krishna cylinders</h2>
+          <p>Modern Medical Care in Chandigarh</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./heal-zio-chandigarh/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>HEAL ZIO</h2>
+          <p>Modern Medical Care in Chandigarh</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./ritsa-pharma-hyderabad/">
+          <p class="eyebrow">Chief Operating Officer</p>
+          <h2>Ritsa Pharma</h2>
+          <p>Modern Medical Care in Hyderabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dr-rkj-s-liver-digestive-diseases-pancreatic-diabetes-and-obesity-clinic-delhi/">
+          <p class="eyebrow">Director Gastroenterology Hepatology Endoscopy Digestive Disease and Liver Transplant Medicine</p>
+          <h2>Dr.RKJ&#39;s Liver, Digestive Diseases,Pancreatic, Diabetes &amp; Obesity Clinic</h2>
+          <p>Modern Medical Care in Delhi</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./qxp-pharma-project-and-gmp-services-pvt-ltd-ahmedabad/">
+          <p class="eyebrow">Project Director</p>
+          <h2>QxP Pharma Project and GMP services Pvt Ltd</h2>
+          <p>Modern Medical Care in Ahmedabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./extroil-naturals-ahmedabad/">
+          <p class="eyebrow">Director</p>
+          <h2>Extroil Naturals</h2>
+          <p>Modern Medical Care in Ahmedabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./jeevottama-health-bengaluru/">
+          <p class="eyebrow">Founder | Director</p>
+          <h2>Jeevottama Health</h2>
+          <p>Modern Medical Care in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./dr-asma-herbals-amritsar/">
+          <p class="eyebrow">Business Owner</p>
+          <h2>Dr. Asma Herbals</h2>
+          <p>Modern Medical Care in Amritsar</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./tvameva-clinic-mumbai/">
+          <p class="eyebrow">Founder -Director</p>
+          <h2>TVAMEVA CLINIC</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./deepkamal-health-services-private-limited-mumbai/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>DEEPKAMAL HEALTH SERVICES PRIVATE LIMITED</h2>
+          <p>Modern Medical Care in Mumbai</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./synpure-labs-india-pvt-ltd-andhra-pradesh/">
+          <p class="eyebrow">Managing Director</p>
+          <h2>Synpure Labs India Pvt Ltd</h2>
+          <p>Modern Medical Care in Andhra Pradesh</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./suicide-prevention-india-foundation-spif-bengaluru/">
+          <p class="eyebrow">Founder and Director</p>
+          <h2>Suicide Prevention India Foundation (SPIF)</h2>
+          <p>Modern Medical Care in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./chitra-machineries-pvt-ltd-ahmedabad/">
+          <p class="eyebrow">Joint Managing Director</p>
+          <h2>Chitra Machineries Pvt. Ltd.</h2>
+          <p>Modern Medical Care in Ahmedabad</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./ryzenforge-bengaluru/">
+          <p class="eyebrow">Director</p>
+          <h2>Ryzenforge</h2>
+          <p>Modern Medical Care in Bengaluru</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./iisc-medical-school-foundation-kannur/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>IISc Medical School Foundation</h2>
+          <p>Modern Medical Care in Kannur</p>
+          <span>Open demo</span>
+        </a>
+        <a class="card" href="./upbringingconsultancy-pune/">
+          <p class="eyebrow">Chief Executive Officer</p>
+          <h2>UpbringingConsultancy</h2>
+          <p>Modern Medical Care in Pune</p>
+          <span>Open demo</span>
+        </a>
+      </main>
+    </div>
+  </body>
+</html>
