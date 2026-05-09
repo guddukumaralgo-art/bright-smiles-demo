@@ -3,10 +3,10 @@
   "specialty": "Chief Operating Officer",
   "businessType": "clinic",
   "linkedInProfileUrl": "https://www.linkedin.com/in/ACwAAAQrFP4BKg0lYjTzueNn5hKs9fsEiko3b_E",
-  "heroHeadline": "Modern Medical Care in Hyderabad",
-  "subheadline": "A clean, modern clinic website concept built to improve trust, showcase services, and make patient enquiries easier.",
+  "heroHeadline": "Modern Healthcare Clinic in Hyderabad",
+  "subheadline": "Clean, reliable, and patient-friendly healthcare support designed for everyday care needs.",
   "phone": "9508655628",
-  "email": "hello@ritsapharmahyderabad.demo",
+  "email": "hello@ritsa-pharma-hyderabad.demo",
   "addressText": "Hyderabad, Telangana, India",
   "city": "Hyderabad",
   "name": "Ritsa Pharma",
@@ -16,22 +16,22 @@
   "ctaLink": "https://wa.me/9508655628",
   "whatsappHref": "https://wa.me/9508655628",
   "phoneHref": "tel:9508655628",
-  "emailHref": "mailto:hello@ritsapharmahyderabad.demo",
+  "emailHref": "mailto:hello@ritsa-pharma-hyderabad.demo",
   "colors": {
-    "primary": "#0284C7",
-    "primaryDark": "#0284C7",
-    "secondary": "#E0F2FE",
-    "accent": "#22C55E",
+    "primary": "#059669",
+    "primaryDark": "#059669",
+    "secondary": "#D1FAE5",
+    "accent": "#0EA5E9",
     "surface": "#ffffff"
   },
   "images": {
     "logo": "/assets/shared/logo.png",
     "banner": "/assets/shared/hero.jpg",
     "hero": "/assets/shared/hero.jpg",
-    "doctor": "https://media.licdn.com/dms/image/v2/C4D03AQFre7jx8He1BQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516869995926?e=1779321600&v=beta&t=g0m-bwzjxA-RqoT2QSymLp-hPBAzqJtn13uwzNyZhw4",
+    "doctor": "https://media.licdn.com/dms/image/v2/C4D03AQFre7jx8He1BQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516869996570?e=1779926400&v=beta&t=ge0778s6JN7UkGmKlueuuF2klv8-7JyriV9_DbliuD0",
     "gallery": [
       "/assets/shared/gallery-1.jpg",
-      "/assets/shared/gallery-2.jpg"
+      "/assets/shared/gallery-1.jpg"
     ],
     "fallbacks": {
       "banner": "/assets/shared/hero.jpg",
@@ -43,14 +43,14 @@
     }
   },
   "favicon": {
-    "href": "./favicon.svg",
-    "isExternal": false,
-    "generated": true
+    "href": "https://media.licdn.com/dms/image/v2/C4D03AQFre7jx8He1BQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516869996570?e=1779926400&v=beta&t=ge0778s6JN7UkGmKlueuuF2klv8-7JyriV9_DbliuD0",
+    "isExternal": true,
+    "generated": false
   },
   "services": [
     {
-      "title": "General Consultation",
-      "description": "General Consultation delivered with clear guidance and patient-first care."
+      "title": "Doctor Consultation",
+      "description": "Doctor Consultation delivered with clear guidance and patient-first care."
     },
     {
       "title": "Preventive Care",
@@ -61,12 +61,16 @@
       "description": "Health Checkups delivered with clear guidance and patient-first care."
     },
     {
-      "title": "Treatment Planning",
-      "description": "Treatment Planning delivered with clear guidance and patient-first care."
+      "title": "Patient Support",
+      "description": "Patient Support delivered with clear guidance and patient-first care."
     },
     {
       "title": "Follow-up Care",
       "description": "Follow-up Care delivered with clear guidance and patient-first care."
+    },
+    {
+      "title": "Wellness Guidance",
+      "description": "Wellness Guidance delivered with clear guidance and patient-first care."
     }
   ],
   "hours": [
@@ -122,7 +126,7 @@
     },
     {
       "question": "What services does Ritsa Pharma offer?",
-      "answer": "Ritsa Pharma supports patients with General Consultation, Preventive Care, Health Checkups, Treatment Planning, Follow-up Care."
+      "answer": "Ritsa Pharma supports patients with Doctor Consultation, Preventive Care, Health Checkups, Patient Support, Follow-up Care, Wellness Guidance."
     },
     {
       "question": "Can I ask questions before visiting?",
@@ -133,7 +137,7 @@
       "answer": "Ritsa Pharma is located at Hyderabad, Telangana, India."
     }
   ],
-  "aboutText": "Ritsa Pharma is a premium clinic concept in Hyderabad, designed to present services, build patient trust, and make enquiries simple through a modern digital experience.",
+  "aboutText": "Ritsa Pharma is a healthcare practice in Hyderabad focused on accessible care, simple appointment booking, and a professional patient experience.",
   "contactBlurb": "Get in touch to schedule an appointment or ask a question.",
   "pages": {
     "home": {

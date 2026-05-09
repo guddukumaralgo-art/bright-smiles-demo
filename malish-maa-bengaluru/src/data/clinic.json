@@ -1,10 +1,10 @@
 {
   "doctorName": "Abhishek Pandey",
-  "specialty": "Healthcare Services",
+  "specialty": "CEO & FOUNDER",
   "businessType": "clinic",
-  "linkedInProfileUrl": "Abhishek Pandey",
-  "heroHeadline": "Modern Healthcare in Bengaluru",
-  "subheadline": "Personalized healthcare services with clear communication, convenient appointments, and reliable care.",
+  "linkedInProfileUrl": "https://www.linkedin.com/in/ACwAABPPfbkBy-RYhzQ2WaYJBSxq4rIQnGn5ELA",
+  "heroHeadline": "Modern Healthcare Clinic in Bengaluru",
+  "subheadline": "Clean, reliable, and patient-friendly healthcare support designed for everyday care needs.",
   "phone": "9508655628",
   "email": "hello@malish-maa-bengaluru.demo",
   "addressText": "Bengaluru, Karnataka, India",
@@ -28,7 +28,7 @@
     "logo": "/assets/shared/logo.png",
     "banner": "/assets/shared/hero.jpg",
     "hero": "/assets/shared/hero.jpg",
-    "doctor": "https://media.licdn.com/dms/image/v2/D4D03AQFpAFTvW4UCdw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1683879793035?e=1779926400&v=beta&t=VRznUD7U6E7Om4B3cFh8y2Vem5B0PbHOYzcj42aIKCo",
+    "doctor": "https://media.licdn.com/dms/image/v2/D5603AQFvlwmLP2RmqQ/profile-displayphoto-scale_200_200/B56ZsTnP2lI0AY-/0/1765560616450?e=1779926400&v=beta&t=yLwPH-L9MZEovgUMOYa3orBKWUw1TkQCrMzVOh1F57Y",
     "gallery": [
       "/assets/shared/gallery-1.jpg",
       "/assets/shared/gallery-1.jpg"
@@ -43,7 +43,7 @@
     }
   },
   "favicon": {
-    "href": "https://media.licdn.com/dms/image/v2/D4D03AQFpAFTvW4UCdw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1683879793035?e=1779926400&v=beta&t=VRznUD7U6E7Om4B3cFh8y2Vem5B0PbHOYzcj42aIKCo",
+    "href": "https://media.licdn.com/dms/image/v2/D5603AQFvlwmLP2RmqQ/profile-displayphoto-scale_200_200/B56ZsTnP2lI0AY-/0/1765560616450?e=1779926400&v=beta&t=yLwPH-L9MZEovgUMOYa3orBKWUw1TkQCrMzVOh1F57Y",
     "isExternal": true,
     "generated": false
   },
@@ -51,10 +51,6 @@
     {
       "title": "Doctor Consultation",
       "description": "Doctor Consultation delivered with clear guidance and patient-first care."
-    },
-    {
-      "title": "General Healthcare",
-      "description": "General Healthcare delivered with clear guidance and patient-first care."
     },
     {
       "title": "Preventive Care",
@@ -65,12 +61,16 @@
       "description": "Health Checkups delivered with clear guidance and patient-first care."
     },
     {
+      "title": "Patient Support",
+      "description": "Patient Support delivered with clear guidance and patient-first care."
+    },
+    {
       "title": "Follow-up Care",
       "description": "Follow-up Care delivered with clear guidance and patient-first care."
     },
     {
-      "title": "Patient Support",
-      "description": "Patient Support delivered with clear guidance and patient-first care."
+      "title": "Wellness Guidance",
+      "description": "Wellness Guidance delivered with clear guidance and patient-first care."
     }
   ],
   "hours": [
@@ -126,7 +126,7 @@
     },
     {
       "question": "What services does Malish Maa offer?",
-      "answer": "Malish Maa supports patients with Doctor Consultation, General Healthcare, Preventive Care, Health Checkups, Follow-up Care, Patient Support."
+      "answer": "Malish Maa supports patients with Doctor Consultation, Preventive Care, Health Checkups, Patient Support, Follow-up Care, Wellness Guidance."
     },
     {
       "question": "Can I ask questions before visiting?",
@@ -137,7 +137,7 @@
       "answer": "Malish Maa is located at Bengaluru, Karnataka, India."
     }
   ],
-  "aboutText": "Malish Maa offers healthcare services with a modern, patient-friendly experience in Bengaluru. This demo highlights clear services, trust-building content, appointment-focused calls to action, and a premium healthcare website layout.",
+  "aboutText": "Malish Maa is a healthcare practice in Bengaluru focused on accessible care, simple appointment booking, and a professional patient experience.",
   "contactBlurb": "Get in touch to schedule an appointment or ask a question.",
   "pages": {
     "home": {

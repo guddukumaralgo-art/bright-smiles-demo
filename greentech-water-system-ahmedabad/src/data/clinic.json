@@ -1,37 +1,37 @@
 {
-  "doctorName": "Trivedi Kaushik",
-  "specialty": "Operation Head (Technical Director)",
+  "doctorName": "Arvind Sanghvi",
+  "specialty": "Partner",
   "businessType": "clinic",
-  "linkedInProfileUrl": "Trivedi Kaushik",
-  "heroHeadline": "Trusted Healthcare Clinic in Ahmedabad",
-  "subheadline": "Personalized healthcare support for families and everyday medical needs.",
-  "phone": "9508655674",
-  "email": "hello@greentechwatersystemahmedabad.demo",
+  "linkedInProfileUrl": "https://www.linkedin.com/in/ACwAAA_J3ggBvVfHQ5yBOB6M08vrTrbascx6uao",
+  "heroHeadline": "Modern Healthcare Clinic in Ahmedabad",
+  "subheadline": "Clean, reliable, and patient-friendly healthcare support designed for everyday care needs.",
+  "phone": "9508655628",
+  "email": "hello@greentech-water-system-ahmedabad.demo",
   "addressText": "Ahmedabad, Gujarat, India",
-  "city": "Ahmedabad, Gujarat, India",
+  "city": "Ahmedabad",
   "name": "Greentech Water System",
   "shortName": "Greentech Water System",
   "footerTagline": "Helping patients smile with confidence.",
   "ctaLabel": "Book Now",
   "ctaLink": "https://wa.me/9508655628",
   "whatsappHref": "https://wa.me/9508655628",
-  "phoneHref": "tel:9508655674",
-  "emailHref": "mailto:hello@greentechwatersystemahmedabad.demo",
+  "phoneHref": "tel:9508655628",
+  "emailHref": "mailto:hello@greentech-water-system-ahmedabad.demo",
   "colors": {
-    "primary": "#0F766E",
-    "primaryDark": "#0F766E",
-    "secondary": "#CCFBF1",
-    "accent": "#10B981",
+    "primary": "#059669",
+    "primaryDark": "#059669",
+    "secondary": "#D1FAE5",
+    "accent": "#0EA5E9",
     "surface": "#ffffff"
   },
   "images": {
     "logo": "/assets/shared/logo.png",
-    "banner": "/assets/shared/hero.jpg",
-    "hero": "/assets/shared/hero.jpg",
-    "doctor": "https://media.licdn.com/dms/image/v2/D4D03AQE_RLQ7tS_fpw/profile-displayphoto-crop_800_800/B4DZhqYj.zH4AQ-/0/1754131481683?e=1779321600&v=beta&t=jLdbXR1BE9N_dKIEOYCixEAsWu-N4-DtR01Aari-drc",
+    "banner": "https://media.licdn.com/dms/image/v2/D5616AQGACi3Tv35PQw/profile-displaybackgroundimage-shrink_200_800/B56Zx6QOx.GoAc-/0/1771577604752?e=1779926400&v=beta&t=nOYawOPVafPPu03zFJR_SfHB2PoA1bptV4dXPvbMkK4",
+    "hero": "https://media.licdn.com/dms/image/v2/D5616AQGACi3Tv35PQw/profile-displaybackgroundimage-shrink_200_800/B56Zx6QOx.GoAc-/0/1771577604752?e=1779926400&v=beta&t=nOYawOPVafPPu03zFJR_SfHB2PoA1bptV4dXPvbMkK5",
+    "doctor": "https://media.licdn.com/dms/image/v2/C5103AQEXlTM4zEXYhw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1556267694071?e=1779926400&v=beta&t=o_XGUDlIw7yH0YtDvUGa9YKrHtvNUlc5D2hWu83rFB4",
     "gallery": [
-      "/assets/shared/gallery-1.jpg",
-      "/assets/shared/gallery-2.jpg"
+      "https://media.licdn.com/dms/image/v2/D5616AQGACi3Tv35PQw/profile-displaybackgroundimage-shrink_200_800/B56Zx6QOx.GoAc-/0/1771577604752?e=1779926400&v=beta&t=nOYawOPVafPPu03zFJR_SfHB2PoA1bptV4dXPvbMkK6",
+      "/assets/shared/gallery-1.jpg"
     ],
     "fallbacks": {
       "banner": "/assets/shared/hero.jpg",
@@ -43,14 +43,14 @@
     }
   },
   "favicon": {
-    "href": "https://media.licdn.com/dms/image/v2/D4D03AQE_RLQ7tS_fpw/profile-displayphoto-crop_800_800/B4DZhqYj.zH4AQ-/0/1754131481683?e=1779321600&v=beta&t=jLdbXR1BE9N_dKIEOYCixEAsWu-N4-DtR01Aari-drc",
+    "href": "https://media.licdn.com/dms/image/v2/C5103AQEXlTM4zEXYhw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1556267694071?e=1779926400&v=beta&t=o_XGUDlIw7yH0YtDvUGa9YKrHtvNUlc5D2hWu83rFB4",
     "isExternal": true,
     "generated": false
   },
   "services": [
     {
-      "title": "General Consultation",
-      "description": "General Consultation delivered with clear guidance and patient-first care."
+      "title": "Doctor Consultation",
+      "description": "Doctor Consultation delivered with clear guidance and patient-first care."
     },
     {
       "title": "Preventive Care",
@@ -61,8 +61,16 @@
       "description": "Health Checkups delivered with clear guidance and patient-first care."
     },
     {
+      "title": "Patient Support",
+      "description": "Patient Support delivered with clear guidance and patient-first care."
+    },
+    {
       "title": "Follow-up Care",
       "description": "Follow-up Care delivered with clear guidance and patient-first care."
+    },
+    {
+      "title": "Wellness Guidance",
+      "description": "Wellness Guidance delivered with clear guidance and patient-first care."
     }
   ],
   "hours": [
@@ -114,11 +122,11 @@
   "faqs": [
     {
       "question": "How do I book an appointment at Greentech Water System?",
-      "answer": "Use the appointment button or call 9508655674. The team will help you choose a convenient consultation time."
+      "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
     },
     {
       "question": "What services does Greentech Water System offer?",
-      "answer": "Greentech Water System supports patients with General Consultation, Preventive Care, Health Checkups, Follow-up Care."
+      "answer": "Greentech Water System supports patients with Doctor Consultation, Preventive Care, Health Checkups, Patient Support, Follow-up Care, Wellness Guidance."
     },
     {
       "question": "Can I ask questions before visiting?",
@@ -129,7 +137,7 @@
       "answer": "Greentech Water System is located at Ahmedabad, Gujarat, India."
     }
   ],
-  "aboutText": "Greentech Water System offers accessible, friendly, and reliable healthcare support for everyday medical needs.",
+  "aboutText": "Greentech Water System is a healthcare practice in Ahmedabad focused on accessible care, simple appointment booking, and a professional patient experience.",
   "contactBlurb": "Get in touch to schedule an appointment or ask a question.",
   "pages": {
     "home": {

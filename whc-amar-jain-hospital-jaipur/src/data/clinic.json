@@ -1,0 +1,209 @@
+{
+  "doctorName": "Dr.Shekhar N Harvyasi vaishnaw",
+  "specialty": "Chief Executive Officer",
+  "businessType": "hospital",
+  "linkedInProfileUrl": "https://www.linkedin.com/in/ACwAAANVSS8Bknoq6yAmQwrlki7SPx2iRwS8U4s",
+  "heroHeadline": "Trusted Multispeciality Care in Jaipur",
+  "subheadline": "Comprehensive healthcare services with a patient-first approach and smooth appointment support.",
+  "phone": "9508655628",
+  "email": "hello@whc-amar-jain-hospital-jaipur.demo",
+  "addressText": "Jaipur, Rajasthan, India",
+  "city": "Jaipur",
+  "name": "WHC Amar Jain Hospital",
+  "shortName": "WHC Amar Jain Hospital",
+  "footerTagline": "Helping patients smile with confidence.",
+  "ctaLabel": "Book Now",
+  "ctaLink": "https://wa.me/9508655628",
+  "whatsappHref": "https://wa.me/9508655628",
+  "phoneHref": "tel:9508655628",
+  "emailHref": "mailto:hello@whc-amar-jain-hospital-jaipur.demo",
+  "colors": {
+    "primary": "#2563EB",
+    "primaryDark": "#2563EB",
+    "secondary": "#DBEAFE",
+    "accent": "#10B981",
+    "surface": "#ffffff"
+  },
+  "images": {
+    "logo": "/assets/shared/logo.png",
+    "banner": "/assets/shared/hero.jpg",
+    "hero": "/assets/shared/hero.jpg",
+    "doctor": "https://media.licdn.com/dms/image/v2/D5603AQE5chbv-SxV5w/profile-displayphoto-scale_200_200/B56ZpSOOZsHIAY-/0/1762316055978?e=1779926400&v=beta&t=OHNomSwbDAK0jGbiGIrcprt18ikrld7u1GaWg6DiLjY",
+    "gallery": [
+      "/assets/shared/gallery-1.jpg",
+      "/assets/shared/gallery-1.jpg"
+    ],
+    "fallbacks": {
+      "banner": "/assets/shared/hero.jpg",
+      "hero": "/assets/shared/hero.jpg",
+      "doctor": "/assets/shared/doctor.jpg",
+      "gallery1": "/assets/shared/gallery-1.jpg",
+      "gallery2": "/assets/shared/gallery-2.jpg",
+      "logo": "/assets/shared/logo.png"
+    }
+  },
+  "favicon": {
+    "href": "https://media.licdn.com/dms/image/v2/D5603AQE5chbv-SxV5w/profile-displayphoto-scale_200_200/B56ZpSOOZsHIAY-/0/1762316055978?e=1779926400&v=beta&t=OHNomSwbDAK0jGbiGIrcprt18ikrld7u1GaWg6DiLjY",
+    "isExternal": true,
+    "generated": false
+  },
+  "services": [
+    {
+      "title": "Emergency Care",
+      "description": "Emergency Care delivered with clear guidance and patient-first care."
+    },
+    {
+      "title": "Specialist Consultation",
+      "description": "Specialist Consultation delivered with clear guidance and patient-first care."
+    },
+    {
+      "title": "Inpatient Care",
+      "description": "Inpatient Care delivered with clear guidance and patient-first care."
+    },
+    {
+      "title": "Preventive Health Checkups",
+      "description": "Preventive Health Checkups delivered with clear guidance and patient-first care."
+    },
+    {
+      "title": "Surgical Care",
+      "description": "Surgical Care delivered with clear guidance and patient-first care."
+    },
+    {
+      "title": "Pharmacy Support",
+      "description": "Pharmacy Support delivered with clear guidance and patient-first care."
+    }
+  ],
+  "hours": [
+    "Mon-Sat 10AM-7PM"
+  ],
+  "doctorCredentials": [
+    "DDS Degree",
+    "10+ Years Experience",
+    "Patient-Focused Care"
+  ],
+  "testimonials": [
+    {
+      "quote": "A comfortable, thoughtful dental experience from start to finish.",
+      "author": "Samantha R."
+    },
+    {
+      "quote": "Professional care with a friendly team and clear communication.",
+      "author": "James P."
+    },
+    {
+      "quote": "The team made every step easy and reassuring.",
+      "author": "Lena K."
+    }
+  ],
+  "trustItems": [
+    "Trusted care",
+    "Modern technology",
+    "Family-friendly",
+    "Convenient scheduling"
+  ],
+  "reasons": [
+    {
+      "title": "Gentle Treatment",
+      "copy": "We prioritize your comfort in every appointment."
+    },
+    {
+      "title": "Modern Techniques",
+      "copy": "Updated technology for faster, more effective care."
+    },
+    {
+      "title": "Personalized Plans",
+      "copy": "Individualized recommendations that fit your goals."
+    },
+    {
+      "title": "Calm Environment",
+      "copy": "A relaxed space designed to reduce anxiety."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I book an appointment at WHC Amar Jain Hospital?",
+      "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
+    },
+    {
+      "question": "What services does WHC Amar Jain Hospital offer?",
+      "answer": "WHC Amar Jain Hospital supports patients with Emergency Care, Specialist Consultation, Inpatient Care, Preventive Health Checkups, Surgical Care, Pharmacy Support."
+    },
+    {
+      "question": "Can I ask questions before visiting?",
+      "answer": "Yes. You can call, email, or use WhatsApp to ask about availability, services, and the best next step for your needs."
+    },
+    {
+      "question": "Where is the clinic located?",
+      "answer": "WHC Amar Jain Hospital is located at Jaipur, Rajasthan, India."
+    }
+  ],
+  "aboutText": "WHC Amar Jain Hospital serves patients in Jaipur with dependable healthcare services, clear communication, and a modern care experience built around trust.",
+  "contactBlurb": "Get in touch to schedule an appointment or ask a question.",
+  "pages": {
+    "home": {
+      "heroPrimaryCtaLabel": "Book Appointment",
+      "heroSecondaryCtaLabel": "Call Now",
+      "servicesTitle": "Our Services",
+      "servicesCopy": "We offer a thoughtful range of dental services tailored to your goals.",
+      "doctorSectionTitle": "Meet Our Doctor",
+      "doctorSectionBody": "Experienced, attentive care focused on comfort, clarity, and long-term oral health.",
+      "aboutPrimaryCtaLabel": "Learn More",
+      "aboutSecondaryCtaLabel": "Contact Us",
+      "galleryTitle": "Inside The Clinic",
+      "galleryCopy": "A look at the care environment patients experience from consultation through follow-up.",
+      "faqTitle": "Questions Patients Ask",
+      "faqCopy": "Quick answers to help patients feel clear before they book.",
+      "whyChooseUsTitle": "Why Choose Us",
+      "whyChooseUsCopy": "A modern practice built around patient comfort, clear treatment planning, and dependable care.",
+      "testimonialsTitle": "Patient Stories",
+      "testimonialsCopy": "Read what our patients say about their experience.",
+      "contactTitle": "Contact Us",
+      "contactPrimaryCtaLabel": "Book Now",
+      "contactSecondaryCtaLabel": "Call Us"
+    },
+    "about": {
+      "heroTitle": "About Our Practice",
+      "heroCopy": "We focus on calm, patient-centered care and treatment planning.",
+      "philosophyTitle": "Practice Philosophy",
+      "philosophyCopy": "Our approach is built around trust, comfort, and long-term results.",
+      "values": [
+        {
+          "title": "Patient Focus",
+          "copy": "Your comfort and goals guide every decision."
+        },
+        {
+          "title": "Clear Communication",
+          "copy": "We explain treatment options in plain language."
+        },
+        {
+          "title": "Lasting Results",
+          "copy": "Care that supports your smile now and years ahead."
+        }
+      ],
+      "expectTitle": "What to Expect",
+      "expectCopy": "A clear, supportive experience designed to make dental care feel easy.",
+      "expectSteps": [
+        "Initial consultation and exam",
+        "Personalized treatment recommendations",
+        "Comfortable care and follow-up support"
+      ]
+    },
+    "services": {
+      "heroTitle": "Dental Services",
+      "heroCopy": "From preventive care to restorative and cosmetic procedures, we support your smile goals.",
+      "processTitle": "How Care Is Planned",
+      "processCopy": "Our process helps you feel informed and confident at every step.",
+      "processSteps": [
+        "Detailed consultation and exam",
+        "Customized treatment planning",
+        "Comfort-focused care",
+        "Ongoing support and follow-up"
+      ]
+    },
+    "contact": {
+      "heroTitle": "Contact Our Clinic",
+      "heroCopy": "Reach out to schedule your next appointment or learn more about services.",
+      "reuseNote": "We will help you find a convenient appointment time and answer any questions."
+    }
+  }
+}
