@@ -5,7 +5,7 @@
   "linkedInProfileUrl": "Sourab Agarwal",
   "heroHeadline": "Trusted Healthcare Clinic in Bhubaneswar",
   "subheadline": "Personalized healthcare support for families and everyday medical needs.",
-  "phone": "9508655665",
+  "phone": "9508655628",
   "email": "hello@hempcannsolutionsbhubaneswar.demo",
   "addressText": "Bhubaneswar, Odisha, India",
   "city": "Bhubaneswar, Odisha, India",
@@ -15,7 +15,7 @@
   "ctaLabel": "Book Now",
   "ctaLink": "https://wa.me/9508655628",
   "whatsappHref": "https://wa.me/9508655628",
-  "phoneHref": "tel:9508655665",
+  "phoneHref": "tel:9508655628",
   "emailHref": "mailto:hello@hempcannsolutionsbhubaneswar.demo",
   "colors": {
     "primary": "#0F766E",
@@ -30,7 +30,7 @@
     "hero": "https://media.licdn.com/dms/image/v2/D5616AQF51eq0qtSLHQ/profile-displaybackgroundimage-shrink_350_1400/B56Ze6usgdHQAY-/0/1751184495085?e=1779321600&v=beta&t=Zw5AJPZUaJ4f-wmf5mCpcpeLNOU0pg2qU2wdeUIsMzU",
     "doctor": "https://media.licdn.com/dms/image/v2/D5603AQE-LLRnO8iCEA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1679735194882?e=1779321600&v=beta&t=VoLJ80OR_3U0fj6tsXQukUmNhtpcQSLctnhNA5rMrkY",
     "gallery": [
-      "/assets/shared/gallery-1.jpg",
+      "https://media.licdn.com/dms/image/v2/D5616AQF51eq0qtSLHQ/profile-displaybackgroundimage-shrink_350_1400/B56Ze6usgdHQAY-/0/1751184495085?e=1779321600&v=beta&t=Zw5AJPZUaJ4f-wmf5mCpcpeLNOU0pg2qU2wdeUIsMzU",
       "/assets/shared/gallery-2.jpg"
     ],
     "fallbacks": {
@@ -114,7 +114,7 @@
   "faqs": [
     {
       "question": "How do I book an appointment at HempCann Solutions?",
-      "answer": "Use the appointment button or call 9508655665. The team will help you choose a convenient consultation time."
+      "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
     },
     {
       "question": "What services does HempCann Solutions offer?",

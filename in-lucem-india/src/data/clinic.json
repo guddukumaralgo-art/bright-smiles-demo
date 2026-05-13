@@ -5,7 +5,7 @@
   "linkedInProfileUrl": "Nandu Pasupuleti",
   "heroHeadline": "Trusted Healthcare Clinic in India",
   "subheadline": "Personalized healthcare support for families and everyday medical needs.",
-  "phone": "9508655672",
+  "phone": "9508655628",
   "email": "hello@inlucemindia.demo",
   "addressText": "India",
   "city": "India",
@@ -15,7 +15,7 @@
   "ctaLabel": "Book Now",
   "ctaLink": "https://wa.me/9508655628",
   "whatsappHref": "https://wa.me/9508655628",
-  "phoneHref": "tel:9508655672",
+  "phoneHref": "tel:9508655628",
   "emailHref": "mailto:hello@inlucemindia.demo",
   "colors": {
     "primary": "#0F766E",
@@ -27,10 +27,10 @@
   "images": {
     "logo": "/assets/shared/logo.png",
     "banner": "https://media.licdn.com/dms/image/v2/C5616AQHvIfWfhBAltw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1584346027685?e=1779321600&v=beta&t=GqvTbysiyBki9QI_iUccOZzyZumUECH9-42Oxfg_D78",
-    "hero": "https://media.licdn.com/dms/image/v2/C5616AQHvIfWfhBAltw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1584346027685?e=1779321600&v=beta&t=GqvTbysiyBki9QI_iUccOZzyZumUECH9-42Oxfg_D79",
+    "hero": "https://media.licdn.com/dms/image/v2/C5616AQHvIfWfhBAltw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1584346027685?e=1779321600&v=beta&t=GqvTbysiyBki9QI_iUccOZzyZumUECH9-42Oxfg_D78",
     "doctor": "https://media.licdn.com/dms/image/v2/D5635AQEFQh1E9JoN5A/profile-framedphoto-shrink_400_400/B56Zhe_BlPH0Ak-/0/1753940236932?e=1778058000&v=beta&t=x5rOleO-PCbI6RJVWb69GUODb22JTxsHZw6OS0tRVnE",
     "gallery": [
-      "/assets/shared/gallery-1.jpg",
+      "https://media.licdn.com/dms/image/v2/C5616AQHvIfWfhBAltw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1584346027685?e=1779321600&v=beta&t=GqvTbysiyBki9QI_iUccOZzyZumUECH9-42Oxfg_D78",
       "/assets/shared/gallery-2.jpg"
     ],
     "fallbacks": {
@@ -114,7 +114,7 @@
   "faqs": [
     {
       "question": "How do I book an appointment at In Lucem?",
-      "answer": "Use the appointment button or call 9508655672. The team will help you choose a convenient consultation time."
+      "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
     },
     {
       "question": "What services does In Lucem offer?",

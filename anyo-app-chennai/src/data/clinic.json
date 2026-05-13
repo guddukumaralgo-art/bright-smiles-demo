@@ -30,7 +30,7 @@
     "hero": "https://media.licdn.com/dms/image/v2/D5616AQFyl60ALlBezA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1673605035777?e=1779321600&v=beta&t=1saudjY7vkX5Lp6XK3FjgkKzeOtyEfRLl0_FE9kFpJk",
     "doctor": "https://media.licdn.com/dms/image/v2/C5603AQFBytcJ8_S2JQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1626799344593?e=1779321600&v=beta&t=aC-uaxlciYvUy0ItSRu0KtaDcJrKODuFRHngFbffQZw",
     "gallery": [
-      "/assets/shared/gallery-1.jpg",
+      "https://media.licdn.com/dms/image/v2/D5616AQFyl60ALlBezA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1673605035777?e=1779321600&v=beta&t=1saudjY7vkX5Lp6XK3FjgkKzeOtyEfRLl0_FE9kFpJk",
       "/assets/shared/gallery-2.jpg"
     ],
     "fallbacks": {

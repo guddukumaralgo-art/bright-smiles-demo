@@ -5,7 +5,7 @@
   "linkedInProfileUrl": "Sunit Aggarwal",
   "heroHeadline": "Advanced Healthcare in New Delhi",
   "subheadline": "Comprehensive healthcare with trusted specialists and patient-first care.",
-  "phone": "9508655680",
+  "phone": "9508655628",
   "email": "hello@ujalacygnushospitalnewdelhi.demo",
   "addressText": "New Delhi, Delhi, India",
   "city": "New Delhi, Delhi, India",
@@ -15,7 +15,7 @@
   "ctaLabel": "Book Now",
   "ctaLink": "https://wa.me/9508655628",
   "whatsappHref": "https://wa.me/9508655628",
-  "phoneHref": "tel:9508655680",
+  "phoneHref": "tel:9508655628",
   "emailHref": "mailto:hello@ujalacygnushospitalnewdelhi.demo",
   "colors": {
     "primary": "#1D4ED8",
@@ -30,7 +30,7 @@
     "hero": "https://media.licdn.com/dms/image/v2/D5616AQFDVXGDlYZU5w/profile-displaybackgroundimage-shrink_350_1400/B56ZYq1_WiHQAY-/0/1744475520629?e=1779321600&v=beta&t=gFVolWkBJOifUO9apvONT_YO5ZDNwF6HvCJ0q4wJFLs",
     "doctor": "https://media.licdn.com/dms/image/v2/D4E03AQG1n2h8dmzggw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1720800852309?e=1779321600&v=beta&t=jWWTbhUKQ_QA93-1b7BrFNebU8ioBi1YWzSeIxvuaEA",
     "gallery": [
-      "/assets/shared/gallery-1.jpg",
+      "https://media.licdn.com/dms/image/v2/D5616AQFDVXGDlYZU5w/profile-displaybackgroundimage-shrink_350_1400/B56ZYq1_WiHQAY-/0/1744475520629?e=1779321600&v=beta&t=gFVolWkBJOifUO9apvONT_YO5ZDNwF6HvCJ0q4wJFLs",
       "/assets/shared/gallery-2.jpg"
     ],
     "fallbacks": {
@@ -114,7 +114,7 @@
   "faqs": [
     {
       "question": "How do I book an appointment at Ujala Cygnus Hospital?",
-      "answer": "Use the appointment button or call 9508655680. The team will help you choose a convenient consultation time."
+      "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
     },
     {
       "question": "What services does Ujala Cygnus Hospital offer?",

@@ -27,11 +27,11 @@
   "images": {
     "logo": "/assets/shared/logo.png",
     "banner": "/assets/shared/hero.jpg",
-    "hero": "/assets/shared/logo.png",
+    "hero": "/assets/shared/hero.jpg",
     "doctor": "https://media.licdn.com/dms/image/v2/D4D35AQFRdEifGypAPQ/profile-framedphoto-shrink_800_800/B4DZzgS6V7G4Ag-/0/1773289580191?e=1777960800&v=beta&t=-xv39Tmc9PLZV0Q0dnXRn8qZTmEvMgTew1Gg3zKEQmQ",
     "gallery": [
-      "/assets/shared/hero.jpg",
-      "/assets/shared/gallery-1.jpg"
+      "/assets/shared/gallery-1.jpg",
+      "/assets/shared/gallery-2.jpg"
     ],
     "fallbacks": {
       "banner": "/assets/shared/hero.jpg",
@@ -43,8 +43,8 @@
     }
   },
   "favicon": {
-    "href": "/assets/shared/gallery-2.jpg",
-    "isExternal": false,
+    "href": "https://media.licdn.com/dms/image/v2/D4D35AQFRdEifGypAPQ/profile-framedphoto-shrink_800_800/B4DZzgS6V7G4Ag-/0/1773289580191?e=1777960800&v=beta&t=-xv39Tmc9PLZV0Q0dnXRn8qZTmEvMgTew1Gg3zKEQmQ",
+    "isExternal": true,
     "generated": false
   },
   "services": [

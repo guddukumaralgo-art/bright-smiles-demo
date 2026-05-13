@@ -5,7 +5,7 @@
   "linkedInProfileUrl": "Shanawaz Khan",
   "heroHeadline": "Trusted Healthcare Clinic in Mumbai",
   "subheadline": "Personalized healthcare support for families and everyday medical needs.",
-  "phone": "9508655644",
+  "phone": "9508655628",
   "email": "hello@kpininjabyhealthcatalystmumbai.demo",
   "addressText": "Mumbai, Maharashtra, India",
   "city": "Mumbai, Maharashtra, India",
@@ -15,7 +15,7 @@
   "ctaLabel": "Book Now",
   "ctaLink": "https://wa.me/9508655628",
   "whatsappHref": "https://wa.me/9508655628",
-  "phoneHref": "tel:9508655644",
+  "phoneHref": "tel:9508655628",
   "emailHref": "mailto:hello@kpininjabyhealthcatalystmumbai.demo",
   "colors": {
     "primary": "#0F766E",
@@ -30,7 +30,7 @@
     "hero": "https://media.licdn.com/dms/image/v2/D4D16AQGVMKN9rI6DgQ/profile-displaybackgroundimage-shrink_350_1400/B4DZW5MdDqG4AY-/0/1742568806577?e=1779321600&v=beta&t=8Jw2B_g4za1YEnEqm3DqqlBv_Ch_gI1eYsHzJfgvOoQ",
     "doctor": "https://media.licdn.com/dms/image/v2/D4D03AQHBbwAO5_gJZQ/profile-displayphoto-crop_800_800/B4DZ0gkobcJQAU-/0/1774367968318?e=1779321600&v=beta&t=znZPk-6FNmiY6vb0Mqh9opYVjuyVEyVanu5IOltcWhQ",
     "gallery": [
-      "/assets/shared/gallery-1.jpg",
+      "https://media.licdn.com/dms/image/v2/D4D16AQGVMKN9rI6DgQ/profile-displaybackgroundimage-shrink_350_1400/B4DZW5MdDqG4AY-/0/1742568806577?e=1779321600&v=beta&t=8Jw2B_g4za1YEnEqm3DqqlBv_Ch_gI1eYsHzJfgvOoQ",
       "/assets/shared/gallery-2.jpg"
     ],
     "fallbacks": {
@@ -114,7 +114,7 @@
   "faqs": [
     {
       "question": "How do I book an appointment at KPI Ninja by Health Catalyst?",
-      "answer": "Use the appointment button or call 9508655644. The team will help you choose a convenient consultation time."
+      "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
     },
     {
       "question": "What services does KPI Ninja by Health Catalyst offer?",

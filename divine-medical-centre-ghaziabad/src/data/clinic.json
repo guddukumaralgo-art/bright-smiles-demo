@@ -5,7 +5,7 @@
   "linkedInProfileUrl": "Palak Chaudhary",
   "heroHeadline": "Trusted Healthcare Clinic in Ghaziabad",
   "subheadline": "Personalized healthcare support for families and everyday medical needs.",
-  "phone": "9508655664",
+  "phone": "9508655628",
   "email": "hello@divinemedicalcentreghaziabad.demo",
   "addressText": "Ghaziabad, Uttar Pradesh, India",
   "city": "Ghaziabad, Uttar Pradesh, India",
@@ -15,7 +15,7 @@
   "ctaLabel": "Book Now",
   "ctaLink": "https://wa.me/9508655628",
   "whatsappHref": "https://wa.me/9508655628",
-  "phoneHref": "tel:9508655664",
+  "phoneHref": "tel:9508655628",
   "emailHref": "mailto:hello@divinemedicalcentreghaziabad.demo",
   "colors": {
     "primary": "#0F766E",
@@ -30,7 +30,7 @@
     "hero": "https://media.licdn.com/dms/image/v2/D5616AQEFPl3gyVF9Gw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1730217743840?e=1779321600&v=beta&t=CoBdQ_c4dvI7mw842HUMb-gXvsvpRDw9AevTRfP2otg",
     "doctor": "https://media.licdn.com/dms/image/v2/D5603AQHAxGoBforLAA/profile-displayphoto-crop_800_800/B56Z0AEv6MJwAI-/0/1773822745631?e=1779321600&v=beta&t=srVzdOY_iNaZEKn4teTtNShcNUEFNozkQhc5ER6vnhg",
     "gallery": [
-      "/assets/shared/gallery-1.jpg",
+      "https://media.licdn.com/dms/image/v2/D5616AQEFPl3gyVF9Gw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1730217743840?e=1779321600&v=beta&t=CoBdQ_c4dvI7mw842HUMb-gXvsvpRDw9AevTRfP2otg",
       "/assets/shared/gallery-2.jpg"
     ],
     "fallbacks": {
@@ -114,7 +114,7 @@
   "faqs": [
     {
       "question": "How do I book an appointment at Divine Medical Centre?",
-      "answer": "Use the appointment button or call 9508655664. The team will help you choose a convenient consultation time."
+      "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
     },
     {
       "question": "What services does Divine Medical Centre offer?",

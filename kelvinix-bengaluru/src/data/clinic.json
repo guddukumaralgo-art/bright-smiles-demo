@@ -5,7 +5,7 @@
   "linkedInProfileUrl": "Rakshith Kempanpura Revanna",
   "heroHeadline": "Trusted Healthcare Clinic in Bengaluru",
   "subheadline": "Personalized healthcare support for families and everyday medical needs.",
-  "phone": "9508655673",
+  "phone": "9508655628",
   "email": "hello@kelvinixbengaluru.demo",
   "addressText": "Bengaluru, Karnataka, India",
   "city": "Bengaluru, Karnataka, India",
@@ -15,7 +15,7 @@
   "ctaLabel": "Book Now",
   "ctaLink": "https://wa.me/9508655628",
   "whatsappHref": "https://wa.me/9508655628",
-  "phoneHref": "tel:9508655673",
+  "phoneHref": "tel:9508655628",
   "emailHref": "mailto:hello@kelvinixbengaluru.demo",
   "colors": {
     "primary": "#0F766E",
@@ -30,7 +30,7 @@
     "hero": "https://media.licdn.com/dms/image/v2/D5616AQFFgwSrYgx5_g/profile-displaybackgroundimage-shrink_350_1400/B56Z2aDPwKHQAY-/0/1776406036967?e=1779321600&v=beta&t=1ryX1B_zs7ZH3RapY-1Px2BKELQ6dV7RcazuF2scuvQ",
     "doctor": "https://media.licdn.com/dms/image/v2/D5603AQHt9eiLzFl1xw/profile-displayphoto-crop_800_800/B56Z2aTiPHHEAI-/0/1776410307830?e=1779321600&v=beta&t=qa8y3JcDD-ElKpuq4ibJdFm1KNDY078Blz__wEB1cfo",
     "gallery": [
-      "/assets/shared/gallery-1.jpg",
+      "https://media.licdn.com/dms/image/v2/D5616AQFFgwSrYgx5_g/profile-displaybackgroundimage-shrink_350_1400/B56Z2aDPwKHQAY-/0/1776406036967?e=1779321600&v=beta&t=1ryX1B_zs7ZH3RapY-1Px2BKELQ6dV7RcazuF2scuvQ",
       "/assets/shared/gallery-2.jpg"
     ],
     "fallbacks": {
@@ -114,7 +114,7 @@
   "faqs": [
     {
       "question": "How do I book an appointment at KELVINIX?",
-      "answer": "Use the appointment button or call 9508655673. The team will help you choose a convenient consultation time."
+      "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
     },
     {
       "question": "What services does KELVINIX offer?",

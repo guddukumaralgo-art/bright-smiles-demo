@@ -5,7 +5,7 @@
   "linkedInProfileUrl": "Kuldeep Rawat",
   "heroHeadline": "Trusted Healthcare Clinic in Bengaluru",
   "subheadline": "Personalized healthcare support for families and everyday medical needs.",
-  "phone": "9508655666",
+  "phone": "9508655628",
   "email": "hello@nirdwandohealthcaresolutionsbeng.demo",
   "addressText": "Bengaluru, Karnataka, India",
   "city": "Bengaluru, Karnataka, India",
@@ -15,7 +15,7 @@
   "ctaLabel": "Book Now",
   "ctaLink": "https://wa.me/9508655628",
   "whatsappHref": "https://wa.me/9508655628",
-  "phoneHref": "tel:9508655666",
+  "phoneHref": "tel:9508655628",
   "emailHref": "mailto:hello@nirdwandohealthcaresolutionsbeng.demo",
   "colors": {
     "primary": "#0F766E",
@@ -27,10 +27,10 @@
   "images": {
     "logo": "/assets/shared/logo.png",
     "banner": "https://media.licdn.com/dms/image/v2/D5616AQHcZ7Psn7RKJw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1688325254939?e=1779321600&v=beta&t=n222qtL_EEuQyjD8ImailfX1vnVtqB6UEqb_ovCy7t0",
-    "hero": "https://media.licdn.com/dms/image/v2/D5616AQHcZ7Psn7RKJw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1688325254939?e=1779321600&v=beta&t=n222qtL_EEuQyjD8ImailfX1vnVtqB6UEqb_ovCy7t1",
+    "hero": "https://media.licdn.com/dms/image/v2/D5616AQHcZ7Psn7RKJw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1688325254939?e=1779321600&v=beta&t=n222qtL_EEuQyjD8ImailfX1vnVtqB6UEqb_ovCy7t0",
     "doctor": "https://media.licdn.com/dms/image/v2/D4D03AQGr4U6oFyur4A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1703574410315?e=1779321600&v=beta&t=jVXDaXyR0f8a9fjIKM5axZf8NtpAI801BJ1qBSW9Q_w",
     "gallery": [
-      "/assets/shared/gallery-1.jpg",
+      "https://media.licdn.com/dms/image/v2/D5616AQHcZ7Psn7RKJw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1688325254939?e=1779321600&v=beta&t=n222qtL_EEuQyjD8ImailfX1vnVtqB6UEqb_ovCy7t0",
       "/assets/shared/gallery-2.jpg"
     ],
     "fallbacks": {
@@ -114,7 +114,7 @@
   "faqs": [
     {
       "question": "How do I book an appointment at Nirdwando Healthcare Solutions?",
-      "answer": "Use the appointment button or call 9508655666. The team will help you choose a convenient consultation time."
+      "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
     },
     {
       "question": "What services does Nirdwando Healthcare Solutions offer?",

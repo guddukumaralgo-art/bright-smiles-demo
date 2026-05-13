@@ -5,7 +5,7 @@
   "linkedInProfileUrl": "Hemang Kansagra",
   "heroHeadline": "Trusted Healthcare Clinic in Ahmedabad",
   "subheadline": "Personalized healthcare support for families and everyday medical needs.",
-  "phone": "9508655678",
+  "phone": "9508655628",
   "email": "hello@heteroanalyticalsolutionahmedaba.demo",
   "addressText": "Ahmedabad, Gujarat, India",
   "city": "Ahmedabad, Gujarat, India",
@@ -15,7 +15,7 @@
   "ctaLabel": "Book Now",
   "ctaLink": "https://wa.me/9508655628",
   "whatsappHref": "https://wa.me/9508655628",
-  "phoneHref": "tel:9508655678",
+  "phoneHref": "tel:9508655628",
   "emailHref": "mailto:hello@heteroanalyticalsolutionahmedaba.demo",
   "colors": {
     "primary": "#0F766E",
@@ -30,7 +30,7 @@
     "hero": "https://media.licdn.com/dms/image/v2/D4D16AQFopIXhmXy22A/profile-displaybackgroundimage-shrink_350_1400/B4DZe1_zG5GkAY-/0/1751105091700?e=1779321600&v=beta&t=2b76kLf46y-_MpLJmEazXN-7V0M4E4LWFEzKw9ymLOI",
     "doctor": "https://media.licdn.com/dms/image/v2/C5603AQFVT4XGOQbeBA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517075748077?e=1779321600&v=beta&t=7lSc9Zsry81d8_2XUIsJc_RsYDr4TswYSRIx9pp4byY",
     "gallery": [
-      "/assets/shared/gallery-1.jpg",
+      "https://media.licdn.com/dms/image/v2/D4D16AQFopIXhmXy22A/profile-displaybackgroundimage-shrink_350_1400/B4DZe1_zG5GkAY-/0/1751105091700?e=1779321600&v=beta&t=2b76kLf46y-_MpLJmEazXN-7V0M4E4LWFEzKw9ymLOI",
       "/assets/shared/gallery-2.jpg"
     ],
     "fallbacks": {
@@ -114,7 +114,7 @@
   "faqs": [
     {
       "question": "How do I book an appointment at Hetero Analytical Solution?",
-      "answer": "Use the appointment button or call 9508655678. The team will help you choose a convenient consultation time."
+      "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
     },
     {
       "question": "What services does Hetero Analytical Solution offer?",

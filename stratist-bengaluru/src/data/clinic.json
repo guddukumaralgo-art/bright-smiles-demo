@@ -5,7 +5,7 @@
   "linkedInProfileUrl": "Rahul. P.R",
   "heroHeadline": "Trusted Healthcare Clinic in Bengaluru",
   "subheadline": "Personalized healthcare support for families and everyday medical needs.",
-  "phone": "9508655671",
+  "phone": "9508655628",
   "email": "hello@stratistbengaluru.demo",
   "addressText": "Bengaluru, Karnataka, India",
   "city": "Bengaluru, Karnataka, India",
@@ -15,7 +15,7 @@
   "ctaLabel": "Book Now",
   "ctaLink": "https://wa.me/9508655628",
   "whatsappHref": "https://wa.me/9508655628",
-  "phoneHref": "tel:9508655671",
+  "phoneHref": "tel:9508655628",
   "emailHref": "mailto:hello@stratistbengaluru.demo",
   "colors": {
     "primary": "#0F766E",
@@ -30,7 +30,7 @@
     "hero": "https://media.licdn.com/dms/image/v2/D5616AQG3d-vDLE4jrQ/profile-displaybackgroundimage-shrink_350_1400/B56Ze8WMBCGoAY-/0/1751211623118?e=1779321600&v=beta&t=nB_E-2hme3zWsBYKhhJUrSizLItUaiIvxAy4eHfdOyU",
     "doctor": "https://media.licdn.com/dms/image/v2/D5603AQFh9vt42ALOHA/profile-displayphoto-crop_800_800/B56Zq2Gf1PJwAI-/0/1763991758183?e=1779321600&v=beta&t=S3Wgb02kIedt5AoqheECF1MzYkG71HNvgzsDkCMa_2w",
     "gallery": [
-      "/assets/shared/gallery-1.jpg",
+      "https://media.licdn.com/dms/image/v2/D5616AQG3d-vDLE4jrQ/profile-displaybackgroundimage-shrink_350_1400/B56Ze8WMBCGoAY-/0/1751211623118?e=1779321600&v=beta&t=nB_E-2hme3zWsBYKhhJUrSizLItUaiIvxAy4eHfdOyU",
       "/assets/shared/gallery-2.jpg"
     ],
     "fallbacks": {
@@ -114,7 +114,7 @@
   "faqs": [
     {
       "question": "How do I book an appointment at STRATIST?",
-      "answer": "Use the appointment button or call 9508655671. The team will help you choose a convenient consultation time."
+      "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
     },
     {
       "question": "What services does STRATIST offer?",

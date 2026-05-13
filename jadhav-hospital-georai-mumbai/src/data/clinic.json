@@ -5,7 +5,7 @@
   "linkedInProfileUrl": "Dr Kiran Lahurao Jadhav",
   "heroHeadline": "Advanced Healthcare in Mumbai",
   "subheadline": "Comprehensive healthcare with trusted specialists and patient-first care.",
-  "phone": "9508655640",
+  "phone": "9508655628",
   "email": "hello@jadhavhospitalgeoraimumbai.demo",
   "addressText": "Mumbai, Maharashtra, India",
   "city": "Mumbai, Maharashtra, India",
@@ -15,7 +15,7 @@
   "ctaLabel": "Book Now",
   "ctaLink": "https://wa.me/9508655628",
   "whatsappHref": "https://wa.me/9508655628",
-  "phoneHref": "tel:9508655640",
+  "phoneHref": "tel:9508655628",
   "emailHref": "mailto:hello@jadhavhospitalgeoraimumbai.demo",
   "colors": {
     "primary": "#1D4ED8",
@@ -30,7 +30,7 @@
     "hero": "https://media.licdn.com/dms/image/v2/C4D16AQEpZW97wMxp4A/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1615193931161?e=1779321600&v=beta&t=eklX7lpL-TqFzfMnqvo99o452KPsgrAK0vQJpZ7Ub1c",
     "doctor": "https://media.licdn.com/dms/image/v2/C4D03AQENulXjRmwRGQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1658250594980?e=1779321600&v=beta&t=8aDGbi9qW0UsiqqFq2cUmEZo4DUdpnNJC2KVqP2v7TI",
     "gallery": [
-      "/assets/shared/gallery-1.jpg",
+      "https://media.licdn.com/dms/image/v2/C4D16AQEpZW97wMxp4A/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1615193931161?e=1779321600&v=beta&t=eklX7lpL-TqFzfMnqvo99o452KPsgrAK0vQJpZ7Ub1c",
       "/assets/shared/gallery-2.jpg"
     ],
     "fallbacks": {
@@ -114,7 +114,7 @@
   "faqs": [
     {
       "question": "How do I book an appointment at Jadhav Hospital Georai?",
-      "answer": "Use the appointment button or call 9508655640. The team will help you choose a convenient consultation time."
+      "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
     },
     {
       "question": "What services does Jadhav Hospital Georai offer?",

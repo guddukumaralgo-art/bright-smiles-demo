@@ -27,11 +27,11 @@
   "images": {
     "logo": "/assets/shared/logo.png",
     "banner": "/assets/shared/hero.jpg",
-    "hero": "/assets/shared/logo.png",
+    "hero": "/assets/shared/hero.jpg",
     "doctor": "/assets/shared/doctor.jpg",
     "gallery": [
-      "/assets/shared/hero.jpg",
-      "/assets/shared/gallery-1.jpg"
+      "/assets/shared/gallery-1.jpg",
+      "/assets/shared/gallery-2.jpg"
     ],
     "fallbacks": {
       "banner": "/assets/shared/hero.jpg",
@@ -43,9 +43,9 @@
     }
   },
   "favicon": {
-    "href": "/assets/shared/gallery-2.jpg",
+    "href": "./favicon.svg",
     "isExternal": false,
-    "generated": false
+    "generated": true
   },
   "services": [
     {

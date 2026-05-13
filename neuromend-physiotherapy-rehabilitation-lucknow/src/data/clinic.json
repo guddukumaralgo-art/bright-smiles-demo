@@ -27,11 +27,11 @@
   "images": {
     "logo": "/assets/shared/logo.png",
     "banner": "https://media.licdn.com/dms/image/v2/D5616AQHDD2pp2g1JRw/profile-displaybackgroundimage-shrink_200_800/B56ZqqPtPvIcAU-/0/1763792836335?e=1778716800&v=beta&t=9fsO-zFZng0N4DyBzqKKlN_JmwsvLI39besX6n7T1SI",
-    "hero": "/assets/shared/logo.png",
+    "hero": "https://media.licdn.com/dms/image/v2/D5616AQHDD2pp2g1JRw/profile-displaybackgroundimage-shrink_200_800/B56ZqqPtPvIcAU-/0/1763792836335?e=1778716800&v=beta&t=9fsO-zFZng0N4DyBzqKKlN_JmwsvLI39besX6n7T1SI",
     "doctor": "https://media.licdn.com/dms/image/v2/D5603AQG_ydAp8WoQ_A/profile-displayphoto-crop_800_800/B56ZqqPcL3KAAI-/0/1763792766748?e=1778716800&v=beta&t=6JK1JWZm1Mibf6OJU3ukqPGCl3RmcL4ktDtv-58mucc",
     "gallery": [
-      "/assets/shared/hero.jpg",
-      "/assets/shared/gallery-1.jpg"
+      "https://media.licdn.com/dms/image/v2/D5616AQHDD2pp2g1JRw/profile-displaybackgroundimage-shrink_200_800/B56ZqqPtPvIcAU-/0/1763792836335?e=1778716800&v=beta&t=9fsO-zFZng0N4DyBzqKKlN_JmwsvLI39besX6n7T1SI",
+      "/assets/shared/gallery-2.jpg"
     ],
     "fallbacks": {
       "banner": "/assets/shared/hero.jpg",
@@ -43,8 +43,8 @@
     }
   },
   "favicon": {
-    "href": "/assets/shared/gallery-2.jpg",
-    "isExternal": false,
+    "href": "https://media.licdn.com/dms/image/v2/D5603AQG_ydAp8WoQ_A/profile-displayphoto-crop_800_800/B56ZqqPcL3KAAI-/0/1763792766748?e=1778716800&v=beta&t=6JK1JWZm1Mibf6OJU3ukqPGCl3RmcL4ktDtv-58mucc",
+    "isExternal": true,
     "generated": false
   },
   "services": [

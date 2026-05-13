@@ -5,7 +5,7 @@
   "linkedInProfileUrl": "Sunil Phondake",
   "heroHeadline": "Advanced Healthcare in Mumbai",
   "subheadline": "Comprehensive healthcare with trusted specialists and patient-first care.",
-  "phone": "9508655653",
+  "phone": "9508655628",
   "email": "hello@heartandvascularsuperspecialityh.demo",
   "addressText": "Mumbai, Maharashtra, India",
   "city": "Mumbai, Maharashtra, India",
@@ -15,7 +15,7 @@
   "ctaLabel": "Book Now",
   "ctaLink": "https://wa.me/9508655628",
   "whatsappHref": "https://wa.me/9508655628",
-  "phoneHref": "tel:9508655653",
+  "phoneHref": "tel:9508655628",
   "emailHref": "mailto:hello@heartandvascularsuperspecialityh.demo",
   "colors": {
     "primary": "#1D4ED8",
@@ -30,7 +30,7 @@
     "hero": "https://media.licdn.com/dms/image/v2/D4E16AQFCj_V2gT-k9w/profile-displaybackgroundimage-shrink_350_1400/B4EZesAx28HsAg-/0/1750937576470?e=1779321600&v=beta&t=hblcqMRpymFNkVPJoHvt8bTWMr6L2Gou7_zAdAQuY1w",
     "doctor": "https://media.licdn.com/dms/image/v2/D4E03AQFOa4Lbx3NeQw/profile-displayphoto-crop_800_800/B4EZr_RNmNHMAI-/0/1765219295994?e=1779321600&v=beta&t=1s2oLh8BdvDRoOy2XKQsBtjYUv81KeowwRMqVaiNAUQ",
     "gallery": [
-      "/assets/shared/gallery-1.jpg",
+      "https://media.licdn.com/dms/image/v2/D4E16AQFCj_V2gT-k9w/profile-displaybackgroundimage-shrink_350_1400/B4EZesAx28HsAg-/0/1750937576470?e=1779321600&v=beta&t=hblcqMRpymFNkVPJoHvt8bTWMr6L2Gou7_zAdAQuY1w",
       "/assets/shared/gallery-2.jpg"
     ],
     "fallbacks": {
@@ -114,7 +114,7 @@
   "faqs": [
     {
       "question": "How do I book an appointment at Heart and Vascular SuperSpeciality Hospitals?",
-      "answer": "Use the appointment button or call 9508655653. The team will help you choose a convenient consultation time."
+      "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
     },
     {
       "question": "What services does Heart and Vascular SuperSpeciality Hospitals offer?",

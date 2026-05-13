@@ -5,7 +5,7 @@
   "linkedInProfileUrl": "Panthi Shah",
   "heroHeadline": "Advanced Skin and Aesthetic Care in Mumbai",
   "subheadline": "Advanced skin, hair, and aesthetic care designed around patient confidence.",
-  "phone": "9508655662",
+  "phone": "9508655628",
   "email": "hello@bcpaapsstudentchaptermumbai.demo",
   "addressText": "Mumbai, Maharashtra, India",
   "city": "Mumbai, Maharashtra, India",
@@ -15,7 +15,7 @@
   "ctaLabel": "Book Now",
   "ctaLink": "https://wa.me/9508655628",
   "whatsappHref": "https://wa.me/9508655628",
-  "phoneHref": "tel:9508655662",
+  "phoneHref": "tel:9508655628",
   "emailHref": "mailto:hello@bcpaapsstudentchaptermumbai.demo",
   "colors": {
     "primary": "#7C3AED",
@@ -30,7 +30,7 @@
     "hero": "https://media.licdn.com/dms/image/v2/D4E16AQH1FRJ037Nljg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1664707014097?e=1779321600&v=beta&t=hvxG1EzM4rjpXokRD29VVLtkcrAfYYr8WgthG7a5Vew",
     "doctor": "https://media.licdn.com/dms/image/v2/D4D03AQEgqDLhQKz9Pw/profile-displayphoto-crop_800_800/B4DZhNFMQoH4AI-/0/1753639865514?e=1779321600&v=beta&t=LkGrXNAGrK-AKziuj6tbTwxZvIW3J1SLrv_Ly2ZVVCY",
     "gallery": [
-      "/assets/shared/gallery-1.jpg",
+      "https://media.licdn.com/dms/image/v2/D4E16AQH1FRJ037Nljg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1664707014097?e=1779321600&v=beta&t=hvxG1EzM4rjpXokRD29VVLtkcrAfYYr8WgthG7a5Vew",
       "/assets/shared/gallery-2.jpg"
     ],
     "fallbacks": {
@@ -114,7 +114,7 @@
   "faqs": [
     {
       "question": "How do I book an appointment at BCP AAPS Student Chapter?",
-      "answer": "Use the appointment button or call 9508655662. The team will help you choose a convenient consultation time."
+      "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
     },
     {
       "question": "What services does BCP AAPS Student Chapter offer?",

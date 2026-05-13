@@ -43,9 +43,9 @@
     }
   },
   "favicon": {
-    "href": "./favicon.svg",
-    "isExternal": false,
-    "generated": true
+    "href": "https://media.licdn.com/dms/image/v2/D5603AQHMU_a54lzFIQ/profile-displayphoto-shrink_800_800/B56Zc6ge4zGQAg-/0/1749033284241?e=1778716800&v=beta&t=EAxJdgYAFyAuLe0DlqgV1jnGpl2iIot6bK4CgUGZnCA",
+    "isExternal": true,
+    "generated": false
   },
   "services": [
     {

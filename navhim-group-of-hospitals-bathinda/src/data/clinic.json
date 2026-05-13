@@ -5,7 +5,7 @@
   "linkedInProfileUrl": "Himanshu Singh",
   "heroHeadline": "Advanced Healthcare in Bathinda",
   "subheadline": "Comprehensive healthcare with trusted specialists and patient-first care.",
-  "phone": "9508655686",
+  "phone": "9508655628",
   "email": "hello@navhimgroupofhospitalsbathinda.demo",
   "addressText": "Bathinda, India",
   "city": "Bathinda, India",
@@ -15,7 +15,7 @@
   "ctaLabel": "Book Now",
   "ctaLink": "https://wa.me/9508655628",
   "whatsappHref": "https://wa.me/9508655628",
-  "phoneHref": "tel:9508655686",
+  "phoneHref": "tel:9508655628",
   "emailHref": "mailto:hello@navhimgroupofhospitalsbathinda.demo",
   "colors": {
     "primary": "#1D4ED8",
@@ -30,7 +30,7 @@
     "hero": "https://media.licdn.com/dms/image/v2/D4D16AQGzSL3V1OCRCg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1673781564518?e=1779321600&v=beta&t=TjX7LlrKIiATIq7uai6y89ZP3HfxvH_nHrVDQoIlvHY",
     "doctor": "https://media.licdn.com/dms/image/v2/D5603AQEFAazDpY5m9w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726567137896?e=1779321600&v=beta&t=zVmvlPA7OzjTjdJ5MjzBHMUm5vx4-WSioPuY-33USv0",
     "gallery": [
-      "/assets/shared/gallery-1.jpg",
+      "https://media.licdn.com/dms/image/v2/D4D16AQGzSL3V1OCRCg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1673781564518?e=1779321600&v=beta&t=TjX7LlrKIiATIq7uai6y89ZP3HfxvH_nHrVDQoIlvHY",
       "/assets/shared/gallery-2.jpg"
     ],
     "fallbacks": {
@@ -114,7 +114,7 @@
   "faqs": [
     {
       "question": "How do I book an appointment at Navhim Group of Hospitals?",
-      "answer": "Use the appointment button or call 9508655686. The team will help you choose a convenient consultation time."
+      "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
     },
     {
       "question": "What services does Navhim Group of Hospitals offer?",

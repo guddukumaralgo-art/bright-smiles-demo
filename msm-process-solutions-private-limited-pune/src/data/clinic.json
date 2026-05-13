@@ -5,7 +5,7 @@
   "linkedInProfileUrl": "Manali Chandole",
   "heroHeadline": "Trusted Healthcare Clinic in Pune",
   "subheadline": "Personalized healthcare support for families and everyday medical needs.",
-  "phone": "9508655663",
+  "phone": "9508655628",
   "email": "hello@msmprocesssolutionsprivatelimite.demo",
   "addressText": "Pune, Maharashtra, India",
   "city": "Pune, Maharashtra, India",
@@ -15,7 +15,7 @@
   "ctaLabel": "Book Now",
   "ctaLink": "https://wa.me/9508655628",
   "whatsappHref": "https://wa.me/9508655628",
-  "phoneHref": "tel:9508655663",
+  "phoneHref": "tel:9508655628",
   "emailHref": "mailto:hello@msmprocesssolutionsprivatelimite.demo",
   "colors": {
     "primary": "#0F766E",
@@ -30,7 +30,7 @@
     "hero": "https://media.licdn.com/dms/image/v2/D4D16AQGVGCjmv4KZvw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1691929824953?e=1779321600&v=beta&t=EMuP-ZdUvBgXataQ3yOtnQVWZwfHXltRdjspnKczlGE",
     "doctor": "https://media.licdn.com/dms/image/v2/C4D03AQEiHx7Y-KZpvw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1639174363868?e=1779321600&v=beta&t=U-4iWphiDPJj3fN25CnVaoIoaPEqE-vlkGgeN6md1yU",
     "gallery": [
-      "/assets/shared/gallery-1.jpg",
+      "https://media.licdn.com/dms/image/v2/D4D16AQGVGCjmv4KZvw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1691929824953?e=1779321600&v=beta&t=EMuP-ZdUvBgXataQ3yOtnQVWZwfHXltRdjspnKczlGE",
       "/assets/shared/gallery-2.jpg"
     ],
     "fallbacks": {
@@ -114,7 +114,7 @@
   "faqs": [
     {
       "question": "How do I book an appointment at MSM Process Solutions Private Limited?",
-      "answer": "Use the appointment button or call 9508655663. The team will help you choose a convenient consultation time."
+      "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
     },
     {
       "question": "What services does MSM Process Solutions Private Limited offer?",

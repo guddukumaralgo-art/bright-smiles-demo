@@ -5,7 +5,7 @@
   "linkedInProfileUrl": "Harddik K Patel",
   "heroHeadline": "Trusted Healthcare Clinic in Mumbai",
   "subheadline": "Personalized healthcare support for families and everyday medical needs.",
-  "phone": "9508655632",
+  "phone": "9508655628",
   "email": "hello@quali5careandconsultingprivateli.demo",
   "addressText": "Mumbai, Maharashtra, India",
   "city": "Mumbai, Maharashtra, India",
@@ -15,7 +15,7 @@
   "ctaLabel": "Book Now",
   "ctaLink": "https://wa.me/9508655628",
   "whatsappHref": "https://wa.me/9508655628",
-  "phoneHref": "tel:9508655632",
+  "phoneHref": "tel:9508655628",
   "emailHref": "mailto:hello@quali5careandconsultingprivateli.demo",
   "colors": {
     "primary": "#0F766E",
@@ -27,10 +27,10 @@
   "images": {
     "logo": "/assets/shared/logo.png",
     "banner": "https://media.licdn.com/dms/image/v2/D4D16AQErXGfaxHYxKw/profile-displaybackgroundimage-shrink_350_1400/B4DZUE0qsIGkAY-/0/1739542673121?e=1779321600&v=beta&t=EcKB4Rqj5PA_t8vazmP1DzJut4yExqtj0LQFhr566h8",
-    "hero": "https://media.licdn.com/dms/image/v2/D4D16AQErXGfaxHYxKw/profile-displaybackgroundimage-shrink_350_1400/B4DZUE0qsIGkAY-/0/1739542673121?e=1779321600&v=beta&t=EcKB4Rqj5PA_t8vazmP1DzJut4yExqtj0LQFhr566h9",
+    "hero": "https://media.licdn.com/dms/image/v2/D4D16AQErXGfaxHYxKw/profile-displaybackgroundimage-shrink_350_1400/B4DZUE0qsIGkAY-/0/1739542673121?e=1779321600&v=beta&t=EcKB4Rqj5PA_t8vazmP1DzJut4yExqtj0LQFhr566h8",
     "doctor": "https://media.licdn.com/dms/image/v2/C4E03AQGc3pjL4sb_BQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1596648261170?e=1779321600&v=beta&t=jmpfgyItNzV8--vF94u7_sCPp6726KRgT3BoQofEkEo",
     "gallery": [
-      "/assets/shared/gallery-1.jpg",
+      "https://media.licdn.com/dms/image/v2/D4D16AQErXGfaxHYxKw/profile-displaybackgroundimage-shrink_350_1400/B4DZUE0qsIGkAY-/0/1739542673121?e=1779321600&v=beta&t=EcKB4Rqj5PA_t8vazmP1DzJut4yExqtj0LQFhr566h8",
       "/assets/shared/gallery-2.jpg"
     ],
     "fallbacks": {
@@ -114,7 +114,7 @@
   "faqs": [
     {
       "question": "How do I book an appointment at Quali5Care And Consulting Private Limited?",
-      "answer": "Use the appointment button or call 9508655632. The team will help you choose a convenient consultation time."
+      "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
     },
     {
       "question": "What services does Quali5Care And Consulting Private Limited offer?",

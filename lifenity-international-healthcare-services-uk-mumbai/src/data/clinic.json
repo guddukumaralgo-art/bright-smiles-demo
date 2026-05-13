@@ -5,7 +5,7 @@
   "linkedInProfileUrl": "Karthikeyan V",
   "heroHeadline": "Trusted Healthcare Clinic in Mumbai",
   "subheadline": "Personalized healthcare support for families and everyday medical needs.",
-  "phone": "9508655654",
+  "phone": "9508655628",
   "email": "hello@lifenityinternationalhealthcares.demo",
   "addressText": "Mumbai, Maharashtra, India",
   "city": "Mumbai, Maharashtra, India",
@@ -15,7 +15,7 @@
   "ctaLabel": "Book Now",
   "ctaLink": "https://wa.me/9508655628",
   "whatsappHref": "https://wa.me/9508655628",
-  "phoneHref": "tel:9508655654",
+  "phoneHref": "tel:9508655628",
   "emailHref": "mailto:hello@lifenityinternationalhealthcares.demo",
   "colors": {
     "primary": "#0F766E",
@@ -27,10 +27,10 @@
   "images": {
     "logo": "/assets/shared/logo.png",
     "banner": "https://media.licdn.com/dms/image/v2/D5616AQFfFtlS7XLnaw/profile-displaybackgroundimage-shrink_350_1400/B56ZZb0zRlHsAY-/0/1745297313051?e=1779321600&v=beta&t=ejk1b-cESjXx_URjUOwsSHc061sMUSOaBl4y3FYOEY4",
-    "hero": "https://media.licdn.com/dms/image/v2/D5616AQFfFtlS7XLnaw/profile-displaybackgroundimage-shrink_350_1400/B56ZZb0zRlHsAY-/0/1745297313051?e=1779321600&v=beta&t=ejk1b-cESjXx_URjUOwsSHc061sMUSOaBl4y3FYOEY5",
+    "hero": "https://media.licdn.com/dms/image/v2/D5616AQFfFtlS7XLnaw/profile-displaybackgroundimage-shrink_350_1400/B56ZZb0zRlHsAY-/0/1745297313051?e=1779321600&v=beta&t=ejk1b-cESjXx_URjUOwsSHc061sMUSOaBl4y3FYOEY4",
     "doctor": "https://media.licdn.com/dms/image/v2/D5603AQFa9M0DV-Hpsw/profile-displayphoto-crop_800_800/B56Ze6dQ5mH8AI-/0/1751179924760?e=1779321600&v=beta&t=EqkF3hTvoxS9xyAVunxYenFEdFWexZ1VQoM2WUwVzgI",
     "gallery": [
-      "/assets/shared/gallery-1.jpg",
+      "https://media.licdn.com/dms/image/v2/D5616AQFfFtlS7XLnaw/profile-displaybackgroundimage-shrink_350_1400/B56ZZb0zRlHsAY-/0/1745297313051?e=1779321600&v=beta&t=ejk1b-cESjXx_URjUOwsSHc061sMUSOaBl4y3FYOEY4",
       "/assets/shared/gallery-2.jpg"
     ],
     "fallbacks": {
@@ -114,7 +114,7 @@
   "faqs": [
     {
       "question": "How do I book an appointment at Lifenity International Healthcare Services, UK?",
-      "answer": "Use the appointment button or call 9508655654. The team will help you choose a convenient consultation time."
+      "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
     },
     {
       "question": "What services does Lifenity International Healthcare Services, UK offer?",
