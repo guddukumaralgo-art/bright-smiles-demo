@@ -1,1 +1,0 @@
-import{j as e}from"./renderPage-pzvKi-Pz.js";function r({eyebrow:s,title:c,copy:t,align:n="left"}){const a=n==="center"?"mx-auto text-center":"";return e.jsxs("div",{className:`max-w-3xl ${a}`,children:[s&&e.jsx("p",{className:"eyebrow mb-4",children:s}),e.jsx("h2",{className:"section-title",children:c}),t&&e.jsx("p",{className:"section-copy mt-5",children:t})]})}export{r as S};
