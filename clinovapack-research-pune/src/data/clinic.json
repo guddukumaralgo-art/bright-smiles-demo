@@ -1,12 +1,12 @@
 {
-  "doctorName": "Ningraj Vathare",
-  "specialty": "Founder & Director Project Management & Business Development",
+  "doctorName": "Nisar Mulani PhD",
+  "specialty": "Healthcare Services",
   "businessType": "clinic",
-  "linkedInProfileUrl": "https://www.linkedin.com/in/ACwAAAQ-0lQBiWCw0nU3d7WSZRG7_lHUoFqaJVA",
-  "heroHeadline": "Modern Medical Care in Pune",
-  "subheadline": "A clean, modern clinic website concept built to improve trust, showcase services, and make patient enquiries easier.",
+  "linkedInProfileUrl": "Nisar Mulani PhD",
+  "heroHeadline": "Modern Healthcare in Pune",
+  "subheadline": "Personalized healthcare services with clear communication, convenient appointments, and reliable care.",
   "phone": "9508655628",
-  "email": "hello@clinovapackresearchpune.demo",
+  "email": "hello@clinovapack-research-pune.demo",
   "addressText": "Pune, Maharashtra, India",
   "city": "Pune",
   "name": "Clinovapack Research",
@@ -16,22 +16,22 @@
   "ctaLink": "https://wa.me/9508655628",
   "whatsappHref": "https://wa.me/9508655628",
   "phoneHref": "tel:9508655628",
-  "emailHref": "mailto:hello@clinovapackresearchpune.demo",
+  "emailHref": "mailto:hello@clinovapack-research-pune.demo",
   "colors": {
-    "primary": "#0284C7",
-    "primaryDark": "#0284C7",
-    "secondary": "#E0F2FE",
-    "accent": "#22C55E",
+    "primary": "#059669",
+    "primaryDark": "#059669",
+    "secondary": "#D1FAE5",
+    "accent": "#0EA5E9",
     "surface": "#ffffff"
   },
   "images": {
     "logo": "/assets/shared/logo.png",
-    "banner": "https://media.licdn.com/dms/image/v2/D4D16AQHwO6D_R-plbQ/profile-displaybackgroundimage-shrink_350_1400/B4DZwdAtGBKEAY-/0/1770013252698?e=1779321600&v=beta&t=SRmOUf6kHDBptlyNArAeHNw7HIowJrPFCo9hpu2q-vc",
-    "hero": "https://media.licdn.com/dms/image/v2/D4D16AQHwO6D_R-plbQ/profile-displaybackgroundimage-shrink_350_1400/B4DZwdAtGBKEAY-/0/1770013252698?e=1779321600&v=beta&t=SRmOUf6kHDBptlyNArAeHNw7HIowJrPFCo9hpu2q-vc",
-    "doctor": "https://media.licdn.com/dms/image/v2/D4D03AQF1-bVdRM1RWA/profile-displayphoto-crop_800_800/B4DZwdAG9XIgAI-/0/1770013094416?e=1779321600&v=beta&t=pQqb00Koyct58w93_sIldlWZJCixN7S6FjNT909l2s0",
+    "banner": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1400&q=85",
+    "hero": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1400&q=85",
+    "doctor": "https://media.licdn.com/dms/image/v2/D4D03AQH2sppKj4M1CQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1725978908276?e=1779926400&v=beta&t=sXmv5TNUCIZU22ieyuPPENZZjjugLr1uy4T3qb5OGkw",
     "gallery": [
-      "https://media.licdn.com/dms/image/v2/D4D16AQHwO6D_R-plbQ/profile-displaybackgroundimage-shrink_350_1400/B4DZwdAtGBKEAY-/0/1770013252698?e=1779321600&v=beta&t=SRmOUf6kHDBptlyNArAeHNw7HIowJrPFCo9hpu2q-vc",
-      "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&q=85"
+      "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=85",
+      "/assets/shared/gallery-1.jpg"
     ],
     "fallbacks": {
       "banner": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1400&q=85",
@@ -43,30 +43,34 @@
     }
   },
   "favicon": {
-    "href": "https://media.licdn.com/dms/image/v2/D4D03AQF1-bVdRM1RWA/profile-displayphoto-crop_800_800/B4DZwdAG9XIgAI-/0/1770013094416?e=1779321600&v=beta&t=pQqb00Koyct58w93_sIldlWZJCixN7S6FjNT909l2s0",
+    "href": "https://media.licdn.com/dms/image/v2/D4D03AQH2sppKj4M1CQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1725978908276?e=1779926400&v=beta&t=sXmv5TNUCIZU22ieyuPPENZZjjugLr1uy4T3qb5OGkw",
     "isExternal": true,
     "generated": false
   },
   "services": [
     {
-      "title": "General Consultation",
-      "description": "General Consultation presented with specialist access and a patient-first enquiry path."
+      "title": "Doctor Consultation",
+      "description": "Doctor Consultation presented with specialist access and a patient-first enquiry path."
+    },
+    {
+      "title": "General Healthcare",
+      "description": "General Healthcare presented with care-team clarity and a patient-first enquiry path."
     },
     {
       "title": "Preventive Care",
-      "description": "Preventive Care presented with care-team clarity and a patient-first enquiry path."
+      "description": "Preventive Care presented with appointment-ready and a patient-first enquiry path."
     },
     {
       "title": "Health Checkups",
-      "description": "Health Checkups presented with appointment-ready and a patient-first enquiry path."
-    },
-    {
-      "title": "Treatment Planning",
-      "description": "Treatment Planning presented with dependable layout and a patient-first enquiry path."
+      "description": "Health Checkups presented with dependable layout and a patient-first enquiry path."
     },
     {
       "title": "Follow-up Care",
       "description": "Follow-up Care presented with specialist access and a patient-first enquiry path."
+    },
+    {
+      "title": "Patient Support",
+      "description": "Patient Support presented with care-team clarity and a patient-first enquiry path."
     }
   ],
   "hours": [
@@ -122,7 +126,7 @@
     },
     {
       "question": "What services does Clinovapack Research offer?",
-      "answer": "Clinovapack Research supports patients with General Consultation, Preventive Care, Health Checkups, Treatment Planning, Follow-up Care."
+      "answer": "Clinovapack Research supports patients with Doctor Consultation, General Healthcare, Preventive Care, Health Checkups, Follow-up Care, Patient Support."
     },
     {
       "question": "Can I ask questions before visiting?",
@@ -133,7 +137,7 @@
       "answer": "Clinovapack Research is located at Pune, Maharashtra, India."
     }
   ],
-  "aboutText": "Clinovapack Research is a premium clinic concept in Pune, designed to present services, build patient trust, and make enquiries simple through a modern digital experience.",
+  "aboutText": "Clinovapack Research offers healthcare services with a modern, patient-friendly experience in Pune. This demo highlights clear services, trust-building content, appointment-focused calls to action, and a premium healthcare website layout.",
   "contactBlurb": "Call or message to ask about availability, services, and the best next step for your visit.",
   "pages": {
     "home": {
@@ -185,7 +189,7 @@
       ]
     },
     "services": {
-      "heroTitle": "Founder & Director Project Management & Business Development Services",
+      "heroTitle": "Healthcare Services Services",
       "heroCopy": "Hospital services presented with safety, access, and specialist clarity.",
       "processTitle": "How Care Is Planned",
       "processCopy": "Our process helps you feel informed and confident at every step.",
