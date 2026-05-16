@@ -1,37 +1,37 @@
 {
-  "doctorName": "Clifford Quadros",
-  "specialty": "Healthcare Services",
+  "doctorName": "Raj Dhamelia",
+  "specialty": "President",
   "businessType": "clinic",
-  "linkedInProfileUrl": "Clifford Quadros",
-  "heroHeadline": "Modern Healthcare in Mumbai",
-  "subheadline": "Personalized healthcare services with clear communication, convenient appointments, and reliable care.",
+  "linkedInProfileUrl": "https://www.linkedin.com/in/ACwAABCUthIBN7kX8b0l85bB2qXLSorJYanSwyY",
+  "heroHeadline": "Modern Medical Care in Ahmedabad",
+  "subheadline": "A clean, modern clinic website concept built to improve trust, showcase services, and make patient enquiries easier.",
   "phone": "9508655628",
-  "email": "hello@grow-my-rx-ai-mumbai.demo",
-  "addressText": "Mumbai, Maharashtra, India",
-  "city": "Mumbai",
-  "name": "Grow My Rx. AI",
-  "shortName": "Grow My Rx. AI",
+  "email": "hello@supatradaanfoundationahmedab.demo",
+  "addressText": "Ahmedabad, Gujarat, India",
+  "city": "Ahmedabad",
+  "name": "Supatra Daan Foundation",
+  "shortName": "Supatra Daan Foundation",
   "footerTagline": "Dependable hospital care preview.",
   "ctaLabel": "Book appointment",
   "ctaLink": "https://wa.me/9508655628",
   "whatsappHref": "https://wa.me/9508655628",
   "phoneHref": "tel:9508655628",
-  "emailHref": "mailto:hello@grow-my-rx-ai-mumbai.demo",
+  "emailHref": "mailto:hello@supatradaanfoundationahmedab.demo",
   "colors": {
-    "primary": "#059669",
-    "primaryDark": "#059669",
-    "secondary": "#D1FAE5",
-    "accent": "#0EA5E9",
+    "primary": "#0284C7",
+    "primaryDark": "#0284C7",
+    "secondary": "#E0F2FE",
+    "accent": "#22C55E",
     "surface": "#ffffff"
   },
   "images": {
     "logo": "/assets/shared/logo.png",
-    "banner": "https://media.licdn.com/dms/image/v2/D4D16AQHahZGkMyD_1w/profile-displaybackgroundimage-shrink_350_1400/B4DZntrLPqJMAY-/0/1760629144779?e=1779926400&v=beta&t=IkwgYQiuUKFNV0790c_9Q8216IBduNsjJX1vYfjn48M",
-    "hero": "https://media.licdn.com/dms/image/v2/D4D16AQHahZGkMyD_1w/profile-displaybackgroundimage-shrink_350_1400/B4DZntrLPqJMAY-/0/1760629144779?e=1779926400&v=beta&t=IkwgYQiuUKFNV0790c_9Q8216IBduNsjJX1vYfjn48M",
-    "doctor": "https://media.licdn.com/dms/image/v2/D4D03AQFXvoSmftBUQQ/profile-displayphoto-crop_800_800/B4DZrD5GmrGsAM-/0/1764223121610?e=1779926400&v=beta&t=VLb1a1qhLaG2liJ2CE9_brLohaRJ9l6SglmsM_o3_cc",
+    "banner": "https://media.licdn.com/dms/image/v2/D4D16AQFHiaq6R4vsWQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1726157514482?e=1779321600&v=beta&t=2MhieWc5maFpcfIyce8Kj2HQZKmsfjJQQ1xxlzHRNTk",
+    "hero": "https://media.licdn.com/dms/image/v2/D4D16AQFHiaq6R4vsWQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1726157514482?e=1779321600&v=beta&t=2MhieWc5maFpcfIyce8Kj2HQZKmsfjJQQ1xxlzHRNTk",
+    "doctor": "https://media.licdn.com/dms/image/v2/D4D03AQFEQkdcO5H-Sg/profile-displayphoto-crop_800_800/B4DZk3q08_H0AI-/0/1757575605261?e=1779321600&v=beta&t=X7a82mqHoIkvSpwAiS0UcCVVG4AozTJYTL6w3dIvpqs",
     "gallery": [
-      "https://media.licdn.com/dms/image/v2/D4D16AQHahZGkMyD_1w/profile-displaybackgroundimage-shrink_350_1400/B4DZntrLPqJMAY-/0/1760629144779?e=1779926400&v=beta&t=IkwgYQiuUKFNV0790c_9Q8216IBduNsjJX1vYfjn48M",
-      "/assets/shared/gallery-1.jpg"
+      "https://media.licdn.com/dms/image/v2/D4D16AQFHiaq6R4vsWQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1726157514482?e=1779321600&v=beta&t=2MhieWc5maFpcfIyce8Kj2HQZKmsfjJQQ1xxlzHRNTk",
+      "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&q=85"
     ],
     "fallbacks": {
       "banner": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1400&q=85",
@@ -43,34 +43,30 @@
     }
   },
   "favicon": {
-    "href": "https://media.licdn.com/dms/image/v2/D4D03AQFXvoSmftBUQQ/profile-displayphoto-crop_800_800/B4DZrD5GmrGsAM-/0/1764223121610?e=1779926400&v=beta&t=VLb1a1qhLaG2liJ2CE9_brLohaRJ9l6SglmsM_o3_cc",
+    "href": "https://media.licdn.com/dms/image/v2/D4D03AQFEQkdcO5H-Sg/profile-displayphoto-crop_800_800/B4DZk3q08_H0AI-/0/1757575605261?e=1779321600&v=beta&t=X7a82mqHoIkvSpwAiS0UcCVVG4AozTJYTL6w3dIvpqs",
     "isExternal": true,
     "generated": false
   },
   "services": [
     {
-      "title": "Doctor Consultation",
-      "description": "Doctor Consultation presented with specialist access and a patient-first enquiry path."
-    },
-    {
-      "title": "General Healthcare",
-      "description": "General Healthcare presented with care-team clarity and a patient-first enquiry path."
+      "title": "General Consultation",
+      "description": "General Consultation presented with specialist access and a patient-first enquiry path."
     },
     {
       "title": "Preventive Care",
-      "description": "Preventive Care presented with appointment-ready and a patient-first enquiry path."
+      "description": "Preventive Care presented with care-team clarity and a patient-first enquiry path."
     },
     {
       "title": "Health Checkups",
-      "description": "Health Checkups presented with dependable layout and a patient-first enquiry path."
+      "description": "Health Checkups presented with appointment-ready and a patient-first enquiry path."
+    },
+    {
+      "title": "Treatment Planning",
+      "description": "Treatment Planning presented with dependable layout and a patient-first enquiry path."
     },
     {
       "title": "Follow-up Care",
       "description": "Follow-up Care presented with specialist access and a patient-first enquiry path."
-    },
-    {
-      "title": "Patient Support",
-      "description": "Patient Support presented with care-team clarity and a patient-first enquiry path."
     }
   ],
   "hours": [
@@ -121,12 +117,12 @@
   ],
   "faqs": [
     {
-      "question": "How do I book an appointment at Grow My Rx. AI?",
+      "question": "How do I book an appointment at Supatra Daan Foundation?",
       "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
     },
     {
-      "question": "What services does Grow My Rx. AI offer?",
-      "answer": "Grow My Rx. AI supports patients with Doctor Consultation, General Healthcare, Preventive Care, Health Checkups, Follow-up Care, Patient Support."
+      "question": "What services does Supatra Daan Foundation offer?",
+      "answer": "Supatra Daan Foundation supports patients with General Consultation, Preventive Care, Health Checkups, Treatment Planning, Follow-up Care."
     },
     {
       "question": "Can I ask questions before visiting?",
@@ -134,10 +130,10 @@
     },
     {
       "question": "Where is the clinic located?",
-      "answer": "Grow My Rx. AI is located at Mumbai, Maharashtra, India."
+      "answer": "Supatra Daan Foundation is located at Ahmedabad, Gujarat, India."
     }
   ],
-  "aboutText": "Grow My Rx. AI offers healthcare services with a modern, patient-friendly experience in Mumbai. This demo highlights clear services, trust-building content, appointment-focused calls to action, and a premium healthcare website layout.",
+  "aboutText": "Supatra Daan Foundation is a premium clinic concept in Ahmedabad, designed to present services, build patient trust, and make enquiries simple through a modern digital experience.",
   "contactBlurb": "Call or message to ask about availability, services, and the best next step for your visit.",
   "pages": {
     "home": {
@@ -189,7 +185,7 @@
       ]
     },
     "services": {
-      "heroTitle": "Healthcare Services Services",
+      "heroTitle": "President Services",
       "heroCopy": "Hospital services presented with safety, access, and specialist clarity.",
       "processTitle": "How Care Is Planned",
       "processCopy": "Our process helps you feel informed and confident at every step.",
