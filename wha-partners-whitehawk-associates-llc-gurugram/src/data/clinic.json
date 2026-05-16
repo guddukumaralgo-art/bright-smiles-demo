@@ -1,0 +1,209 @@
+{
+  "doctorName": "Gurjit Singh",
+  "specialty": "Founding Partner",
+  "businessType": "clinic",
+  "linkedInProfileUrl": "https://www.linkedin.com/in/ACwAADYqfLsBxyokbFRosOmq91bag1GF_Rr4Xh4",
+  "heroHeadline": "Modern Healthcare Clinic in Gurugram",
+  "subheadline": "Clean, reliable, and patient-friendly healthcare support designed for everyday care needs.",
+  "phone": "9508655628",
+  "email": "hello@wha-partners-whitehawk-associates-llc-gurugram.demo",
+  "addressText": "Gurugram, Haryana, India",
+  "city": "Gurugram",
+  "name": "WHA Partners & Whitehawk Associates LLC",
+  "shortName": "WHA Partners & Whitehawk Associates LLC",
+  "footerTagline": "Dependable hospital care preview.",
+  "ctaLabel": "Book appointment",
+  "ctaLink": "https://wa.me/9508655628",
+  "whatsappHref": "https://wa.me/9508655628",
+  "phoneHref": "tel:9508655628",
+  "emailHref": "mailto:hello@wha-partners-whitehawk-associates-llc-gurugram.demo",
+  "colors": {
+    "primary": "#059669",
+    "primaryDark": "#059669",
+    "secondary": "#D1FAE5",
+    "accent": "#0EA5E9",
+    "surface": "#ffffff"
+  },
+  "images": {
+    "logo": "/assets/shared/logo.png",
+    "banner": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1400&q=85",
+    "hero": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1400&q=85",
+    "doctor": "https://media.licdn.com/dms/image/v2/D4D03AQG-Op8aJkwi-w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1683019159838?e=1779926400&v=beta&t=cgHxBBEe2iAdMnLct6Sksn7FwVQpsGsxrfa0rIWXw-4",
+    "gallery": [
+      "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=85",
+      "/assets/shared/gallery-1.jpg"
+    ],
+    "fallbacks": {
+      "banner": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1400&q=85",
+      "hero": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1400&q=85",
+      "doctor": "/assets/shared/doctor.jpg",
+      "gallery1": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=85",
+      "gallery2": "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&q=85",
+      "logo": "/assets/shared/logo.png"
+    }
+  },
+  "favicon": {
+    "href": "https://media.licdn.com/dms/image/v2/D4D03AQG-Op8aJkwi-w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1683019159838?e=1779926400&v=beta&t=cgHxBBEe2iAdMnLct6Sksn7FwVQpsGsxrfa0rIWXw-4",
+    "isExternal": true,
+    "generated": false
+  },
+  "services": [
+    {
+      "title": "Doctor Consultation",
+      "description": "Doctor Consultation presented with specialist access and a patient-first enquiry path."
+    },
+    {
+      "title": "Preventive Care",
+      "description": "Preventive Care presented with care-team clarity and a patient-first enquiry path."
+    },
+    {
+      "title": "Health Checkups",
+      "description": "Health Checkups presented with appointment-ready and a patient-first enquiry path."
+    },
+    {
+      "title": "Patient Support",
+      "description": "Patient Support presented with dependable layout and a patient-first enquiry path."
+    },
+    {
+      "title": "Follow-up Care",
+      "description": "Follow-up Care presented with specialist access and a patient-first enquiry path."
+    },
+    {
+      "title": "Wellness Guidance",
+      "description": "Wellness Guidance presented with care-team clarity and a patient-first enquiry path."
+    }
+  ],
+  "hours": [
+    "Mon-Sat 10AM-7PM"
+  ],
+  "doctorCredentials": [
+    "DDS Degree",
+    "10+ Years Experience",
+    "Patient-Focused Care"
+  ],
+  "testimonials": [
+    {
+      "quote": "A comfortable, thoughtful dental experience from start to finish.",
+      "author": "Samantha R."
+    },
+    {
+      "quote": "Professional care with a friendly team and clear communication.",
+      "author": "James P."
+    },
+    {
+      "quote": "The team made every step easy and reassuring.",
+      "author": "Lena K."
+    }
+  ],
+  "trustItems": [
+    "Specialist access",
+    "Care-team clarity",
+    "Appointment-ready",
+    "Dependable layout"
+  ],
+  "reasons": [
+    {
+      "title": "Dependable Tone",
+      "copy": "The design feels steady and trustworthy without inventing credentials."
+    },
+    {
+      "title": "Care Access",
+      "copy": "Patients can identify key services and contact channels quickly."
+    },
+    {
+      "title": "Readable Hierarchy",
+      "copy": "Dense healthcare information stays organized and scannable."
+    },
+    {
+      "title": "Sample Concept",
+      "copy": "Legal preview copy stays visible across the page."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I book an appointment at WHA Partners & Whitehawk Associates LLC?",
+      "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
+    },
+    {
+      "question": "What services does WHA Partners & Whitehawk Associates LLC offer?",
+      "answer": "WHA Partners & Whitehawk Associates LLC supports patients with Doctor Consultation, Preventive Care, Health Checkups, Patient Support, Follow-up Care, Wellness Guidance."
+    },
+    {
+      "question": "Can I ask questions before visiting?",
+      "answer": "Yes. You can call, email, or use WhatsApp to ask about availability, services, and the best next step for your needs."
+    },
+    {
+      "question": "Where is the clinic located?",
+      "answer": "WHA Partners & Whitehawk Associates LLC is located at Gurugram, Haryana, India."
+    }
+  ],
+  "aboutText": "WHA Partners & Whitehawk Associates LLC is a healthcare practice in Gurugram focused on accessible care, simple appointment booking, and a professional patient experience.",
+  "contactBlurb": "Call or message to ask about availability, services, and the best next step for your visit.",
+  "pages": {
+    "home": {
+      "heroPrimaryCtaLabel": "Book appointment",
+      "heroSecondaryCtaLabel": "Call Now",
+      "servicesTitle": "Our Services",
+      "servicesCopy": "Hospital services presented with safety, access, and specialist clarity.",
+      "doctorSectionTitle": "Meet Our Doctor",
+      "doctorSectionBody": "Experienced, attentive care focused on comfort, clarity, and long-term oral health.",
+      "aboutPrimaryCtaLabel": "Learn More",
+      "aboutSecondaryCtaLabel": "Contact Us",
+      "galleryTitle": "Inside The Clinic",
+      "galleryCopy": "A look at the care environment patients experience from consultation through follow-up.",
+      "faqTitle": "Questions Patients Ask",
+      "faqCopy": "Quick answers to help patients feel clear before they book.",
+      "whyChooseUsTitle": "Why Choose Us",
+      "whyChooseUsCopy": "A modern practice built around patient comfort, clear treatment planning, and dependable care.",
+      "testimonialsTitle": "Sample Patient Stories",
+      "testimonialsCopy": "Clearly marked demo cards to show how social proof could look without pretending these are real reviews.",
+      "contactTitle": "Contact Us",
+      "contactPrimaryCtaLabel": "Book appointment",
+      "contactSecondaryCtaLabel": "Call Us"
+    },
+    "about": {
+      "heroTitle": "About Our Practice",
+      "heroCopy": "We focus on calm, patient-centered care and treatment planning.",
+      "philosophyTitle": "Practice Philosophy",
+      "philosophyCopy": "Our approach is built around trust, comfort, and long-term results.",
+      "values": [
+        {
+          "title": "Patient Focus",
+          "copy": "Your comfort and goals guide every decision."
+        },
+        {
+          "title": "Clear Communication",
+          "copy": "We explain treatment options in plain language."
+        },
+        {
+          "title": "Lasting Results",
+          "copy": "Care that supports your smile now and years ahead."
+        }
+      ],
+      "expectTitle": "What to Expect",
+      "expectCopy": "A clear, supportive experience designed to make dental care feel easy.",
+      "expectSteps": [
+        "Initial consultation and exam",
+        "Personalized treatment recommendations",
+        "Comfortable care and follow-up support"
+      ]
+    },
+    "services": {
+      "heroTitle": "Founding Partner Services",
+      "heroCopy": "Hospital services presented with safety, access, and specialist clarity.",
+      "processTitle": "How Care Is Planned",
+      "processCopy": "Our process helps you feel informed and confident at every step.",
+      "processSteps": [
+        "Detailed consultation and exam",
+        "Customized treatment planning",
+        "Comfort-focused care",
+        "Ongoing support and follow-up"
+      ]
+    },
+    "contact": {
+      "heroTitle": "Contact Our Clinic",
+      "heroCopy": "Reach out through call or WhatsApp to check appointment availability for this preview clinic.",
+      "reuseNote": "We will help you find a convenient appointment time and answer any questions."
+    }
+  }
+}
