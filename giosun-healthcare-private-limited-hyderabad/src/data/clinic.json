@@ -1,37 +1,37 @@
 {
-  "doctorName": "Anjaneyulu Pillalamarri",
-  "specialty": "Director",
+  "doctorName": "Sreekanth Erepalli",
+  "specialty": "Managing Director",
   "businessType": "clinic",
-  "linkedInProfileUrl": "https://www.linkedin.com/in/ACwAAAw9UGUB6BWcdKiZpuQHuB6Oa1ibyIgtAe0",
-  "heroHeadline": "Modern Healthcare Clinic in Hyderabad",
-  "subheadline": "Clean, reliable, and patient-friendly healthcare support designed for everyday care needs.",
+  "linkedInProfileUrl": "https://www.linkedin.com/in/guddu-kumar-indianiit/",
+  "heroHeadline": "Trusted Healthcare Clinic in Hyderabad",
+  "subheadline": "Personalized healthcare support for families and everyday medical needs.",
   "phone": "9508655628",
-  "email": "hello@giosun-healthcare-private-limited-hyderabad.demo",
+  "email": "hello@giosunhealthcareprivatelimitedhyder.demo",
   "addressText": "Hyderabad, Telangana, India",
-  "city": "Hyderabad",
-  "name": "Giosun Healthcare Private Limited",
-  "shortName": "Giosun Healthcare Private Limited",
+  "city": "Hyderabad, Telangana, India",
+  "name": "GIOSUN HEALTHCARE PRIVATE LIMITED",
+  "shortName": "GIOSUN HEALTHCARE PRIVATE LIMITED",
   "footerTagline": "Dependable hospital care preview.",
   "ctaLabel": "Book appointment",
   "ctaLink": "https://wa.me/9508655628",
   "whatsappHref": "https://wa.me/9508655628",
   "phoneHref": "tel:9508655628",
-  "emailHref": "mailto:hello@giosun-healthcare-private-limited-hyderabad.demo",
+  "emailHref": "mailto:hello@giosunhealthcareprivatelimitedhyder.demo",
   "colors": {
-    "primary": "#059669",
-    "primaryDark": "#059669",
-    "secondary": "#D1FAE5",
-    "accent": "#0EA5E9",
+    "primary": "#0F766E",
+    "primaryDark": "#0F766E",
+    "secondary": "#CCFBF1",
+    "accent": "#10B981",
     "surface": "#ffffff"
   },
   "images": {
     "logo": "/assets/shared/logo.png",
-    "banner": "https://media.licdn.com/dms/image/v2/D5616AQF_Utu3BoQcpw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1735284128269?e=1779926400&v=beta&t=7HxPr6l_NcSDThcINM8TcMLZy9SnGDrmPYV4iUd2ejM",
-    "hero": "https://media.licdn.com/dms/image/v2/D5616AQF_Utu3BoQcpw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1735284128269?e=1779926400&v=beta&t=7HxPr6l_NcSDThcINM8TcMLZy9SnGDrmPYV4iUd2ejM",
-    "doctor": "https://media.licdn.com/dms/image/v2/D5603AQE9p1EkICDXxQ/profile-displayphoto-shrink_200_200/B56ZRvq957GoAc-/0/1737040322816?e=1779926400&v=beta&t=m3uNDcxbIYnaCTuN8Bfoz-RcDSiaQCFnk3ZdbY7bqdg",
+    "banner": "https://media.licdn.com/dms/image/v2/D5616AQGRNTZFIDnaLA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1735279916425?e=1778716800&v=beta&t=wNgrkSxO8GsxgN0adLhH9QO-pcsn5Fr743EtzpMxLrY",
+    "hero": "https://media.licdn.com/dms/image/v2/D5616AQGRNTZFIDnaLA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1735279916425?e=1778716800&v=beta&t=wNgrkSxO8GsxgN0adLhH9QO-pcsn5Fr743EtzpMxLrY",
+    "doctor": "https://media.licdn.com/dms/image/v2/D5603AQGuieXsKL5I8Q/profile-displayphoto-scale_400_400/B56ZqaYkJ7J4Ag-/0/1763526724374?e=1778716800&v=beta&t=l8DlFts7KHkIgMsrDhUY1DZqbc1gXSOKFqQbZlsJF5Q",
     "gallery": [
-      "https://media.licdn.com/dms/image/v2/D5616AQF_Utu3BoQcpw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1735284128269?e=1779926400&v=beta&t=7HxPr6l_NcSDThcINM8TcMLZy9SnGDrmPYV4iUd2ejM",
-      "/assets/shared/gallery-1.jpg"
+      "https://media.licdn.com/dms/image/v2/D5616AQGRNTZFIDnaLA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1735279916425?e=1778716800&v=beta&t=wNgrkSxO8GsxgN0adLhH9QO-pcsn5Fr743EtzpMxLrY",
+      "https://media.licdn.com/dms/image/v2/D5616AQGRNTZFIDnaLA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1735279916425?e=1778716800&v=beta&t=wNgrkSxO8GsxgN0adLhH9QO-pcsn5Fr743EtzpMxLrY"
     ],
     "fallbacks": {
       "banner": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1400&q=85",
@@ -43,14 +43,14 @@
     }
   },
   "favicon": {
-    "href": "https://media.licdn.com/dms/image/v2/D5603AQE9p1EkICDXxQ/profile-displayphoto-shrink_200_200/B56ZRvq957GoAc-/0/1737040322816?e=1779926400&v=beta&t=m3uNDcxbIYnaCTuN8Bfoz-RcDSiaQCFnk3ZdbY7bqdg",
+    "href": "https://media.licdn.com/dms/image/v2/D5603AQGuieXsKL5I8Q/profile-displayphoto-scale_400_400/B56ZqaYkJ7J4Ag-/0/1763526724374?e=1778716800&v=beta&t=l8DlFts7KHkIgMsrDhUY1DZqbc1gXSOKFqQbZlsJF5Q",
     "isExternal": true,
     "generated": false
   },
   "services": [
     {
-      "title": "Doctor Consultation",
-      "description": "Doctor Consultation presented with specialist access and a patient-first enquiry path."
+      "title": "General Consultation",
+      "description": "General Consultation presented with specialist access and a patient-first enquiry path."
     },
     {
       "title": "Preventive Care",
@@ -61,16 +61,8 @@
       "description": "Health Checkups presented with appointment-ready and a patient-first enquiry path."
     },
     {
-      "title": "Patient Support",
-      "description": "Patient Support presented with dependable layout and a patient-first enquiry path."
-    },
-    {
       "title": "Follow-up Care",
-      "description": "Follow-up Care presented with specialist access and a patient-first enquiry path."
-    },
-    {
-      "title": "Wellness Guidance",
-      "description": "Wellness Guidance presented with care-team clarity and a patient-first enquiry path."
+      "description": "Follow-up Care presented with dependable layout and a patient-first enquiry path."
     }
   ],
   "hours": [
@@ -121,12 +113,12 @@
   ],
   "faqs": [
     {
-      "question": "How do I book an appointment at Giosun Healthcare Private Limited?",
+      "question": "How do I book an appointment at GIOSUN HEALTHCARE PRIVATE LIMITED?",
       "answer": "Use the appointment button or call 9508655628. The team will help you choose a convenient consultation time."
     },
     {
-      "question": "What services does Giosun Healthcare Private Limited offer?",
-      "answer": "Giosun Healthcare Private Limited supports patients with Doctor Consultation, Preventive Care, Health Checkups, Patient Support, Follow-up Care, Wellness Guidance."
+      "question": "What services does GIOSUN HEALTHCARE PRIVATE LIMITED offer?",
+      "answer": "GIOSUN HEALTHCARE PRIVATE LIMITED supports patients with General Consultation, Preventive Care, Health Checkups, Follow-up Care."
     },
     {
       "question": "Can I ask questions before visiting?",
@@ -134,10 +126,10 @@
     },
     {
       "question": "Where is the clinic located?",
-      "answer": "Giosun Healthcare Private Limited is located at Hyderabad, Telangana, India."
+      "answer": "GIOSUN HEALTHCARE PRIVATE LIMITED is located at Hyderabad, Telangana, India."
     }
   ],
-  "aboutText": "Giosun Healthcare Private Limited is a healthcare practice in Hyderabad focused on accessible care, simple appointment booking, and a professional patient experience.",
+  "aboutText": "GIOSUN HEALTHCARE PRIVATE LIMITED offers accessible, friendly, and reliable healthcare support for everyday medical needs.",
   "contactBlurb": "Call or message to ask about availability, services, and the best next step for your visit.",
   "pages": {
     "home": {
@@ -189,7 +181,7 @@
       ]
     },
     "services": {
-      "heroTitle": "Director Services",
+      "heroTitle": "Managing Director Services",
       "heroCopy": "Hospital services presented with safety, access, and specialist clarity.",
       "processTitle": "How Care Is Planned",
       "processCopy": "Our process helps you feel informed and confident at every step.",

@@ -1,14 +1,14 @@
 {
-  "doctorName": "Arvind Sanghvi",
-  "specialty": "Partner",
+  "doctorName": "Trivedi Kaushik",
+  "specialty": "Operation Head (Technical Director)",
   "businessType": "clinic",
-  "linkedInProfileUrl": "https://www.linkedin.com/in/ACwAAA_J3ggBvVfHQ5yBOB6M08vrTrbascx6uao",
-  "heroHeadline": "Modern Healthcare Clinic in Ahmedabad",
-  "subheadline": "Clean, reliable, and patient-friendly healthcare support designed for everyday care needs.",
+  "linkedInProfileUrl": "Trivedi Kaushik",
+  "heroHeadline": "Trusted Healthcare Clinic in Ahmedabad",
+  "subheadline": "Personalized healthcare support for families and everyday medical needs.",
   "phone": "9508655628",
-  "email": "hello@greentech-water-system-ahmedabad.demo",
+  "email": "hello@greentechwatersystemahmedabad.demo",
   "addressText": "Ahmedabad, Gujarat, India",
-  "city": "Ahmedabad",
+  "city": "Ahmedabad, Gujarat, India",
   "name": "Greentech Water System",
   "shortName": "Greentech Water System",
   "footerTagline": "Dependable hospital care preview.",
@@ -16,22 +16,22 @@
   "ctaLink": "https://wa.me/9508655628",
   "whatsappHref": "https://wa.me/9508655628",
   "phoneHref": "tel:9508655628",
-  "emailHref": "mailto:hello@greentech-water-system-ahmedabad.demo",
+  "emailHref": "mailto:hello@greentechwatersystemahmedabad.demo",
   "colors": {
-    "primary": "#059669",
-    "primaryDark": "#059669",
-    "secondary": "#D1FAE5",
-    "accent": "#0EA5E9",
+    "primary": "#0F766E",
+    "primaryDark": "#0F766E",
+    "secondary": "#CCFBF1",
+    "accent": "#10B981",
     "surface": "#ffffff"
   },
   "images": {
     "logo": "/assets/shared/logo.png",
-    "banner": "https://media.licdn.com/dms/image/v2/D5616AQGACi3Tv35PQw/profile-displaybackgroundimage-shrink_200_800/B56Zx6QOx.GoAc-/0/1771577604752?e=1779926400&v=beta&t=nOYawOPVafPPu03zFJR_SfHB2PoA1bptV4dXPvbMkK4",
-    "hero": "https://media.licdn.com/dms/image/v2/D5616AQGACi3Tv35PQw/profile-displaybackgroundimage-shrink_200_800/B56Zx6QOx.GoAc-/0/1771577604752?e=1779926400&v=beta&t=nOYawOPVafPPu03zFJR_SfHB2PoA1bptV4dXPvbMkK5",
-    "doctor": "https://media.licdn.com/dms/image/v2/C5103AQEXlTM4zEXYhw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1556267694071?e=1779926400&v=beta&t=o_XGUDlIw7yH0YtDvUGa9YKrHtvNUlc5D2hWu83rFB4",
+    "banner": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1400&q=85",
+    "hero": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1400&q=85",
+    "doctor": "https://media.licdn.com/dms/image/v2/D4D03AQE_RLQ7tS_fpw/profile-displayphoto-crop_800_800/B4DZhqYj.zH4AQ-/0/1754131481683?e=1779321600&v=beta&t=jLdbXR1BE9N_dKIEOYCixEAsWu-N4-DtR01Aari-drc",
     "gallery": [
-      "https://media.licdn.com/dms/image/v2/D5616AQGACi3Tv35PQw/profile-displaybackgroundimage-shrink_200_800/B56Zx6QOx.GoAc-/0/1771577604752?e=1779926400&v=beta&t=nOYawOPVafPPu03zFJR_SfHB2PoA1bptV4dXPvbMkK6",
-      "/assets/shared/gallery-1.jpg"
+      "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&q=85"
     ],
     "fallbacks": {
       "banner": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1400&q=85",
@@ -43,14 +43,14 @@
     }
   },
   "favicon": {
-    "href": "https://media.licdn.com/dms/image/v2/C5103AQEXlTM4zEXYhw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1556267694071?e=1779926400&v=beta&t=o_XGUDlIw7yH0YtDvUGa9YKrHtvNUlc5D2hWu83rFB4",
+    "href": "https://media.licdn.com/dms/image/v2/D4D03AQE_RLQ7tS_fpw/profile-displayphoto-crop_800_800/B4DZhqYj.zH4AQ-/0/1754131481683?e=1779321600&v=beta&t=jLdbXR1BE9N_dKIEOYCixEAsWu-N4-DtR01Aari-drc",
     "isExternal": true,
     "generated": false
   },
   "services": [
     {
-      "title": "Doctor Consultation",
-      "description": "Doctor Consultation presented with specialist access and a patient-first enquiry path."
+      "title": "General Consultation",
+      "description": "General Consultation presented with specialist access and a patient-first enquiry path."
     },
     {
       "title": "Preventive Care",
@@ -61,16 +61,8 @@
       "description": "Health Checkups presented with appointment-ready and a patient-first enquiry path."
     },
     {
-      "title": "Patient Support",
-      "description": "Patient Support presented with dependable layout and a patient-first enquiry path."
-    },
-    {
       "title": "Follow-up Care",
-      "description": "Follow-up Care presented with specialist access and a patient-first enquiry path."
-    },
-    {
-      "title": "Wellness Guidance",
-      "description": "Wellness Guidance presented with care-team clarity and a patient-first enquiry path."
+      "description": "Follow-up Care presented with dependable layout and a patient-first enquiry path."
     }
   ],
   "hours": [
@@ -126,7 +118,7 @@
     },
     {
       "question": "What services does Greentech Water System offer?",
-      "answer": "Greentech Water System supports patients with Doctor Consultation, Preventive Care, Health Checkups, Patient Support, Follow-up Care, Wellness Guidance."
+      "answer": "Greentech Water System supports patients with General Consultation, Preventive Care, Health Checkups, Follow-up Care."
     },
     {
       "question": "Can I ask questions before visiting?",
@@ -137,7 +129,7 @@
       "answer": "Greentech Water System is located at Ahmedabad, Gujarat, India."
     }
   ],
-  "aboutText": "Greentech Water System is a healthcare practice in Ahmedabad focused on accessible care, simple appointment booking, and a professional patient experience.",
+  "aboutText": "Greentech Water System offers accessible, friendly, and reliable healthcare support for everyday medical needs.",
   "contactBlurb": "Call or message to ask about availability, services, and the best next step for your visit.",
   "pages": {
     "home": {
@@ -189,7 +181,7 @@
       ]
     },
     "services": {
-      "heroTitle": "Partner Services",
+      "heroTitle": "Operation Head (Technical Director) Services",
       "heroCopy": "Hospital services presented with safety, access, and specialist clarity.",
       "processTitle": "How Care Is Planned",
       "processCopy": "Our process helps you feel informed and confident at every step.",
